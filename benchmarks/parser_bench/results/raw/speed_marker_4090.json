@@ -1,0 +1,284 @@
+{
+  "config": "marker_4090",
+  "backend": "marker",
+  "options": {},
+  "cuda_visible_devices": "0",
+  "watch_gpus": [
+    0
+  ],
+  "environment": {
+    "hostname": "SA264-30",
+    "platform": "Linux-6.5.0-18-generic-x86_64-with-glibc2.35",
+    "python": "3.11.18",
+    "cpu_count": 32,
+    "packages": {
+      "marker-pdf": "1.10.2",
+      "surya-ocr": "0.17.1",
+      "torch": "2.7.1",
+      "pymupdf": "2.1",
+      "psutil": "7.2.2",
+      "nvidia-ml-py": "13.615.71"
+    },
+    "env": {
+      "CUDA_VISIBLE_DEVICES": "0",
+      "MINERU_MODEL_ONNX_DEVICE": "",
+      "MINERU_LLAMA_CPP_BACKEND": "",
+      "GGML_VK_VISIBLE_DEVICES": ""
+    },
+    "ram_total_gb": 62.5,
+    "gpus": [
+      "0, NVIDIA GeForce RTX 4090 D, 535.154.05, 24564 MiB, 79 MiB, 0 %"
+    ]
+  },
+  "started_at": "2026-11-06 15:29:53",
+  "startup": {
+    "process_start_to_import_s": 0.739,
+    "import_s": 0.163,
+    "mean_gpu_util_pct": 0.0,
+    "peak_rss_mb": 71.3,
+    "peak_vram_mb": 0.0,
+    "peak_gpu_dev_delta_mb": 0.0
+  },
+  "backend_version": "1.10.2",
+  "init": {
+    "model_init_s": 2.319,
+    "note": "",
+    "mean_gpu_util_pct": 6.3,
+    "peak_rss_mb": 922.4,
+    "peak_vram_mb": 3686.0,
+    "peak_gpu_dev_delta_mb": 3692.3,
+    "torch_cuda": true,
+    "torch_device": "NVIDIA GeForce RTX 4090 D",
+    "torch_version": "2.7.1+cu126"
+  },
+  "cold_start": {
+    "doc": "P1_natcommun_lactone/s41467-024-52090-2",
+    "pdf_pages": 12,
+    "first_doc_s": 79.811,
+    "model_init_s": 2.319,
+    "import_s": 0.163,
+    "cold_total_s": 82.293,
+    "error": null,
+    "mean_gpu_util_pct": 85.5,
+    "peak_rss_mb": 2958.1,
+    "peak_vram_mb": 9610.0,
+    "peak_gpu_dev_delta_mb": 9616.3
+  },
+  "docs": [
+    {
+      "case": "P1_natcommun_lactone",
+      "doc": "s41467-024-52090-2",
+      "role": "main",
+      "scanned": false,
+      "pdf_pages": 12,
+      "seconds": 79.249,
+      "mean_gpu_util_pct": 85.8,
+      "peak_rss_mb": 3470.6,
+      "peak_vram_mb": 9768.0,
+      "peak_gpu_dev_delta_mb": 9774.3,
+      "parsed_pages": 12,
+      "images": 6,
+      "s_per_page": 6.604,
+      "pages_per_s": 0.151,
+      "parser_info": {
+        "backend": "marker",
+        "version": "1.10.2"
+      }
+    },
+    {
+      "case": "P1_natcommun_lactone",
+      "doc": "s41467-024-52090-2_SI",
+      "role": "si",
+      "scanned": false,
+      "pdf_pages": 34,
+      "seconds": 8.629,
+      "mean_gpu_util_pct": 39.9,
+      "peak_rss_mb": 3936.8,
+      "peak_vram_mb": 6806.0,
+      "peak_gpu_dev_delta_mb": 6812.3,
+      "parsed_pages": 34,
+      "images": 37,
+      "s_per_page": 0.254,
+      "pages_per_s": 3.94,
+      "parser_info": {
+        "backend": "marker",
+        "version": "1.10.2"
+      }
+    },
+    {
+      "case": "P2_polym_star_raft",
+      "doc": "polymers-15-02002",
+      "role": "main",
+      "scanned": false,
+      "pdf_pages": 14,
+      "seconds": 51.466,
+      "mean_gpu_util_pct": 83.8,
+      "peak_rss_mb": 3859.8,
+      "peak_vram_mb": 9790.0,
+      "peak_gpu_dev_delta_mb": 9796.3,
+      "parsed_pages": 14,
+      "images": 12,
+      "s_per_page": 3.676,
+      "pages_per_s": 0.272,
+      "parser_info": {
+        "backend": "marker",
+        "version": "1.10.2"
+      }
+    },
+    {
+      "case": "P2_polym_star_raft",
+      "doc": "polymers-2246784-supplementary",
+      "role": "si",
+      "scanned": false,
+      "pdf_pages": 6,
+      "seconds": 5.106,
+      "mean_gpu_util_pct": 61.9,
+      "peak_rss_mb": 3733.6,
+      "peak_vram_mb": 7684.0,
+      "peak_gpu_dev_delta_mb": 7690.3,
+      "parsed_pages": 6,
+      "images": 6,
+      "s_per_page": 0.851,
+      "pages_per_s": 1.175,
+      "parser_info": {
+        "backend": "marker",
+        "version": "1.10.2"
+      }
+    },
+    {
+      "case": "P3_polym_tmc_rop",
+      "doc": "polymers-15-00720",
+      "role": "main",
+      "scanned": false,
+      "pdf_pages": 11,
+      "seconds": 40.914,
+      "mean_gpu_util_pct": 89.1,
+      "peak_rss_mb": 3851.3,
+      "peak_vram_mb": 9728.0,
+      "peak_gpu_dev_delta_mb": 9734.3,
+      "parsed_pages": 11,
+      "images": 11,
+      "s_per_page": 3.719,
+      "pages_per_s": 0.269,
+      "parser_info": {
+        "backend": "marker",
+        "version": "1.10.2"
+      }
+    },
+    {
+      "case": "P4_polym_carbonate_scanned",
+      "doc": "polymers-16-03364_scanned",
+      "role": "main",
+      "scanned": true,
+      "pdf_pages": 11,
+      "seconds": 46.018,
+      "mean_gpu_util_pct": 86.2,
+      "peak_rss_mb": 3905.1,
+      "peak_vram_mb": 9146.0,
+      "peak_gpu_dev_delta_mb": 9152.3,
+      "parsed_pages": 11,
+      "images": 6,
+      "s_per_page": 4.183,
+      "pages_per_s": 0.239,
+      "parser_info": {
+        "backend": "marker",
+        "version": "1.10.2"
+      }
+    },
+    {
+      "case": "P5_pccp_flory_huggins",
+      "doc": "d4cp03690e",
+      "role": "main",
+      "scanned": false,
+      "pdf_pages": 12,
+      "seconds": 24.497,
+      "mean_gpu_util_pct": 80.9,
+      "peak_rss_mb": 3924.4,
+      "peak_vram_mb": 8580.0,
+      "peak_gpu_dev_delta_mb": 8586.3,
+      "parsed_pages": 12,
+      "images": 7,
+      "s_per_page": 2.041,
+      "pages_per_s": 0.49,
+      "parser_info": {
+        "backend": "marker",
+        "version": "1.10.2"
+      }
+    },
+    {
+      "case": "P5_pccp_flory_huggins",
+      "doc": "d4cp03690e1_suppl",
+      "role": "si",
+      "scanned": false,
+      "pdf_pages": 6,
+      "seconds": 2.298,
+      "mean_gpu_util_pct": 59.0,
+      "peak_rss_mb": 3807.3,
+      "peak_vram_mb": 5720.0,
+      "peak_gpu_dev_delta_mb": 5726.3,
+      "parsed_pages": 6,
+      "images": 4,
+      "s_per_page": 0.383,
+      "pages_per_s": 2.611,
+      "parser_info": {
+        "backend": "marker",
+        "version": "1.10.2"
+      }
+    }
+  ],
+  "totals": {
+    "docs_ok": 8,
+    "docs_failed": 0,
+    "pages": 106,
+    "seconds": 258.18,
+    "s_per_page": 2.436,
+    "pages_per_s": 0.411
+  },
+  "warm": {
+    "doc": "P1_natcommun_lactone/s41467-024-52090-2",
+    "seconds": 79.249,
+    "s_per_page": 6.604
+  },
+  "concurrency": {
+    "n": 2,
+    "mode": "worker processes",
+    "docs": [
+      "P1_natcommun_lactone/s41467-024-52090-2",
+      "P2_polym_star_raft/polymers-15-02002"
+    ],
+    "pages": 26,
+    "wall_s": 133.44,
+    "pages_per_s": 0.195,
+    "sequential_s": 130.72,
+    "speedup_vs_sequential": 0.98,
+    "workers": [
+      {
+        "doc": "P1_natcommun_lactone/s41467-024-52090-2",
+        "exit_code": 0,
+        "init_s": 2.479,
+        "parse_s": 130.716,
+        "pages": 12
+      },
+      {
+        "doc": "P2_polym_star_raft/polymers-15-02002",
+        "exit_code": 0,
+        "init_s": 2.477,
+        "parse_s": 119.255,
+        "pages": 14
+      }
+    ],
+    "errors": [],
+    "mean_gpu_util_pct": 93.0,
+    "peak_rss_mb": 9718.5,
+    "peak_vram_mb": 23284.0,
+    "peak_gpu_dev_delta_mb": 23297.3
+  },
+  "global": {
+    "mean_gpu_util_pct": 86.4,
+    "peak_rss_mb": 9718.5,
+    "peak_vram_mb": 23284.0,
+    "peak_gpu_dev_delta_mb": 23297.3
+  },
+  "vram_per_pid_measured": true,
+  "finished_at": "2026-11-06 15:37:47"
+}

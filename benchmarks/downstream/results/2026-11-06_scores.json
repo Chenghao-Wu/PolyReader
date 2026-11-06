@@ -1,0 +1,613 @@
+{
+  "marker": {
+    "P1_natcommun_lactone": {
+      "samples_extracted": 31,
+      "samples_scored": 15,
+      "samples_gt": 14,
+      "sample_id": {
+        "precision": 0.933,
+        "recall": 1.0,
+        "f1": 0.966,
+        "tp": 14
+      },
+      "fields": {
+        "mn": {
+          "correct": 13,
+          "extracted": 14,
+          "gt": 14,
+          "page_ok": 13,
+          "precision": 0.929,
+          "recall": 0.929,
+          "f1": 0.929
+        },
+        "pdi": {
+          "correct": 13,
+          "extracted": 14,
+          "gt": 14,
+          "page_ok": 13,
+          "precision": 0.929,
+          "recall": 0.929,
+          "f1": 0.929
+        },
+        "tg": {
+          "correct": 4,
+          "extracted": 5,
+          "gt": 5,
+          "page_ok": 4,
+          "precision": 0.8,
+          "recall": 0.8,
+          "f1": 0.8
+        }
+      },
+      "values_overall": {
+        "precision": 0.909,
+        "recall": 0.909,
+        "f1": 0.909,
+        "correct": 30,
+        "extracted": 33,
+        "gt": 33,
+        "page_ok": 30
+      },
+      "provenance_page_ok": 1.0,
+      "unmatched_extracted": [
+        "Table 1 run 13 (CTPB/DU8, 50/1/1.5/0.25, Mn 6.5 kg/mol, Đ 1.24; Tg -21.9 °C, Td5% 74.4 °C)"
+      ],
+      "missed_gt": [],
+      "value_errors": [],
+      "pipeline_error": null,
+      "llm_usage": {
+        "model": "deepseek-flash",
+        "requests": 227,
+        "prompt_tokens": 6400197,
+        "completion_tokens": 164629,
+        "reasoning_tokens": 84675,
+        "prompt_cache_hit_tokens": 5215232
+      }
+    },
+    "P2_polym_star_raft": {
+      "samples_extracted": 21,
+      "samples_scored": 13,
+      "samples_gt": 14,
+      "sample_id": {
+        "precision": 1.0,
+        "recall": 0.929,
+        "f1": 0.963,
+        "tp": 13
+      },
+      "fields": {
+        "mn": {
+          "correct": 13,
+          "extracted": 13,
+          "gt": 14,
+          "page_ok": 13,
+          "precision": 1.0,
+          "recall": 0.929,
+          "f1": 0.963
+        },
+        "pdi": {
+          "correct": 13,
+          "extracted": 13,
+          "gt": 14,
+          "page_ok": 13,
+          "precision": 1.0,
+          "recall": 0.929,
+          "f1": 0.963
+        }
+      },
+      "values_overall": {
+        "precision": 1.0,
+        "recall": 0.929,
+        "f1": 0.963,
+        "correct": 26,
+        "extracted": 26,
+        "gt": 28,
+        "page_ok": 26
+      },
+      "provenance_page_ok": 1.0,
+      "unmatched_extracted": [],
+      "missed_gt": [
+        "L3"
+      ],
+      "value_errors": [],
+      "pipeline_error": null,
+      "llm_usage": {
+        "model": "deepseek-flash",
+        "requests": 134,
+        "prompt_tokens": 2686733,
+        "completion_tokens": 165315,
+        "reasoning_tokens": 75023,
+        "prompt_cache_hit_tokens": 2064128
+      }
+    },
+    "P3_polym_tmc_rop": {
+      "samples_extracted": 16,
+      "samples_scored": 14,
+      "samples_gt": 14,
+      "sample_id": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 14
+      },
+      "fields": {
+        "mn": {
+          "correct": 14,
+          "extracted": 14,
+          "gt": 14,
+          "page_ok": 14,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "pdi": {
+          "correct": 14,
+          "extracted": 14,
+          "gt": 14,
+          "page_ok": 14,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "values_overall": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "correct": 28,
+        "extracted": 28,
+        "gt": 28,
+        "page_ok": 28
+      },
+      "provenance_page_ok": 1.0,
+      "unmatched_extracted": [],
+      "missed_gt": [],
+      "value_errors": [],
+      "pipeline_error": null,
+      "llm_usage": {
+        "model": "deepseek-flash",
+        "requests": 86,
+        "prompt_tokens": 1132550,
+        "completion_tokens": 62454,
+        "reasoning_tokens": 26019,
+        "prompt_cache_hit_tokens": 829696
+      }
+    },
+    "P4_polym_carbonate_scanned": {
+      "samples_extracted": 9,
+      "samples_scored": 9,
+      "samples_gt": 9,
+      "sample_id": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 9
+      },
+      "fields": {
+        "mn": {
+          "correct": 9,
+          "extracted": 9,
+          "gt": 9,
+          "page_ok": 9,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "pdi": {
+          "correct": 9,
+          "extracted": 9,
+          "gt": 9,
+          "page_ok": 9,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "tg": {
+          "correct": 2,
+          "extracted": 2,
+          "gt": 2,
+          "page_ok": 2,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "tm": {
+          "correct": 3,
+          "extracted": 3,
+          "gt": 3,
+          "page_ok": 3,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "values_overall": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "correct": 23,
+        "extracted": 23,
+        "gt": 23,
+        "page_ok": 23
+      },
+      "provenance_page_ok": 1.0,
+      "unmatched_extracted": [],
+      "missed_gt": [],
+      "value_errors": [],
+      "pipeline_error": null,
+      "llm_usage": {
+        "model": "deepseek-flash",
+        "requests": 49,
+        "prompt_tokens": 677512,
+        "completion_tokens": 40447,
+        "reasoning_tokens": 17887,
+        "prompt_cache_hit_tokens": 486400
+      }
+    },
+    "P5_pccp_flory_huggins": {
+      "samples_extracted": 8,
+      "samples_scored": 8,
+      "samples_gt": 0,
+      "sample_id": {
+        "precision": 0.0,
+        "recall": 1.0,
+        "f1": 0.0,
+        "tp": 0
+      },
+      "fields": {},
+      "values_overall": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "correct": 0,
+        "extracted": 0,
+        "gt": 0,
+        "page_ok": 0
+      },
+      "provenance_page_ok": null,
+      "unmatched_extracted": [
+        "PAM-DP50",
+        "PEO-DP50",
+        "PIB-DP50",
+        "PS-DP50",
+        "cis-PB-DP50",
+        "cis-PI-DP50",
+        "trans-PB-DP50",
+        "trans-PI-DP50"
+      ],
+      "missed_gt": [],
+      "value_errors": [],
+      "pipeline_error": null,
+      "llm_usage": {
+        "model": "deepseek-flash",
+        "requests": 45,
+        "prompt_tokens": 745146,
+        "completion_tokens": 57158,
+        "reasoning_tokens": 15680,
+        "prompt_cache_hit_tokens": 543360
+      }
+    },
+    "_total": {
+      "values": {
+        "precision": 0.973,
+        "recall": 0.955,
+        "f1": 0.964,
+        "correct": 107,
+        "extracted": 110,
+        "gt": 112
+      },
+      "sample_id": {
+        "precision": 0.847,
+        "recall": 0.98,
+        "f1": 0.909,
+        "tp": 50,
+        "extracted": 59,
+        "gt": 51
+      }
+    }
+  },
+  "mineru_standard": {
+    "P1_natcommun_lactone": {
+      "samples_extracted": 18,
+      "samples_scored": 14,
+      "samples_gt": 14,
+      "sample_id": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 14
+      },
+      "fields": {
+        "mn": {
+          "correct": 14,
+          "extracted": 14,
+          "gt": 14,
+          "page_ok": 14,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "pdi": {
+          "correct": 14,
+          "extracted": 14,
+          "gt": 14,
+          "page_ok": 14,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "tg": {
+          "correct": 5,
+          "extracted": 5,
+          "gt": 5,
+          "page_ok": 4,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "values_overall": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "correct": 33,
+        "extracted": 33,
+        "gt": 33,
+        "page_ok": 32
+      },
+      "provenance_page_ok": 0.97,
+      "unmatched_extracted": [],
+      "missed_gt": [],
+      "value_errors": [],
+      "pipeline_error": null,
+      "llm_usage": {
+        "model": "deepseek-flash",
+        "requests": 137,
+        "prompt_tokens": 3530088,
+        "completion_tokens": 99420,
+        "reasoning_tokens": 46142,
+        "prompt_cache_hit_tokens": 2847104
+      }
+    },
+    "P2_polym_star_raft": {
+      "samples_extracted": 28,
+      "samples_scored": 14,
+      "samples_gt": 14,
+      "sample_id": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 14
+      },
+      "fields": {
+        "mn": {
+          "correct": 13,
+          "extracted": 14,
+          "gt": 14,
+          "page_ok": 13,
+          "precision": 0.929,
+          "recall": 0.929,
+          "f1": 0.929
+        },
+        "pdi": {
+          "correct": 12,
+          "extracted": 13,
+          "gt": 14,
+          "page_ok": 12,
+          "precision": 0.923,
+          "recall": 0.857,
+          "f1": 0.889
+        }
+      },
+      "values_overall": {
+        "precision": 0.926,
+        "recall": 0.893,
+        "f1": 0.909,
+        "correct": 25,
+        "extracted": 27,
+        "gt": 28,
+        "page_ok": 25
+      },
+      "provenance_page_ok": 1.0,
+      "unmatched_extracted": [],
+      "missed_gt": [],
+      "value_errors": [
+        "L1: mn=32200.0 expected [37000, 16000]",
+        "L1: pdi=1.54 expected [3.68]"
+      ],
+      "pipeline_error": null,
+      "llm_usage": {
+        "model": "deepseek-flash",
+        "requests": 204,
+        "prompt_tokens": 5593335,
+        "completion_tokens": 758125,
+        "reasoning_tokens": 638129,
+        "prompt_cache_hit_tokens": 4790144
+      }
+    },
+    "P3_polym_tmc_rop": {
+      "samples_extracted": 16,
+      "samples_scored": 14,
+      "samples_gt": 14,
+      "sample_id": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 14
+      },
+      "fields": {
+        "mn": {
+          "correct": 14,
+          "extracted": 14,
+          "gt": 14,
+          "page_ok": 14,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "pdi": {
+          "correct": 14,
+          "extracted": 14,
+          "gt": 14,
+          "page_ok": 14,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "values_overall": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "correct": 28,
+        "extracted": 28,
+        "gt": 28,
+        "page_ok": 28
+      },
+      "provenance_page_ok": 1.0,
+      "unmatched_extracted": [],
+      "missed_gt": [],
+      "value_errors": [],
+      "pipeline_error": null,
+      "llm_usage": {
+        "model": "deepseek-flash",
+        "requests": 86,
+        "prompt_tokens": 1072771,
+        "completion_tokens": 61223,
+        "reasoning_tokens": 28264,
+        "prompt_cache_hit_tokens": 786432
+      }
+    },
+    "P4_polym_carbonate_scanned": {
+      "samples_extracted": 9,
+      "samples_scored": 9,
+      "samples_gt": 9,
+      "sample_id": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 9
+      },
+      "fields": {
+        "mn": {
+          "correct": 9,
+          "extracted": 9,
+          "gt": 9,
+          "page_ok": 9,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "pdi": {
+          "correct": 9,
+          "extracted": 9,
+          "gt": 9,
+          "page_ok": 9,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "tg": {
+          "correct": 2,
+          "extracted": 2,
+          "gt": 2,
+          "page_ok": 2,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "tm": {
+          "correct": 3,
+          "extracted": 3,
+          "gt": 3,
+          "page_ok": 3,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "values_overall": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "correct": 23,
+        "extracted": 23,
+        "gt": 23,
+        "page_ok": 23
+      },
+      "provenance_page_ok": 1.0,
+      "unmatched_extracted": [],
+      "missed_gt": [],
+      "value_errors": [],
+      "pipeline_error": null,
+      "llm_usage": {
+        "model": "deepseek-flash",
+        "requests": 49,
+        "prompt_tokens": 633876,
+        "completion_tokens": 38324,
+        "reasoning_tokens": 16456,
+        "prompt_cache_hit_tokens": 445952
+      }
+    },
+    "P5_pccp_flory_huggins": {
+      "samples_extracted": 8,
+      "samples_scored": 8,
+      "samples_gt": 0,
+      "sample_id": {
+        "precision": 0.0,
+        "recall": 1.0,
+        "f1": 0.0,
+        "tp": 0
+      },
+      "fields": {},
+      "values_overall": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "correct": 0,
+        "extracted": 0,
+        "gt": 0,
+        "page_ok": 0
+      },
+      "provenance_page_ok": null,
+      "unmatched_extracted": [
+        "PAM-50mer",
+        "PEO-50mer",
+        "PIB-50mer",
+        "PS-50mer",
+        "cis-PB-50mer",
+        "cis-PI-50mer",
+        "trans-PB-50mer",
+        "trans-PI-50mer"
+      ],
+      "missed_gt": [],
+      "value_errors": [],
+      "pipeline_error": null,
+      "llm_usage": {
+        "model": "deepseek-flash",
+        "requests": 44,
+        "prompt_tokens": 709971,
+        "completion_tokens": 53682,
+        "reasoning_tokens": 13686,
+        "prompt_cache_hit_tokens": 511232
+      }
+    },
+    "_total": {
+      "values": {
+        "precision": 0.982,
+        "recall": 0.973,
+        "f1": 0.978,
+        "correct": 109,
+        "extracted": 111,
+        "gt": 112
+      },
+      "sample_id": {
+        "precision": 0.864,
+        "recall": 1.0,
+        "f1": 0.927,
+        "tp": 51,
+        "extracted": 59,
+        "gt": 51
+      }
+    }
+  }
+}

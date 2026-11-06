@@ -1,0 +1,206 @@
+{
+  "documents": {
+    "main": "polymers-16-03364_scanned.pdf"
+  },
+  "source": "Manual transcription from the born-digital source: Table 1 (p.6, final Mn/Đ per entry), DSC Tg/Tm from text (p.8). PLLA (entry 6) Tm ≈ 155 °C is readable only from Figure 3, line 6 (p.8): accepted, not required.",
+  "has_synthesized_polymers": true,
+  "samples": [
+    {
+      "id": "Entry 1",
+      "aliases": [
+        "1",
+        "entry 1",
+        "Table 1 entry 1",
+        "Entry1",
+        "E1",
+        "poly(β-BnO-TEMC)"
+      ],
+      "polymer": "poly(β-BnO-TEMC)",
+      "pages": [
+        6,
+        8
+      ],
+      "doc": "main",
+      "mn": [
+        2674
+      ],
+      "pdi": 1.26,
+      "tg": -10
+    },
+    {
+      "id": "Entry 2",
+      "aliases": [
+        "2",
+        "entry 2",
+        "Table 1 entry 2",
+        "Entry2",
+        "E2",
+        "PCL"
+      ],
+      "polymer": "PCL",
+      "pages": [
+        6,
+        8
+      ],
+      "doc": "main",
+      "mn": [
+        8679
+      ],
+      "pdi": 1.34,
+      "tm": 60
+    },
+    {
+      "id": "Entry 3",
+      "aliases": [
+        "3",
+        "entry 3",
+        "Table 1 entry 3",
+        "Entry3",
+        "E3",
+        "poly(TEMC-co-CL) 5:50"
+      ],
+      "polymer": "poly(TEMC-co-CL) 5:50",
+      "pages": [
+        6,
+        8
+      ],
+      "doc": "main",
+      "mn": [
+        9600
+      ],
+      "pdi": 1.47,
+      "tm": 54
+    },
+    {
+      "id": "Entry 4",
+      "aliases": [
+        "4",
+        "entry 4",
+        "Table 1 entry 4",
+        "Entry4",
+        "E4",
+        "poly(TEMC-co-CL) 9.16:45.84"
+      ],
+      "polymer": "poly(TEMC-co-CL) 9.16:45.84",
+      "pages": [
+        6,
+        8
+      ],
+      "doc": "main",
+      "mn": [
+        5229
+      ],
+      "pdi": 1.38,
+      "tm": 42.9
+    },
+    {
+      "id": "Entry 5",
+      "aliases": [
+        "5",
+        "entry 5",
+        "Table 1 entry 5",
+        "Entry5",
+        "E5",
+        "poly(TEMC-co-CL) 1:1"
+      ],
+      "polymer": "poly(TEMC-co-CL) 1:1",
+      "pages": [
+        6
+      ],
+      "doc": "main",
+      "mn": [
+        3638
+      ],
+      "pdi": 1.26
+    },
+    {
+      "id": "Entry 6",
+      "aliases": [
+        "6",
+        "entry 6",
+        "Table 1 entry 6",
+        "Entry6",
+        "E6",
+        "PLLA"
+      ],
+      "polymer": "PLLA",
+      "pages": [
+        6
+      ],
+      "doc": "main",
+      "mn": [
+        6488
+      ],
+      "pdi": 1.28,
+      "optional_fields": {
+        "tm": 155
+      },
+      "optional_tolerance": {
+        "tm": 5.0
+      }
+    },
+    {
+      "id": "Entry 7",
+      "aliases": [
+        "7",
+        "entry 7",
+        "Table 1 entry 7",
+        "Entry7",
+        "E7",
+        "poly(TEMC-co-LA) 1:1"
+      ],
+      "polymer": "poly(TEMC-co-LA) 1:1",
+      "pages": [
+        6,
+        8
+      ],
+      "doc": "main",
+      "mn": [
+        3789
+      ],
+      "pdi": 1.36,
+      "tg": 8.5
+    },
+    {
+      "id": "Entry 8",
+      "aliases": [
+        "8",
+        "entry 8",
+        "Table 1 entry 8",
+        "Entry8",
+        "E8",
+        "PTMC"
+      ],
+      "polymer": "PTMC",
+      "pages": [
+        6
+      ],
+      "doc": "main",
+      "mn": [
+        4463
+      ],
+      "pdi": 2.73
+    },
+    {
+      "id": "Entry 9",
+      "aliases": [
+        "9",
+        "entry 9",
+        "Table 1 entry 9",
+        "Entry9",
+        "E9",
+        "poly(TEMC-co-TMC) 1:1"
+      ],
+      "polymer": "poly(TEMC-co-TMC) 1:1",
+      "pages": [
+        6
+      ],
+      "doc": "main",
+      "mn": [
+        3256
+      ],
+      "pdi": 1.3
+    }
+  ],
+  "case": "P4_polym_carbonate_scanned"
+}

@@ -1,0 +1,344 @@
+{
+  "documents": {
+    "main": "polymers-15-02002.pdf",
+    "si": "polymers-2246784-supplementary.pdf"
+  },
+  "source": "Manual transcription: main Table 1 (p.7): Mn,GPC (and Mn,NMR where given), Đ. Intermediates (PS-CTA, PS-b-PI) and SI Table S1/S2 runs are not scored. Aliases include the composition labels of Table 1 (e.g. PS40-b-PI132-b-PS23, star-(PS22-b-PI46)30); diblock precursors (PS-b-PI arms, PS-CTA) are not scored. p.8: 'the Tg of the PI section was about −58 °C ... all samples exhibited a melting temperature of about 170 °C' — accepted (optional) for every sample. SI Tables S1/S2 (arm-first and PI synthesis runs) were not transcribed: extracted samples from them are not scored.",
+  "has_synthesized_polymers": true,
+  "samples": [
+    {
+      "id": "L1",
+      "aliases": [
+        "Entry L1",
+        "L1 (linear SIS)",
+        "PS40-b-PI132-b-PS23",
+        "SIS L1"
+      ],
+      "polymer": "PS40-b-PI132-b-PS23",
+      "pages": [
+        7
+      ],
+      "doc": "main",
+      "mn": [
+        37000,
+        16000
+      ],
+      "pdi": 3.68,
+      "optional_fields": {
+        "tg": -58,
+        "tm": 170
+      }
+    },
+    {
+      "id": "L2",
+      "aliases": [
+        "Entry L2",
+        "L2 (linear SIS)",
+        "PS22-b-PI70-b-PS24",
+        "SIS L2"
+      ],
+      "polymer": "PS22-b-PI70-b-PS24",
+      "pages": [
+        7
+      ],
+      "doc": "main",
+      "mn": [
+        51800,
+        10000
+      ],
+      "pdi": 1.75,
+      "optional_fields": {
+        "tg": -58,
+        "tm": 170
+      }
+    },
+    {
+      "id": "L3",
+      "aliases": [
+        "Entry L3",
+        "L3 (linear SIS)",
+        "PS22-b-PI20-b-PS30",
+        "SIS L3"
+      ],
+      "polymer": "PS22-b-PI20-b-PS30",
+      "pages": [
+        7
+      ],
+      "doc": "main",
+      "mn": [
+        32200,
+        7200
+      ],
+      "pdi": 1.54,
+      "optional_fields": {
+        "tg": -58,
+        "tm": 170
+      }
+    },
+    {
+      "id": "L4",
+      "aliases": [
+        "Entry L4",
+        "L4 (linear SIS)",
+        "PS23-b-PI84-b-PS30",
+        "SIS L4"
+      ],
+      "polymer": "PS23-b-PI84-b-PS30",
+      "pages": [
+        7
+      ],
+      "doc": "main",
+      "mn": [
+        22000,
+        11600
+      ],
+      "pdi": 1.57,
+      "optional_fields": {
+        "tg": -58,
+        "tm": 170
+      }
+    },
+    {
+      "id": "L5",
+      "aliases": [
+        "Entry L5",
+        "L5 (linear SIS)",
+        "PS23-b-PI84-b-PS60",
+        "SIS L5"
+      ],
+      "polymer": "PS23-b-PI84-b-PS60",
+      "pages": [
+        7
+      ],
+      "doc": "main",
+      "mn": [
+        45000,
+        14800
+      ],
+      "pdi": 2.23,
+      "optional_fields": {
+        "tg": -58,
+        "tm": 170
+      }
+    },
+    {
+      "id": "L6",
+      "aliases": [
+        "Entry L6",
+        "L6 (linear SIS)",
+        "PS40-b-PI161-b-PS50",
+        "SIS L6"
+      ],
+      "polymer": "PS40-b-PI161-b-PS50",
+      "pages": [
+        7
+      ],
+      "doc": "main",
+      "mn": [
+        33200,
+        20700
+      ],
+      "pdi": 2.2,
+      "optional_fields": {
+        "tg": -58,
+        "tm": 170
+      }
+    },
+    {
+      "id": "S1",
+      "aliases": [
+        "Entry S1",
+        "S1 (star SIS)",
+        "SIS S1",
+        "star (PS22-b-PI46)30",
+        "star-(PS22-b-PI46)30"
+      ],
+      "polymer": "star-(PS22-b-PI46)30",
+      "pages": [
+        7
+      ],
+      "doc": "main",
+      "mn": [
+        162900
+      ],
+      "pdi": 1.47,
+      "optional_fields": {
+        "tg": -58,
+        "tm": 170
+      }
+    },
+    {
+      "id": "S2",
+      "aliases": [
+        "Entry S2",
+        "S2 (star SIS)",
+        "SIS S2",
+        "star (PS25-b-PI39)13",
+        "star-(PS25-b-PI39)13"
+      ],
+      "polymer": "star-(PS25-b-PI39)13",
+      "pages": [
+        7
+      ],
+      "doc": "main",
+      "mn": [
+        70300
+      ],
+      "pdi": 1.32,
+      "optional_fields": {
+        "tg": -58,
+        "tm": 170
+      }
+    },
+    {
+      "id": "S3",
+      "aliases": [
+        "Entry S3",
+        "S3 (star SIS)",
+        "SIS S3",
+        "star (PS13-b-PI16)40",
+        "star-(PS13-b-PI16)40"
+      ],
+      "polymer": "star-(PS13-b-PI16)40",
+      "pages": [
+        7
+      ],
+      "doc": "main",
+      "mn": [
+        107500
+      ],
+      "pdi": 3.36,
+      "optional_fields": {
+        "tg": -58,
+        "tm": 170
+      }
+    },
+    {
+      "id": "S4",
+      "aliases": [
+        "Entry S4",
+        "S4 (star SIS)",
+        "SIS S4",
+        "star (PS20-b-PI25)40",
+        "star-(PS20-b-PI25)40"
+      ],
+      "polymer": "star-(PS20-b-PI25)40",
+      "pages": [
+        7
+      ],
+      "doc": "main",
+      "mn": [
+        168200
+      ],
+      "pdi": 2.34,
+      "optional_fields": {
+        "tg": -58,
+        "tm": 170
+      }
+    },
+    {
+      "id": "S5",
+      "aliases": [
+        "Entry S5",
+        "S5 (star SIS)",
+        "SIS S5",
+        "star (PS34-b-PI39)16",
+        "star-(PS34-b-PI39)16"
+      ],
+      "polymer": "star-(PS34-b-PI39)16",
+      "pages": [
+        7
+      ],
+      "doc": "main",
+      "mn": [
+        104600
+      ],
+      "pdi": 1.43,
+      "optional_fields": {
+        "tg": -58,
+        "tm": 170
+      }
+    },
+    {
+      "id": "S6",
+      "aliases": [
+        "Entry S6",
+        "S6 (star SIS)",
+        "SIS S6",
+        "star (PS23-b-PI73)19",
+        "star-(PS23-b-PI73)19"
+      ],
+      "polymer": "star-(PS23-b-PI73)19",
+      "pages": [
+        7
+      ],
+      "doc": "main",
+      "mn": [
+        145700
+      ],
+      "pdi": 2.06,
+      "optional_fields": {
+        "tg": -58,
+        "tm": 170
+      }
+    },
+    {
+      "id": "S7",
+      "aliases": [
+        "Entry S7",
+        "S7 (star SIS)",
+        "SIS S7",
+        "star (PS23-b-PI103)14",
+        "star-(PS23-b-PI103)14"
+      ],
+      "polymer": "star-(PS23-b-PI103)14",
+      "pages": [
+        7
+      ],
+      "doc": "main",
+      "mn": [
+        135600
+      ],
+      "pdi": 1.77,
+      "optional_fields": {
+        "tg": -58,
+        "tm": 170
+      }
+    },
+    {
+      "id": "S8",
+      "aliases": [
+        "Entry S8",
+        "S8 (star SIS)",
+        "SIS S8",
+        "star (PS23-b-PI132)9",
+        "star-(PS23-b-PI132)9"
+      ],
+      "polymer": "star-(PS23-b-PI132)9",
+      "pages": [
+        7
+      ],
+      "doc": "main",
+      "mn": [
+        100500
+      ],
+      "pdi": 2.35,
+      "optional_fields": {
+        "tg": -58,
+        "tm": 170
+      }
+    }
+  ],
+  "case": "P2_polym_star_raft",
+  "optional_patterns": [
+    "ps\\d*[-_ ]?cta",
+    "ps\\d+[-_ ]?b[-_ ]?pi\\d+(?:[-_ ]?cta)?",
+    "ps[-_ ]?b[-_ ]?pi(?:[-_ ]?cta)?",
+    ".*\\btable\\s*s\\d+\\b.*",
+    ".*supplementary\\s+table.*"
+  ],
+  "unscored_table_patterns": [
+    ".*\\btable\\s*s\\d+\\b.*",
+    ".*supplementary\\s+table.*"
+  ]
+}

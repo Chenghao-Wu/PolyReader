@@ -1,0 +1,10 @@
+{
+  "documents": {
+    "main": "d4cp03690e.pdf",
+    "si": "d4cp03690e1_suppl.pdf"
+  },
+  "source": "Molecular-dynamics study of existing polymers; no polymer is synthesized, so the triage gate should yield no samples.",
+  "has_synthesized_polymers": false,
+  "samples": [],
+  "case": "P5_pccp_flory_huggins"
+}

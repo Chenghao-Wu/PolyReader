@@ -1,0 +1,78 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Environment
+.env
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated output
+output/
+test_output/
+output_batch/
+output_batch_test/
+*_output/
+
+# Artifacts
+*.pdf.md
+test_page_texts.json
+test_tree_output.json
+
+# Secrets / user-local config
+settings.json
+zhipu_openai.py
+kimi_openai.py
+deepseek_apis.md
+
+# Claude Code / plans (all plan files everywhere)
+.claude/
+plan.md
+plans/
+
+# Scratch scripts
+algorithm.md
+deepseek_thinking.py
+gemini.py
+Materials Informatics Database Pipeline Plan.md
+
+# PDFs
+*.pdf
+
+# Output logs
+*.out
+
+# Local scripts & tools
+submit_all.py
+submit_folder.sh
+examples/*
+!examples/run_extraction.py
+paper/
+scripts/
+
+# Reference data (PDFs + annotations)
+reference/
+reference_backup/
+reference_test/
+
+# Test artifacts
+test.pdf
+test_extracted.json
+polyinfo_like_data.json
+
+# Git worktrees
+.worktrees/

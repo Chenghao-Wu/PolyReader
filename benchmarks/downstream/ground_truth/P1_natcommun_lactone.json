@@ -1,0 +1,464 @@
+{
+  "documents": {
+    "main": "s41467-024-52090-2.pdf",
+    "si": "s41467-024-52090-2_SI.pdf"
+  },
+  "source": "Manual transcription: main Table 1 (p.4, Mn,GPC in kg/mol converted to g/mol, Đ), Tg values from the text (p.7) and Methods (p.10). Tg per run also from SI Supplementary Figure 26 (SI p.18: Mn 16.1/-18.3, 8.9/-17.9, 6.5/-21.9, 4.2/-38.9, 2.4/-37.0 °C), read from the figure. Supplementary Table 1 runs (SI p.24) were not transcribed: extracted samples from that table are not scored. The ω-acrylate-capped poly(EVP)ROP derivative (SI Fig. 30–32) is not scored.",
+  "has_synthesized_polymers": true,
+  "samples": [
+    {
+      "id": "run 1",
+      "aliases": [
+        "run 1",
+        "run1",
+        "Table 1 run 1",
+        "Run 1",
+        "1",
+        "poly(EVP)ROP run 1",
+        "poly(EVP)ROP-1",
+        "poly(EVP)ROP_run1"
+      ],
+      "polymer": "poly(EVP)ROP",
+      "pages": [
+        4
+      ],
+      "doc": "main",
+      "mn": [
+        1500
+      ],
+      "pdi": 1.42
+    },
+    {
+      "id": "run 2",
+      "aliases": [
+        "run 2",
+        "run2",
+        "Table 1 run 2",
+        "Run 2",
+        "2",
+        "poly(EVP)ROP run 2",
+        "poly(EVP)ROP-2",
+        "poly(EVP)ROP_run2"
+      ],
+      "polymer": "poly(EVP)ROP",
+      "pages": [
+        4
+      ],
+      "doc": "main",
+      "optional": true
+    },
+    {
+      "id": "run 3",
+      "aliases": [
+        "run 3",
+        "run3",
+        "Table 1 run 3",
+        "Run 3",
+        "3",
+        "poly(EVP)ROP run 3",
+        "poly(EVP)ROP-3",
+        "poly(EVP)ROP_run3"
+      ],
+      "polymer": "poly(EVP)ROP",
+      "pages": [
+        4
+      ],
+      "doc": "main",
+      "mn": [
+        1100
+      ],
+      "pdi": 1.68
+    },
+    {
+      "id": "run 4",
+      "aliases": [
+        "run 4",
+        "run4",
+        "Table 1 run 4",
+        "Run 4",
+        "4",
+        "poly(EVP)ROP run 4",
+        "poly(EVP)ROP-4",
+        "poly(EVP)ROP_run4"
+      ],
+      "polymer": "poly(EVP)ROP",
+      "pages": [
+        4
+      ],
+      "doc": "main",
+      "optional": true
+    },
+    {
+      "id": "run 5",
+      "aliases": [
+        "run 5",
+        "run5",
+        "Table 1 run 5",
+        "Run 5",
+        "5",
+        "poly(EVP)ROP run 5",
+        "poly(EVP)ROP-5",
+        "poly(EVP)ROP_run5"
+      ],
+      "polymer": "poly(EVP)ROP",
+      "pages": [
+        4
+      ],
+      "doc": "main",
+      "optional": true
+    },
+    {
+      "id": "run 6",
+      "aliases": [
+        "run 6",
+        "run6",
+        "Table 1 run 6",
+        "Run 6",
+        "6",
+        "poly(EVP)ROP run 6",
+        "poly(EVP)ROP-6",
+        "poly(EVP)ROP_run6"
+      ],
+      "polymer": "poly(EVP)ROP",
+      "pages": [
+        4
+      ],
+      "doc": "main",
+      "optional": true
+    },
+    {
+      "id": "run 7",
+      "aliases": [
+        "run 7",
+        "run7",
+        "Table 1 run 7",
+        "Run 7",
+        "7",
+        "poly(EVP)ROP run 7",
+        "poly(EVP)ROP-7",
+        "poly(EVP)ROP_run7"
+      ],
+      "polymer": "poly(EVP)ROP",
+      "pages": [
+        4
+      ],
+      "doc": "main",
+      "mn": [
+        1300
+      ],
+      "pdi": 1.2
+    },
+    {
+      "id": "run 8",
+      "aliases": [
+        "run 8",
+        "run8",
+        "Table 1 run 8",
+        "Run 8",
+        "8",
+        "poly(EVP)ROP run 8",
+        "poly(EVP)ROP-8",
+        "poly(EVP)ROP_run8"
+      ],
+      "polymer": "poly(EVP)ROP",
+      "pages": [
+        4
+      ],
+      "doc": "main",
+      "mn": [
+        900
+      ],
+      "pdi": 1.46
+    },
+    {
+      "id": "run 9",
+      "aliases": [
+        "run 9",
+        "run9",
+        "Table 1 run 9",
+        "Run 9",
+        "9",
+        "poly(EVP)ROP run 9",
+        "poly(EVP)ROP-9",
+        "poly(EVP)ROP_run9"
+      ],
+      "polymer": "poly(EVP)ROP",
+      "pages": [
+        4
+      ],
+      "doc": "main",
+      "mn": [
+        1100
+      ],
+      "pdi": 1.61
+    },
+    {
+      "id": "run 10",
+      "aliases": [
+        "run 10",
+        "run10",
+        "Table 1 run 10",
+        "Run 10",
+        "10",
+        "poly(EVP)ROP run 10",
+        "poly(EVP)ROP-10",
+        "poly(EVP)ROP_run10"
+      ],
+      "polymer": "poly(EVP)ROP",
+      "pages": [
+        4
+      ],
+      "doc": "main",
+      "optional": true
+    },
+    {
+      "id": "run 11",
+      "aliases": [
+        "run 11",
+        "run11",
+        "Table 1 run 11",
+        "Run 11",
+        "11",
+        "poly(EVP)ROP run 11",
+        "poly(EVP)ROP-11",
+        "poly(EVP)ROP_run11"
+      ],
+      "polymer": "poly(EVP)ROP",
+      "pages": [
+        4
+      ],
+      "doc": "main",
+      "mn": [
+        2200
+      ],
+      "pdi": 1.64
+    },
+    {
+      "id": "run 12",
+      "aliases": [
+        "run 12",
+        "run12",
+        "Table 1 run 12",
+        "Run 12",
+        "12",
+        "poly(EVP)ROP run 12",
+        "poly(EVP)ROP-12",
+        "poly(EVP)ROP_run12"
+      ],
+      "polymer": "poly(EVP)ROP",
+      "pages": [
+        4
+      ],
+      "doc": "main",
+      "mn": [
+        3600
+      ],
+      "pdi": 1.41
+    },
+    {
+      "id": "run 13",
+      "aliases": [
+        "run 13",
+        "run13",
+        "Table 1 run 13",
+        "Run 13",
+        "13",
+        "poly(EVP)ROP run 13",
+        "poly(EVP)ROP-13",
+        "poly(EVP)ROP_run13"
+      ],
+      "polymer": "poly(EVP)ROP",
+      "pages": [
+        4,
+        18
+      ],
+      "doc": "main",
+      "mn": [
+        6500
+      ],
+      "pdi": 1.24,
+      "tg": -21.9
+    },
+    {
+      "id": "run 14",
+      "aliases": [
+        "run 14",
+        "run14",
+        "Table 1 run 14",
+        "Run 14",
+        "14",
+        "poly(EVP)ROP run 14",
+        "poly(EVP)ROP-14",
+        "poly(EVP)ROP_run14"
+      ],
+      "polymer": "poly(EVP)ROP",
+      "pages": [
+        4,
+        18
+      ],
+      "doc": "main",
+      "mn": [
+        2400
+      ],
+      "pdi": 1.58,
+      "tg": -37.0
+    },
+    {
+      "id": "run 15",
+      "aliases": [
+        "run 15",
+        "run15",
+        "Table 1 run 15",
+        "Run 15",
+        "15",
+        "poly(EVP)ROP run 15",
+        "poly(EVP)ROP-15",
+        "poly(EVP)ROP_run15"
+      ],
+      "polymer": "poly(EVP)ROP",
+      "pages": [
+        4,
+        18
+      ],
+      "doc": "main",
+      "mn": [
+        4200
+      ],
+      "pdi": 1.3,
+      "tg": -38.9
+    },
+    {
+      "id": "run 16",
+      "aliases": [
+        "run 16",
+        "run16",
+        "Table 1 run 16",
+        "Run 16",
+        "16",
+        "poly(EVP)ROP run 16",
+        "poly(EVP)ROP-16",
+        "poly(EVP)ROP_run16"
+      ],
+      "polymer": "poly(EVP)ROP",
+      "pages": [
+        4
+      ],
+      "doc": "main",
+      "mn": [
+        3900
+      ],
+      "pdi": 1.29
+    },
+    {
+      "id": "run 17",
+      "aliases": [
+        "run 17",
+        "run17",
+        "Table 1 run 17",
+        "Run 17",
+        "17",
+        "poly(EVP)ROP run 17",
+        "poly(EVP)ROP-17",
+        "poly(EVP)ROP_run17"
+      ],
+      "polymer": "poly(EVP)ROP",
+      "pages": [
+        4
+      ],
+      "doc": "main",
+      "mn": [
+        7800
+      ],
+      "pdi": 1.25
+    },
+    {
+      "id": "run 18",
+      "aliases": [
+        "run 18",
+        "run18",
+        "Table 1 run 18",
+        "Run 18",
+        "18",
+        "poly(EVP)ROP run 18",
+        "poly(EVP)ROP-18",
+        "poly(EVP)ROP_run18"
+      ],
+      "polymer": "poly(EVP)ROP",
+      "pages": [
+        4,
+        18
+      ],
+      "doc": "main",
+      "mn": [
+        8900
+      ],
+      "pdi": 1.18,
+      "tg": -17.9
+    },
+    {
+      "id": "run 19",
+      "aliases": [
+        "run 19",
+        "run19",
+        "Table 1 run 19",
+        "Run 19",
+        "19",
+        "poly(EVP)ROP run 19",
+        "poly(EVP)ROP-19",
+        "poly(EVP)ROP_run19"
+      ],
+      "polymer": "poly(EVP)ROP",
+      "pages": [
+        4,
+        18
+      ],
+      "doc": "main",
+      "mn": [
+        16100
+      ],
+      "pdi": 1.55,
+      "tg": -18.3
+    },
+    {
+      "id": "poly(EVP)S1",
+      "aliases": [
+        "S1",
+        "poly(EVP)-S1",
+        "polyEVP S1"
+      ],
+      "polymer": "thiol-functionalized poly(EVP)",
+      "pages": [
+        7
+      ],
+      "doc": "main",
+      "tg": -7.1,
+      "optional": true
+    },
+    {
+      "id": "poly(EVP)S1+S2",
+      "aliases": [
+        "S1+S2",
+        "poly(EVP)-S1+S2"
+      ],
+      "polymer": "bifunctionalized poly(EVP)",
+      "pages": [
+        7
+      ],
+      "doc": "main",
+      "tg": -17.6,
+      "optional": true
+    }
+  ],
+  "case": "P1_natcommun_lactone",
+  "optional_patterns": [
+    ".*supplementary\\s+table\\s*1\\b.*",
+    ".*\\bsi\\s+table\\s*1\\b.*",
+    ".*table\\s*s1\\b.*",
+    ".*acrylate.*"
+  ],
+  "unscored_table_patterns": [
+    ".*supplementary\\s+table\\s*1\\b.*",
+    ".*\\bsi\\s+table\\s*1\\b.*",
+    ".*table\\s*s1\\b.*"
+  ]
+}

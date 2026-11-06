@@ -1,0 +1,46 @@
+# LLM settings — OpenRouter by default.
+# For the DeepSeek API set base_url: "https://api.deepseek.com" (key: DEEPSEEK_API_KEY);
+# OpenRouter slugs such as "deepseek/deepseek-chat" are mapped to current DeepSeek models.
+model: "deepseek/deepseek-chat"
+base_url: "https://openrouter.ai/api/v1"
+temperature: 1
+max_concurrent_api_calls: 5
+include_extra_body: true
+request_timeout: null        # seconds; null = provider default (600 DeepSeek, 120 otherwise)
+reasoning_effort: null       # DeepSeek thinking depth: low | high | max (null = API default)
+
+# PDF parsing
+pdf_parser_backend: "marker"  # marker (default) | mineru
+mineru:                       # used only when pdf_parser_backend is "mineru"
+  tier: "standard"            # flash | basic | standard | advanced
+  executable: null            # path to mineru-kit (null = $POLYREADER_MINERU_EXECUTABLE or PATH)
+  timeout: 1800               # seconds per document
+  extra_env: {}               # extra environment for mineru-kit (e.g. GPU/Vulkan settings)
+
+# Tree building
+max_token_num_each_node: 20000
+max_page_num_each_node: 10
+toc_check_page_num: 5
+
+# Node enrichment
+if_add_node_id: "yes"
+if_add_node_summary: "yes"
+if_add_node_text: "no"
+if_add_doc_description: "yes"
+summary_token_threshold: 200
+
+# Agentic retrieval
+agentic_max_iterations: 10
+use_vision: true
+
+# Team retrieval
+team_max_rounds: 3
+team_max_readers_per_round: 5
+
+# Enhanced retrieval
+retrieval_decompose: true
+retrieval_reflect: true
+retrieval_max_reflection_rounds: 1
+retrieval_confidence_threshold: 0.5
+retrieval_max_content_tokens: 8000
+retrieval_search_retries: 2

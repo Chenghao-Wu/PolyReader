@@ -1,0 +1,3102 @@
+{
+  "agentic_r1": {
+    "P1_natcommun_lactone": {
+      "samples_extracted": 31,
+      "samples_scored": 15,
+      "samples_gt": 14,
+      "sample_id": {
+        "precision": 0.933,
+        "recall": 1.0,
+        "f1": 0.966,
+        "tp": 14
+      },
+      "fields": {
+        "mn": {
+          "correct": 13,
+          "extracted": 14,
+          "gt": 14,
+          "page_ok": 13,
+          "precision": 0.929,
+          "recall": 0.929,
+          "f1": 0.929
+        },
+        "pdi": {
+          "correct": 13,
+          "extracted": 14,
+          "gt": 14,
+          "page_ok": 13,
+          "precision": 0.929,
+          "recall": 0.929,
+          "f1": 0.929
+        },
+        "tg": {
+          "correct": 4,
+          "extracted": 5,
+          "gt": 5,
+          "page_ok": 4,
+          "precision": 0.8,
+          "recall": 0.8,
+          "f1": 0.8
+        }
+      },
+      "values_overall": {
+        "precision": 0.909,
+        "recall": 0.909,
+        "f1": 0.909,
+        "correct": 30,
+        "extracted": 33,
+        "gt": 33,
+        "page_ok": 30
+      },
+      "provenance_page_ok": 1.0,
+      "completeness": {
+        "properties_per_sample": 2.0,
+        "processing_steps_per_sample": 2.87,
+        "with_synthesis_method": 31,
+        "with_smiles": 31,
+        "tiers": {
+          "silver": 13,
+          "gold": 15,
+          "bronze": 3
+        }
+      },
+      "unmatched_extracted": [
+        "Table 1 run 13 (CTPB/DU8, 50/1/1.5/0.25, Mn 6.5 kg/mol, Đ 1.24; Tg -21.9 °C, Td5% 74.4 °C)"
+      ],
+      "missed_gt": [],
+      "value_errors": [],
+      "pipeline_error": null,
+      "llm_usage": {
+        "model": "deepseek-flash",
+        "requests": 227,
+        "prompt_tokens": 6400197,
+        "completion_tokens": 164629,
+        "reasoning_tokens": 84675,
+        "prompt_cache_hit_tokens": 5215232
+      }
+    },
+    "P2_polym_star_raft": {
+      "samples_extracted": 21,
+      "samples_scored": 13,
+      "samples_gt": 14,
+      "sample_id": {
+        "precision": 1.0,
+        "recall": 0.929,
+        "f1": 0.963,
+        "tp": 13
+      },
+      "fields": {
+        "mn": {
+          "correct": 13,
+          "extracted": 13,
+          "gt": 14,
+          "page_ok": 13,
+          "precision": 1.0,
+          "recall": 0.929,
+          "f1": 0.963
+        },
+        "pdi": {
+          "correct": 13,
+          "extracted": 13,
+          "gt": 14,
+          "page_ok": 13,
+          "precision": 1.0,
+          "recall": 0.929,
+          "f1": 0.963
+        }
+      },
+      "values_overall": {
+        "precision": 1.0,
+        "recall": 0.929,
+        "f1": 0.963,
+        "correct": 26,
+        "extracted": 26,
+        "gt": 28,
+        "page_ok": 26
+      },
+      "provenance_page_ok": 1.0,
+      "completeness": {
+        "properties_per_sample": 9.1,
+        "processing_steps_per_sample": 3.9,
+        "with_synthesis_method": 21,
+        "with_smiles": 21,
+        "tiers": {
+          "gold": 16,
+          "silver": 5
+        }
+      },
+      "unmatched_extracted": [],
+      "missed_gt": [
+        "L3"
+      ],
+      "value_errors": [],
+      "pipeline_error": null,
+      "llm_usage": {
+        "model": "deepseek-flash",
+        "requests": 134,
+        "prompt_tokens": 2686733,
+        "completion_tokens": 165315,
+        "reasoning_tokens": 75023,
+        "prompt_cache_hit_tokens": 2064128
+      }
+    },
+    "P3_polym_tmc_rop": {
+      "samples_extracted": 16,
+      "samples_scored": 14,
+      "samples_gt": 14,
+      "sample_id": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 14
+      },
+      "fields": {
+        "mn": {
+          "correct": 14,
+          "extracted": 14,
+          "gt": 14,
+          "page_ok": 14,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "pdi": {
+          "correct": 14,
+          "extracted": 14,
+          "gt": 14,
+          "page_ok": 14,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "values_overall": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "correct": 28,
+        "extracted": 28,
+        "gt": 28,
+        "page_ok": 28
+      },
+      "provenance_page_ok": 1.0,
+      "completeness": {
+        "properties_per_sample": 2.88,
+        "processing_steps_per_sample": 2.19,
+        "with_synthesis_method": 16,
+        "with_smiles": 16,
+        "tiers": {
+          "silver": 5,
+          "gold": 11
+        }
+      },
+      "unmatched_extracted": [],
+      "missed_gt": [],
+      "value_errors": [],
+      "pipeline_error": null,
+      "llm_usage": {
+        "model": "deepseek-flash",
+        "requests": 86,
+        "prompt_tokens": 1132550,
+        "completion_tokens": 62454,
+        "reasoning_tokens": 26019,
+        "prompt_cache_hit_tokens": 829696
+      }
+    },
+    "P4_polym_carbonate_scanned": {
+      "samples_extracted": 9,
+      "samples_scored": 9,
+      "samples_gt": 9,
+      "sample_id": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 9
+      },
+      "fields": {
+        "mn": {
+          "correct": 9,
+          "extracted": 9,
+          "gt": 9,
+          "page_ok": 9,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "pdi": {
+          "correct": 9,
+          "extracted": 9,
+          "gt": 9,
+          "page_ok": 9,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "tg": {
+          "correct": 2,
+          "extracted": 2,
+          "gt": 2,
+          "page_ok": 2,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "tm": {
+          "correct": 3,
+          "extracted": 3,
+          "gt": 3,
+          "page_ok": 3,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "values_overall": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "correct": 23,
+        "extracted": 23,
+        "gt": 23,
+        "page_ok": 23
+      },
+      "provenance_page_ok": 1.0,
+      "completeness": {
+        "properties_per_sample": 3.22,
+        "processing_steps_per_sample": 4.44,
+        "with_synthesis_method": 9,
+        "with_smiles": 9,
+        "tiers": {
+          "gold": 8,
+          "silver": 1
+        }
+      },
+      "unmatched_extracted": [],
+      "missed_gt": [],
+      "value_errors": [],
+      "pipeline_error": null,
+      "llm_usage": {
+        "model": "deepseek-flash",
+        "requests": 49,
+        "prompt_tokens": 677512,
+        "completion_tokens": 40447,
+        "reasoning_tokens": 17887,
+        "prompt_cache_hit_tokens": 486400
+      }
+    },
+    "P5_pccp_flory_huggins": {
+      "samples_extracted": 8,
+      "samples_scored": 8,
+      "samples_gt": 0,
+      "sample_id": {
+        "precision": 0.0,
+        "recall": 1.0,
+        "f1": 0.0,
+        "tp": 0
+      },
+      "fields": {},
+      "values_overall": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "correct": 0,
+        "extracted": 0,
+        "gt": 0,
+        "page_ok": 0
+      },
+      "provenance_page_ok": null,
+      "completeness": {
+        "properties_per_sample": 15.12,
+        "processing_steps_per_sample": 7.38,
+        "with_synthesis_method": 0,
+        "with_smiles": 8,
+        "tiers": {
+          "silver": 8
+        }
+      },
+      "unmatched_extracted": [
+        "PAM-DP50",
+        "PEO-DP50",
+        "PIB-DP50",
+        "PS-DP50",
+        "cis-PB-DP50",
+        "cis-PI-DP50",
+        "trans-PB-DP50",
+        "trans-PI-DP50"
+      ],
+      "missed_gt": [],
+      "value_errors": [],
+      "pipeline_error": null,
+      "llm_usage": {
+        "model": "deepseek-flash",
+        "requests": 45,
+        "prompt_tokens": 745146,
+        "completion_tokens": 57158,
+        "reasoning_tokens": 15680,
+        "prompt_cache_hit_tokens": 543360
+      }
+    },
+    "_total": {
+      "values": {
+        "precision": 0.973,
+        "recall": 0.955,
+        "f1": 0.964,
+        "correct": 107,
+        "extracted": 110,
+        "gt": 112
+      },
+      "sample_id": {
+        "precision": 0.847,
+        "recall": 0.98,
+        "f1": 0.909,
+        "tp": 50,
+        "extracted": 59,
+        "gt": 51
+      }
+    }
+  },
+  "agentic_r2": {
+    "P1_natcommun_lactone": {
+      "samples_extracted": 18,
+      "samples_scored": 14,
+      "samples_gt": 14,
+      "sample_id": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 14
+      },
+      "fields": {
+        "mn": {
+          "correct": 14,
+          "extracted": 14,
+          "gt": 14,
+          "page_ok": 14,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "pdi": {
+          "correct": 14,
+          "extracted": 14,
+          "gt": 14,
+          "page_ok": 14,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "tg": {
+          "correct": 5,
+          "extracted": 5,
+          "gt": 5,
+          "page_ok": 5,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "values_overall": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "correct": 33,
+        "extracted": 33,
+        "gt": 33,
+        "page_ok": 33
+      },
+      "provenance_page_ok": 1.0,
+      "completeness": {
+        "properties_per_sample": 2.83,
+        "processing_steps_per_sample": 3.06,
+        "with_synthesis_method": 18,
+        "with_smiles": 18,
+        "tiers": {
+          "gold": 16,
+          "silver": 2
+        }
+      },
+      "unmatched_extracted": [],
+      "missed_gt": [],
+      "value_errors": [],
+      "pipeline_error": null,
+      "llm_usage": {
+        "model": "deepseek-flash",
+        "requests": 147,
+        "prompt_tokens": 4087706,
+        "completion_tokens": 100504,
+        "reasoning_tokens": 46287,
+        "prompt_cache_hit_tokens": 3418880
+      }
+    },
+    "P2_polym_star_raft": {
+      "samples_extracted": 14,
+      "samples_scored": 14,
+      "samples_gt": 14,
+      "sample_id": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 14
+      },
+      "fields": {
+        "mn": {
+          "correct": 14,
+          "extracted": 14,
+          "gt": 14,
+          "page_ok": 14,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "pdi": {
+          "correct": 14,
+          "extracted": 14,
+          "gt": 14,
+          "page_ok": 14,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "values_overall": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "correct": 28,
+        "extracted": 28,
+        "gt": 28,
+        "page_ok": 28
+      },
+      "provenance_page_ok": 1.0,
+      "completeness": {
+        "properties_per_sample": 12.14,
+        "processing_steps_per_sample": 4.0,
+        "with_synthesis_method": 14,
+        "with_smiles": 14,
+        "tiers": {
+          "gold": 14
+        }
+      },
+      "unmatched_extracted": [],
+      "missed_gt": [],
+      "value_errors": [],
+      "pipeline_error": null,
+      "llm_usage": {
+        "model": "deepseek-flash",
+        "requests": 91,
+        "prompt_tokens": 1732667,
+        "completion_tokens": 96131,
+        "reasoning_tokens": 36873,
+        "prompt_cache_hit_tokens": 1341056
+      }
+    },
+    "P3_polym_tmc_rop": {
+      "samples_extracted": 16,
+      "samples_scored": 14,
+      "samples_gt": 14,
+      "sample_id": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 14
+      },
+      "fields": {
+        "mn": {
+          "correct": 14,
+          "extracted": 14,
+          "gt": 14,
+          "page_ok": 14,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "pdi": {
+          "correct": 14,
+          "extracted": 14,
+          "gt": 14,
+          "page_ok": 14,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "values_overall": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "correct": 28,
+        "extracted": 28,
+        "gt": 28,
+        "page_ok": 28
+      },
+      "provenance_page_ok": 1.0,
+      "completeness": {
+        "properties_per_sample": 2.62,
+        "processing_steps_per_sample": 2.44,
+        "with_synthesis_method": 16,
+        "with_smiles": 16,
+        "tiers": {
+          "silver": 5,
+          "gold": 11
+        }
+      },
+      "unmatched_extracted": [],
+      "missed_gt": [],
+      "value_errors": [],
+      "pipeline_error": null,
+      "llm_usage": {
+        "model": "deepseek-flash",
+        "requests": 80,
+        "prompt_tokens": 997036,
+        "completion_tokens": 62954,
+        "reasoning_tokens": 27525,
+        "prompt_cache_hit_tokens": 712832
+      }
+    },
+    "P4_polym_carbonate_scanned": {
+      "samples_extracted": 9,
+      "samples_scored": 9,
+      "samples_gt": 9,
+      "sample_id": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 9
+      },
+      "fields": {
+        "mn": {
+          "correct": 9,
+          "extracted": 9,
+          "gt": 9,
+          "page_ok": 9,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "pdi": {
+          "correct": 9,
+          "extracted": 9,
+          "gt": 9,
+          "page_ok": 9,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "tg": {
+          "correct": 2,
+          "extracted": 2,
+          "gt": 2,
+          "page_ok": 2,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "tm": {
+          "correct": 3,
+          "extracted": 3,
+          "gt": 3,
+          "page_ok": 3,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "values_overall": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "correct": 23,
+        "extracted": 23,
+        "gt": 23,
+        "page_ok": 23
+      },
+      "provenance_page_ok": 1.0,
+      "completeness": {
+        "properties_per_sample": 3.89,
+        "processing_steps_per_sample": 4.78,
+        "with_synthesis_method": 9,
+        "with_smiles": 9,
+        "tiers": {
+          "gold": 9
+        }
+      },
+      "unmatched_extracted": [],
+      "missed_gt": [],
+      "value_errors": [],
+      "pipeline_error": null,
+      "llm_usage": {
+        "model": "deepseek-flash",
+        "requests": 51,
+        "prompt_tokens": 661612,
+        "completion_tokens": 46750,
+        "reasoning_tokens": 22789,
+        "prompt_cache_hit_tokens": 481408
+      }
+    },
+    "P5_pccp_flory_huggins": {
+      "samples_extracted": 8,
+      "samples_scored": 8,
+      "samples_gt": 0,
+      "sample_id": {
+        "precision": 0.0,
+        "recall": 1.0,
+        "f1": 0.0,
+        "tp": 0
+      },
+      "fields": {},
+      "values_overall": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "correct": 0,
+        "extracted": 0,
+        "gt": 0,
+        "page_ok": 0
+      },
+      "provenance_page_ok": null,
+      "completeness": {
+        "properties_per_sample": 15.12,
+        "processing_steps_per_sample": 8.12,
+        "with_synthesis_method": 0,
+        "with_smiles": 8,
+        "tiers": {
+          "silver": 8
+        }
+      },
+      "unmatched_extracted": [
+        "PAM-50mer",
+        "PEO-50mer",
+        "PIB-50mer",
+        "PS-50mer",
+        "cis-PB-50mer",
+        "cis-PI-50mer",
+        "trans-PB-50mer",
+        "trans-PI-50mer"
+      ],
+      "missed_gt": [],
+      "value_errors": [],
+      "pipeline_error": null,
+      "llm_usage": {
+        "model": "deepseek-flash",
+        "requests": 51,
+        "prompt_tokens": 850026,
+        "completion_tokens": 58655,
+        "reasoning_tokens": 15456,
+        "prompt_cache_hit_tokens": 638848
+      }
+    },
+    "_total": {
+      "values": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "correct": 112,
+        "extracted": 112,
+        "gt": 112
+      },
+      "sample_id": {
+        "precision": 0.864,
+        "recall": 1.0,
+        "f1": 0.927,
+        "tp": 51,
+        "extracted": 59,
+        "gt": 51
+      }
+    }
+  },
+  "agentic_c8": {
+    "P1_natcommun_lactone": {
+      "samples_extracted": 18,
+      "samples_scored": 14,
+      "samples_gt": 14,
+      "sample_id": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 14
+      },
+      "fields": {
+        "mn": {
+          "correct": 14,
+          "extracted": 14,
+          "gt": 14,
+          "page_ok": 14,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "pdi": {
+          "correct": 14,
+          "extracted": 14,
+          "gt": 14,
+          "page_ok": 14,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "tg": {
+          "correct": 5,
+          "extracted": 5,
+          "gt": 5,
+          "page_ok": 5,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "values_overall": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "correct": 33,
+        "extracted": 33,
+        "gt": 33,
+        "page_ok": 33
+      },
+      "provenance_page_ok": 1.0,
+      "completeness": {
+        "properties_per_sample": 3.67,
+        "processing_steps_per_sample": 3.11,
+        "with_synthesis_method": 17,
+        "with_smiles": 18,
+        "tiers": {
+          "gold": 18
+        }
+      },
+      "unmatched_extracted": [],
+      "missed_gt": [],
+      "value_errors": [],
+      "pipeline_error": null,
+      "llm_usage": {
+        "model": "deepseek-flash",
+        "requests": 143,
+        "prompt_tokens": 3965510,
+        "completion_tokens": 101645,
+        "reasoning_tokens": 45859,
+        "prompt_cache_hit_tokens": 3262720
+      }
+    },
+    "P2_polym_star_raft": {
+      "samples_extracted": 14,
+      "samples_scored": 14,
+      "samples_gt": 14,
+      "sample_id": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 14
+      },
+      "fields": {
+        "mn": {
+          "correct": 14,
+          "extracted": 14,
+          "gt": 14,
+          "page_ok": 14,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "pdi": {
+          "correct": 14,
+          "extracted": 14,
+          "gt": 14,
+          "page_ok": 14,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "values_overall": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "correct": 28,
+        "extracted": 28,
+        "gt": 28,
+        "page_ok": 28
+      },
+      "provenance_page_ok": 1.0,
+      "completeness": {
+        "properties_per_sample": 12.0,
+        "processing_steps_per_sample": 5.07,
+        "with_synthesis_method": 14,
+        "with_smiles": 14,
+        "tiers": {
+          "gold": 14
+        }
+      },
+      "unmatched_extracted": [],
+      "missed_gt": [],
+      "value_errors": [],
+      "pipeline_error": null,
+      "llm_usage": {
+        "model": "deepseek-flash",
+        "requests": 86,
+        "prompt_tokens": 1622628,
+        "completion_tokens": 102559,
+        "reasoning_tokens": 41120,
+        "prompt_cache_hit_tokens": 1243008
+      }
+    },
+    "P3_polym_tmc_rop": {
+      "samples_extracted": 16,
+      "samples_scored": 14,
+      "samples_gt": 14,
+      "sample_id": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 14
+      },
+      "fields": {
+        "mn": {
+          "correct": 14,
+          "extracted": 14,
+          "gt": 14,
+          "page_ok": 14,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "pdi": {
+          "correct": 14,
+          "extracted": 14,
+          "gt": 14,
+          "page_ok": 14,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "values_overall": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "correct": 28,
+        "extracted": 28,
+        "gt": 28,
+        "page_ok": 28
+      },
+      "provenance_page_ok": 1.0,
+      "completeness": {
+        "properties_per_sample": 3.5,
+        "processing_steps_per_sample": 2.44,
+        "with_synthesis_method": 16,
+        "with_smiles": 16,
+        "tiers": {
+          "silver": 3,
+          "gold": 13
+        }
+      },
+      "unmatched_extracted": [],
+      "missed_gt": [],
+      "value_errors": [],
+      "pipeline_error": null,
+      "llm_usage": {
+        "model": "deepseek-flash",
+        "requests": 81,
+        "prompt_tokens": 1052198,
+        "completion_tokens": 66381,
+        "reasoning_tokens": 28432,
+        "prompt_cache_hit_tokens": 760192
+      }
+    },
+    "P4_polym_carbonate_scanned": {
+      "samples_extracted": 9,
+      "samples_scored": 9,
+      "samples_gt": 9,
+      "sample_id": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 9
+      },
+      "fields": {
+        "mn": {
+          "correct": 9,
+          "extracted": 9,
+          "gt": 9,
+          "page_ok": 9,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "pdi": {
+          "correct": 9,
+          "extracted": 9,
+          "gt": 9,
+          "page_ok": 9,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "tg": {
+          "correct": 2,
+          "extracted": 2,
+          "gt": 2,
+          "page_ok": 2,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "tm": {
+          "correct": 3,
+          "extracted": 3,
+          "gt": 3,
+          "page_ok": 3,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "values_overall": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "correct": 23,
+        "extracted": 23,
+        "gt": 23,
+        "page_ok": 23
+      },
+      "provenance_page_ok": 1.0,
+      "completeness": {
+        "properties_per_sample": 3.78,
+        "processing_steps_per_sample": 4.78,
+        "with_synthesis_method": 9,
+        "with_smiles": 9,
+        "tiers": {
+          "gold": 8,
+          "silver": 1
+        }
+      },
+      "unmatched_extracted": [],
+      "missed_gt": [],
+      "value_errors": [],
+      "pipeline_error": null,
+      "llm_usage": {
+        "model": "deepseek-flash",
+        "requests": 51,
+        "prompt_tokens": 697956,
+        "completion_tokens": 40675,
+        "reasoning_tokens": 17465,
+        "prompt_cache_hit_tokens": 508416
+      }
+    },
+    "P5_pccp_flory_huggins": {
+      "samples_extracted": 8,
+      "samples_scored": 8,
+      "samples_gt": 0,
+      "sample_id": {
+        "precision": 0.0,
+        "recall": 1.0,
+        "f1": 0.0,
+        "tp": 0
+      },
+      "fields": {},
+      "values_overall": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "correct": 0,
+        "extracted": 0,
+        "gt": 0,
+        "page_ok": 0
+      },
+      "provenance_page_ok": null,
+      "completeness": {
+        "properties_per_sample": 14.75,
+        "processing_steps_per_sample": 7.12,
+        "with_synthesis_method": 0,
+        "with_smiles": 8,
+        "tiers": {
+          "silver": 8
+        }
+      },
+      "unmatched_extracted": [
+        "PAM",
+        "PEO",
+        "PIB",
+        "PS",
+        "cis-PB",
+        "cis-PI",
+        "trans-PB",
+        "trans-PI"
+      ],
+      "missed_gt": [],
+      "value_errors": [],
+      "pipeline_error": null,
+      "llm_usage": {
+        "model": "deepseek-flash",
+        "requests": 44,
+        "prompt_tokens": 632026,
+        "completion_tokens": 54823,
+        "reasoning_tokens": 15077,
+        "prompt_cache_hit_tokens": 444288
+      }
+    },
+    "_total": {
+      "values": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "correct": 112,
+        "extracted": 112,
+        "gt": 112
+      },
+      "sample_id": {
+        "precision": 0.864,
+        "recall": 1.0,
+        "f1": 0.927,
+        "tp": 51,
+        "extracted": 59,
+        "gt": 51
+      }
+    }
+  },
+  "full_context_r1": {
+    "P1_natcommun_lactone": {
+      "samples_extracted": 22,
+      "samples_scored": 14,
+      "samples_gt": 14,
+      "sample_id": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 14
+      },
+      "fields": {
+        "mn": {
+          "correct": 14,
+          "extracted": 14,
+          "gt": 14,
+          "page_ok": 14,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "pdi": {
+          "correct": 14,
+          "extracted": 14,
+          "gt": 14,
+          "page_ok": 14,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "tg": {
+          "correct": 2,
+          "extracted": 2,
+          "gt": 5,
+          "page_ok": 1,
+          "precision": 1.0,
+          "recall": 0.4,
+          "f1": 0.571
+        }
+      },
+      "values_overall": {
+        "precision": 1.0,
+        "recall": 0.909,
+        "f1": 0.952,
+        "correct": 30,
+        "extracted": 30,
+        "gt": 33,
+        "page_ok": 29
+      },
+      "provenance_page_ok": 0.967,
+      "completeness": {
+        "properties_per_sample": 2.82,
+        "processing_steps_per_sample": 2.23,
+        "with_synthesis_method": 22,
+        "with_smiles": 22,
+        "tiers": {
+          "gold": 21,
+          "silver": 1
+        }
+      },
+      "unmatched_extracted": [],
+      "missed_gt": [],
+      "value_errors": [],
+      "pipeline_error": null,
+      "llm_usage": {
+        "model": "deepseek-flash",
+        "requests": 9,
+        "prompt_tokens": 338512,
+        "completion_tokens": 81467,
+        "reasoning_tokens": 50533,
+        "prompt_cache_hit_tokens": 270336
+      }
+    },
+    "P2_polym_star_raft": {
+      "samples_extracted": 24,
+      "samples_scored": 14,
+      "samples_gt": 14,
+      "sample_id": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 14
+      },
+      "fields": {
+        "mn": {
+          "correct": 14,
+          "extracted": 14,
+          "gt": 14,
+          "page_ok": 14,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "pdi": {
+          "correct": 14,
+          "extracted": 14,
+          "gt": 14,
+          "page_ok": 14,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "values_overall": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "correct": 28,
+        "extracted": 28,
+        "gt": 28,
+        "page_ok": 28
+      },
+      "provenance_page_ok": 1.0,
+      "completeness": {
+        "properties_per_sample": 6.38,
+        "processing_steps_per_sample": 2.42,
+        "with_synthesis_method": 24,
+        "with_smiles": 24,
+        "tiers": {
+          "gold": 24
+        }
+      },
+      "unmatched_extracted": [],
+      "missed_gt": [],
+      "value_errors": [],
+      "pipeline_error": null,
+      "llm_usage": {
+        "model": "deepseek-flash",
+        "requests": 8,
+        "prompt_tokens": 190054,
+        "completion_tokens": 111890,
+        "reasoning_tokens": 72121,
+        "prompt_cache_hit_tokens": 158720
+      }
+    },
+    "P3_polym_tmc_rop": {
+      "samples_extracted": 14,
+      "samples_scored": 14,
+      "samples_gt": 14,
+      "sample_id": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 14
+      },
+      "fields": {
+        "mn": {
+          "correct": 14,
+          "extracted": 14,
+          "gt": 14,
+          "page_ok": 14,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "pdi": {
+          "correct": 14,
+          "extracted": 14,
+          "gt": 14,
+          "page_ok": 14,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "values_overall": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "correct": 28,
+        "extracted": 28,
+        "gt": 28,
+        "page_ok": 28
+      },
+      "provenance_page_ok": 1.0,
+      "completeness": {
+        "properties_per_sample": 3.57,
+        "processing_steps_per_sample": 2.0,
+        "with_synthesis_method": 14,
+        "with_smiles": 14,
+        "tiers": {
+          "gold": 14
+        }
+      },
+      "unmatched_extracted": [],
+      "missed_gt": [],
+      "value_errors": [],
+      "pipeline_error": null,
+      "llm_usage": {
+        "model": "deepseek-flash",
+        "requests": 9,
+        "prompt_tokens": 155847,
+        "completion_tokens": 57618,
+        "reasoning_tokens": 40667,
+        "prompt_cache_hit_tokens": 121856
+      }
+    },
+    "P4_polym_carbonate_scanned": {
+      "samples_extracted": 9,
+      "samples_scored": 9,
+      "samples_gt": 9,
+      "sample_id": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 9
+      },
+      "fields": {
+        "mn": {
+          "correct": 9,
+          "extracted": 9,
+          "gt": 9,
+          "page_ok": 9,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "pdi": {
+          "correct": 9,
+          "extracted": 9,
+          "gt": 9,
+          "page_ok": 9,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "tg": {
+          "correct": 2,
+          "extracted": 2,
+          "gt": 2,
+          "page_ok": 2,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "tm": {
+          "correct": 3,
+          "extracted": 3,
+          "gt": 3,
+          "page_ok": 3,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "values_overall": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "correct": 23,
+        "extracted": 23,
+        "gt": 23,
+        "page_ok": 23
+      },
+      "provenance_page_ok": 1.0,
+      "completeness": {
+        "properties_per_sample": 3.56,
+        "processing_steps_per_sample": 3.78,
+        "with_synthesis_method": 9,
+        "with_smiles": 9,
+        "tiers": {
+          "gold": 9
+        }
+      },
+      "unmatched_extracted": [],
+      "missed_gt": [],
+      "value_errors": [],
+      "pipeline_error": null,
+      "llm_usage": {
+        "model": "deepseek-flash",
+        "requests": 8,
+        "prompt_tokens": 134132,
+        "completion_tokens": 45709,
+        "reasoning_tokens": 29683,
+        "prompt_cache_hit_tokens": 91776
+      }
+    },
+    "P5_pccp_flory_huggins": {
+      "samples_extracted": 8,
+      "samples_scored": 8,
+      "samples_gt": 0,
+      "sample_id": {
+        "precision": 0.0,
+        "recall": 1.0,
+        "f1": 0.0,
+        "tp": 0
+      },
+      "fields": {},
+      "values_overall": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "correct": 0,
+        "extracted": 0,
+        "gt": 0,
+        "page_ok": 0
+      },
+      "provenance_page_ok": null,
+      "completeness": {
+        "properties_per_sample": 15.75,
+        "processing_steps_per_sample": 3.88,
+        "with_synthesis_method": 0,
+        "with_smiles": 8,
+        "tiers": {
+          "silver": 8
+        }
+      },
+      "unmatched_extracted": [
+        "PAM (DP 50)",
+        "PEO (DP 50)",
+        "PIB (DP 50)",
+        "PS (DP 50)",
+        "cis-PB (DP 50)",
+        "cis-PI (DP 50)",
+        "trans-PB (DP 50)",
+        "trans-PI (DP 50)"
+      ],
+      "missed_gt": [],
+      "value_errors": [],
+      "pipeline_error": null,
+      "llm_usage": {
+        "model": "deepseek-flash",
+        "requests": 10,
+        "prompt_tokens": 215844,
+        "completion_tokens": 81771,
+        "reasoning_tokens": 56804,
+        "prompt_cache_hit_tokens": 157696
+      }
+    },
+    "_total": {
+      "values": {
+        "precision": 1.0,
+        "recall": 0.973,
+        "f1": 0.986,
+        "correct": 109,
+        "extracted": 109,
+        "gt": 112
+      },
+      "sample_id": {
+        "precision": 0.864,
+        "recall": 1.0,
+        "f1": 0.927,
+        "tp": 51,
+        "extracted": 59,
+        "gt": 51
+      }
+    }
+  },
+  "full_context_r2": {
+    "P1_natcommun_lactone": {
+      "samples_extracted": 33,
+      "samples_scored": 14,
+      "samples_gt": 14,
+      "sample_id": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 14
+      },
+      "fields": {
+        "mn": {
+          "correct": 14,
+          "extracted": 14,
+          "gt": 14,
+          "page_ok": 14,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "pdi": {
+          "correct": 14,
+          "extracted": 14,
+          "gt": 14,
+          "page_ok": 14,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "tg": {
+          "correct": 2,
+          "extracted": 2,
+          "gt": 5,
+          "page_ok": 0,
+          "precision": 1.0,
+          "recall": 0.4,
+          "f1": 0.571
+        }
+      },
+      "values_overall": {
+        "precision": 1.0,
+        "recall": 0.909,
+        "f1": 0.952,
+        "correct": 30,
+        "extracted": 30,
+        "gt": 33,
+        "page_ok": 28
+      },
+      "provenance_page_ok": 0.933,
+      "completeness": {
+        "properties_per_sample": 2.24,
+        "processing_steps_per_sample": 0.97,
+        "with_synthesis_method": 33,
+        "with_smiles": 33,
+        "tiers": {
+          "gold": 21,
+          "silver": 12
+        }
+      },
+      "unmatched_extracted": [],
+      "missed_gt": [],
+      "value_errors": [],
+      "pipeline_error": null,
+      "llm_usage": {
+        "model": "deepseek-flash",
+        "requests": 12,
+        "prompt_tokens": 452916,
+        "completion_tokens": 115897,
+        "reasoning_tokens": 81275,
+        "prompt_cache_hit_tokens": 371712
+      }
+    },
+    "P2_polym_star_raft": {
+      "samples_extracted": 24,
+      "samples_scored": 14,
+      "samples_gt": 14,
+      "sample_id": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 14
+      },
+      "fields": {
+        "mn": {
+          "correct": 14,
+          "extracted": 14,
+          "gt": 14,
+          "page_ok": 14,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "pdi": {
+          "correct": 14,
+          "extracted": 14,
+          "gt": 14,
+          "page_ok": 14,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "values_overall": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "correct": 28,
+        "extracted": 28,
+        "gt": 28,
+        "page_ok": 28
+      },
+      "provenance_page_ok": 1.0,
+      "completeness": {
+        "properties_per_sample": 6.29,
+        "processing_steps_per_sample": 2.83,
+        "with_synthesis_method": 24,
+        "with_smiles": 24,
+        "tiers": {
+          "gold": 24
+        }
+      },
+      "unmatched_extracted": [],
+      "missed_gt": [],
+      "value_errors": [],
+      "pipeline_error": null,
+      "llm_usage": {
+        "model": "deepseek-flash",
+        "requests": 8,
+        "prompt_tokens": 187999,
+        "completion_tokens": 97252,
+        "reasoning_tokens": 62880,
+        "prompt_cache_hit_tokens": 137088
+      }
+    },
+    "P3_polym_tmc_rop": {
+      "samples_extracted": 14,
+      "samples_scored": 14,
+      "samples_gt": 14,
+      "sample_id": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 14
+      },
+      "fields": {
+        "mn": {
+          "correct": 14,
+          "extracted": 14,
+          "gt": 14,
+          "page_ok": 14,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "pdi": {
+          "correct": 14,
+          "extracted": 14,
+          "gt": 14,
+          "page_ok": 14,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "values_overall": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "correct": 28,
+        "extracted": 28,
+        "gt": 28,
+        "page_ok": 28
+      },
+      "provenance_page_ok": 1.0,
+      "completeness": {
+        "properties_per_sample": 3.93,
+        "processing_steps_per_sample": 2.14,
+        "with_synthesis_method": 14,
+        "with_smiles": 14,
+        "tiers": {
+          "gold": 14
+        }
+      },
+      "unmatched_extracted": [],
+      "missed_gt": [],
+      "value_errors": [],
+      "pipeline_error": null,
+      "llm_usage": {
+        "model": "deepseek-flash",
+        "requests": 9,
+        "prompt_tokens": 156921,
+        "completion_tokens": 67924,
+        "reasoning_tokens": 49713,
+        "prompt_cache_hit_tokens": 121728
+      }
+    },
+    "P4_polym_carbonate_scanned": {
+      "samples_extracted": 9,
+      "samples_scored": 9,
+      "samples_gt": 9,
+      "sample_id": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 9
+      },
+      "fields": {
+        "mn": {
+          "correct": 9,
+          "extracted": 9,
+          "gt": 9,
+          "page_ok": 9,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "pdi": {
+          "correct": 9,
+          "extracted": 9,
+          "gt": 9,
+          "page_ok": 9,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "tg": {
+          "correct": 2,
+          "extracted": 2,
+          "gt": 2,
+          "page_ok": 2,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "tm": {
+          "correct": 3,
+          "extracted": 3,
+          "gt": 3,
+          "page_ok": 3,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "values_overall": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "correct": 23,
+        "extracted": 23,
+        "gt": 23,
+        "page_ok": 23
+      },
+      "provenance_page_ok": 1.0,
+      "completeness": {
+        "properties_per_sample": 4.78,
+        "processing_steps_per_sample": 4.11,
+        "with_synthesis_method": 9,
+        "with_smiles": 9,
+        "tiers": {
+          "gold": 9
+        }
+      },
+      "unmatched_extracted": [],
+      "missed_gt": [],
+      "value_errors": [],
+      "pipeline_error": null,
+      "llm_usage": {
+        "model": "deepseek-flash",
+        "requests": 8,
+        "prompt_tokens": 134216,
+        "completion_tokens": 49624,
+        "reasoning_tokens": 32850,
+        "prompt_cache_hit_tokens": 107008
+      }
+    },
+    "P5_pccp_flory_huggins": {
+      "samples_extracted": 8,
+      "samples_scored": 8,
+      "samples_gt": 0,
+      "sample_id": {
+        "precision": 0.0,
+        "recall": 1.0,
+        "f1": 0.0,
+        "tp": 0
+      },
+      "fields": {},
+      "values_overall": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "correct": 0,
+        "extracted": 0,
+        "gt": 0,
+        "page_ok": 0
+      },
+      "provenance_page_ok": null,
+      "completeness": {
+        "properties_per_sample": 15.88,
+        "processing_steps_per_sample": 5.75,
+        "with_synthesis_method": 0,
+        "with_smiles": 8,
+        "tiers": {
+          "silver": 8
+        }
+      },
+      "unmatched_extracted": [
+        "PAM",
+        "PEO",
+        "PIB",
+        "PS",
+        "cis-PB",
+        "cis-PI",
+        "trans-PB",
+        "trans-PI"
+      ],
+      "missed_gt": [],
+      "value_errors": [],
+      "pipeline_error": null,
+      "llm_usage": {
+        "model": "deepseek-flash",
+        "requests": 9,
+        "prompt_tokens": 188564,
+        "completion_tokens": 90969,
+        "reasoning_tokens": 65630,
+        "prompt_cache_hit_tokens": 158592
+      }
+    },
+    "_total": {
+      "values": {
+        "precision": 1.0,
+        "recall": 0.973,
+        "f1": 0.986,
+        "correct": 109,
+        "extracted": 109,
+        "gt": 112
+      },
+      "sample_id": {
+        "precision": 0.864,
+        "recall": 1.0,
+        "f1": 0.927,
+        "tp": 51,
+        "extracted": 59,
+        "gt": 51
+      }
+    }
+  },
+  "full_context_r3": {
+    "P1_natcommun_lactone": {
+      "samples_extracted": 18,
+      "samples_scored": 10,
+      "samples_gt": 14,
+      "sample_id": {
+        "precision": 1.0,
+        "recall": 0.714,
+        "f1": 0.833,
+        "tp": 10
+      },
+      "fields": {
+        "mn": {
+          "correct": 10,
+          "extracted": 10,
+          "gt": 14,
+          "page_ok": 10,
+          "precision": 1.0,
+          "recall": 0.714,
+          "f1": 0.833
+        },
+        "pdi": {
+          "correct": 10,
+          "extracted": 10,
+          "gt": 14,
+          "page_ok": 10,
+          "precision": 1.0,
+          "recall": 0.714,
+          "f1": 0.833
+        },
+        "tg": {
+          "correct": 5,
+          "extracted": 5,
+          "gt": 5,
+          "page_ok": 3,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "values_overall": {
+        "precision": 1.0,
+        "recall": 0.758,
+        "f1": 0.862,
+        "correct": 25,
+        "extracted": 25,
+        "gt": 33,
+        "page_ok": 23
+      },
+      "provenance_page_ok": 0.92,
+      "completeness": {
+        "properties_per_sample": 2.67,
+        "processing_steps_per_sample": 1.94,
+        "with_synthesis_method": 18,
+        "with_smiles": 18,
+        "tiers": {
+          "gold": 15,
+          "silver": 3
+        }
+      },
+      "unmatched_extracted": [],
+      "missed_gt": [
+        "run 3",
+        "run 7",
+        "run 8",
+        "run 9"
+      ],
+      "value_errors": [],
+      "pipeline_error": null,
+      "llm_usage": {
+        "model": "deepseek-flash",
+        "requests": 8,
+        "prompt_tokens": 317879,
+        "completion_tokens": 62853,
+        "reasoning_tokens": 40643,
+        "prompt_cache_hit_tokens": 272384
+      }
+    },
+    "P2_polym_star_raft": {
+      "samples_extracted": 24,
+      "samples_scored": 14,
+      "samples_gt": 14,
+      "sample_id": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 14
+      },
+      "fields": {
+        "mn": {
+          "correct": 14,
+          "extracted": 14,
+          "gt": 14,
+          "page_ok": 14,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "pdi": {
+          "correct": 14,
+          "extracted": 14,
+          "gt": 14,
+          "page_ok": 14,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "values_overall": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "correct": 28,
+        "extracted": 28,
+        "gt": 28,
+        "page_ok": 28
+      },
+      "provenance_page_ok": 1.0,
+      "completeness": {
+        "properties_per_sample": 6.21,
+        "processing_steps_per_sample": 2.58,
+        "with_synthesis_method": 24,
+        "with_smiles": 24,
+        "tiers": {
+          "gold": 24
+        }
+      },
+      "unmatched_extracted": [],
+      "missed_gt": [],
+      "value_errors": [],
+      "pipeline_error": null,
+      "llm_usage": {
+        "model": "deepseek-flash",
+        "requests": 8,
+        "prompt_tokens": 190281,
+        "completion_tokens": 120904,
+        "reasoning_tokens": 83180,
+        "prompt_cache_hit_tokens": 158720
+      }
+    },
+    "P3_polym_tmc_rop": {
+      "samples_extracted": 16,
+      "samples_scored": 14,
+      "samples_gt": 14,
+      "sample_id": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 14
+      },
+      "fields": {
+        "mn": {
+          "correct": 14,
+          "extracted": 14,
+          "gt": 14,
+          "page_ok": 14,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "pdi": {
+          "correct": 14,
+          "extracted": 14,
+          "gt": 14,
+          "page_ok": 14,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "values_overall": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "correct": 28,
+        "extracted": 28,
+        "gt": 28,
+        "page_ok": 28
+      },
+      "provenance_page_ok": 1.0,
+      "completeness": {
+        "properties_per_sample": 2.88,
+        "processing_steps_per_sample": 1.88,
+        "with_synthesis_method": 16,
+        "with_smiles": 16,
+        "tiers": {
+          "gold": 14,
+          "silver": 2
+        }
+      },
+      "unmatched_extracted": [],
+      "missed_gt": [],
+      "value_errors": [],
+      "pipeline_error": null,
+      "llm_usage": {
+        "model": "deepseek-flash",
+        "requests": 9,
+        "prompt_tokens": 156556,
+        "completion_tokens": 69555,
+        "reasoning_tokens": 50083,
+        "prompt_cache_hit_tokens": 121728
+      }
+    },
+    "P4_polym_carbonate_scanned": {
+      "samples_extracted": 9,
+      "samples_scored": 9,
+      "samples_gt": 9,
+      "sample_id": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 9
+      },
+      "fields": {
+        "mn": {
+          "correct": 9,
+          "extracted": 9,
+          "gt": 9,
+          "page_ok": 9,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "pdi": {
+          "correct": 9,
+          "extracted": 9,
+          "gt": 9,
+          "page_ok": 9,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "tg": {
+          "correct": 2,
+          "extracted": 2,
+          "gt": 2,
+          "page_ok": 2,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "tm": {
+          "correct": 3,
+          "extracted": 3,
+          "gt": 3,
+          "page_ok": 3,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "values_overall": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "correct": 23,
+        "extracted": 23,
+        "gt": 23,
+        "page_ok": 23
+      },
+      "provenance_page_ok": 1.0,
+      "completeness": {
+        "properties_per_sample": 5.33,
+        "processing_steps_per_sample": 3.56,
+        "with_synthesis_method": 9,
+        "with_smiles": 9,
+        "tiers": {
+          "gold": 9
+        }
+      },
+      "unmatched_extracted": [],
+      "missed_gt": [],
+      "value_errors": [],
+      "pipeline_error": null,
+      "llm_usage": {
+        "model": "deepseek-flash",
+        "requests": 8,
+        "prompt_tokens": 132641,
+        "completion_tokens": 50881,
+        "reasoning_tokens": 33556,
+        "prompt_cache_hit_tokens": 107520
+      }
+    },
+    "P5_pccp_flory_huggins": {
+      "samples_extracted": 0,
+      "samples_scored": 0,
+      "samples_gt": 0,
+      "sample_id": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 0
+      },
+      "fields": {},
+      "values_overall": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "correct": 0,
+        "extracted": 0,
+        "gt": 0,
+        "page_ok": 0
+      },
+      "provenance_page_ok": null,
+      "completeness": {
+        "properties_per_sample": 0.0,
+        "processing_steps_per_sample": 0.0,
+        "with_synthesis_method": 0,
+        "with_smiles": 0,
+        "tiers": {}
+      },
+      "unmatched_extracted": [],
+      "missed_gt": [],
+      "value_errors": [],
+      "pipeline_error": null,
+      "llm_usage": null
+    },
+    "_total": {
+      "values": {
+        "precision": 1.0,
+        "recall": 0.929,
+        "f1": 0.963,
+        "correct": 104,
+        "extracted": 104,
+        "gt": 112
+      },
+      "sample_id": {
+        "precision": 1.0,
+        "recall": 0.922,
+        "f1": 0.959,
+        "tp": 47,
+        "extracted": 47,
+        "gt": 51
+      }
+    }
+  },
+  "full_context_r4": {
+    "P1_natcommun_lactone": {
+      "samples_extracted": 37,
+      "samples_scored": 17,
+      "samples_gt": 14,
+      "sample_id": {
+        "precision": 0.824,
+        "recall": 1.0,
+        "f1": 0.903,
+        "tp": 14
+      },
+      "fields": {
+        "mn": {
+          "correct": 14,
+          "extracted": 14,
+          "gt": 14,
+          "page_ok": 14,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "pdi": {
+          "correct": 14,
+          "extracted": 14,
+          "gt": 14,
+          "page_ok": 14,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "tg": {
+          "correct": 5,
+          "extracted": 5,
+          "gt": 5,
+          "page_ok": 3,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "values_overall": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "correct": 33,
+        "extracted": 33,
+        "gt": 33,
+        "page_ok": 31
+      },
+      "provenance_page_ok": 0.939,
+      "completeness": {
+        "properties_per_sample": 2.7,
+        "processing_steps_per_sample": 0.84,
+        "with_synthesis_method": 37,
+        "with_smiles": 37,
+        "tiers": {
+          "silver": 16,
+          "gold": 21
+        }
+      },
+      "unmatched_extracted": [
+        "Supplementary Table 3, run 5",
+        "Supplementary Table 3, run 6",
+        "Supplementary Table 3, run 7"
+      ],
+      "missed_gt": [],
+      "value_errors": [],
+      "pipeline_error": null,
+      "llm_usage": {
+        "model": "deepseek-flash",
+        "requests": 13,
+        "prompt_tokens": 512721,
+        "completion_tokens": 93009,
+        "reasoning_tokens": 54985,
+        "prompt_cache_hit_tokens": 442240
+      }
+    },
+    "P2_polym_star_raft": {
+      "samples_extracted": 26,
+      "samples_scored": 14,
+      "samples_gt": 14,
+      "sample_id": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 14
+      },
+      "fields": {
+        "mn": {
+          "correct": 14,
+          "extracted": 14,
+          "gt": 14,
+          "page_ok": 14,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "pdi": {
+          "correct": 14,
+          "extracted": 14,
+          "gt": 14,
+          "page_ok": 14,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "values_overall": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "correct": 28,
+        "extracted": 28,
+        "gt": 28,
+        "page_ok": 28
+      },
+      "provenance_page_ok": 1.0,
+      "completeness": {
+        "properties_per_sample": 6.12,
+        "processing_steps_per_sample": 2.08,
+        "with_synthesis_method": 26,
+        "with_smiles": 26,
+        "tiers": {
+          "gold": 24,
+          "silver": 2
+        }
+      },
+      "unmatched_extracted": [],
+      "missed_gt": [],
+      "value_errors": [],
+      "pipeline_error": null,
+      "llm_usage": {
+        "model": "deepseek-flash",
+        "requests": 9,
+        "prompt_tokens": 214266,
+        "completion_tokens": 106130,
+        "reasoning_tokens": 67005,
+        "prompt_cache_hit_tokens": 178304
+      }
+    },
+    "P3_polym_tmc_rop": {
+      "samples_extracted": 16,
+      "samples_scored": 14,
+      "samples_gt": 14,
+      "sample_id": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 14
+      },
+      "fields": {
+        "mn": {
+          "correct": 14,
+          "extracted": 14,
+          "gt": 14,
+          "page_ok": 14,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "pdi": {
+          "correct": 14,
+          "extracted": 14,
+          "gt": 14,
+          "page_ok": 14,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "values_overall": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "correct": 28,
+        "extracted": 28,
+        "gt": 28,
+        "page_ok": 28
+      },
+      "provenance_page_ok": 1.0,
+      "completeness": {
+        "properties_per_sample": 3.12,
+        "processing_steps_per_sample": 1.88,
+        "with_synthesis_method": 16,
+        "with_smiles": 16,
+        "tiers": {
+          "silver": 2,
+          "gold": 14
+        }
+      },
+      "unmatched_extracted": [],
+      "missed_gt": [],
+      "value_errors": [],
+      "pipeline_error": null,
+      "llm_usage": {
+        "model": "deepseek-flash",
+        "requests": 9,
+        "prompt_tokens": 157055,
+        "completion_tokens": 78021,
+        "reasoning_tokens": 59228,
+        "prompt_cache_hit_tokens": 121984
+      }
+    },
+    "P4_polym_carbonate_scanned": {
+      "samples_extracted": 9,
+      "samples_scored": 9,
+      "samples_gt": 9,
+      "sample_id": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 9
+      },
+      "fields": {
+        "mn": {
+          "correct": 9,
+          "extracted": 9,
+          "gt": 9,
+          "page_ok": 9,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "pdi": {
+          "correct": 9,
+          "extracted": 9,
+          "gt": 9,
+          "page_ok": 9,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "tg": {
+          "correct": 2,
+          "extracted": 2,
+          "gt": 2,
+          "page_ok": 2,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "tm": {
+          "correct": 3,
+          "extracted": 3,
+          "gt": 3,
+          "page_ok": 3,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "values_overall": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "correct": 23,
+        "extracted": 23,
+        "gt": 23,
+        "page_ok": 23
+      },
+      "provenance_page_ok": 1.0,
+      "completeness": {
+        "properties_per_sample": 5.0,
+        "processing_steps_per_sample": 3.67,
+        "with_synthesis_method": 9,
+        "with_smiles": 9,
+        "tiers": {
+          "gold": 9
+        }
+      },
+      "unmatched_extracted": [],
+      "missed_gt": [],
+      "value_errors": [],
+      "pipeline_error": null,
+      "llm_usage": {
+        "model": "deepseek-flash",
+        "requests": 8,
+        "prompt_tokens": 132631,
+        "completion_tokens": 46089,
+        "reasoning_tokens": 29272,
+        "prompt_cache_hit_tokens": 106624
+      }
+    },
+    "P5_pccp_flory_huggins": {
+      "samples_extracted": 8,
+      "samples_scored": 8,
+      "samples_gt": 0,
+      "sample_id": {
+        "precision": 0.0,
+        "recall": 1.0,
+        "f1": 0.0,
+        "tp": 0
+      },
+      "fields": {},
+      "values_overall": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "correct": 0,
+        "extracted": 0,
+        "gt": 0,
+        "page_ok": 0
+      },
+      "provenance_page_ok": null,
+      "completeness": {
+        "properties_per_sample": 14.88,
+        "processing_steps_per_sample": 5.12,
+        "with_synthesis_method": 0,
+        "with_smiles": 8,
+        "tiers": {
+          "silver": 8
+        }
+      },
+      "unmatched_extracted": [
+        "PAM (50 repeat units)",
+        "PEO (50 repeat units)",
+        "PIB (50 repeat units)",
+        "PS (50 repeat units)",
+        "cis-PB (50 repeat units)",
+        "cis-PI (50 repeat units)",
+        "trans-PB (50 repeat units)",
+        "trans-PI (50 repeat units)"
+      ],
+      "missed_gt": [],
+      "value_errors": [],
+      "pipeline_error": null,
+      "llm_usage": {
+        "model": "deepseek-flash",
+        "requests": 10,
+        "prompt_tokens": 211829,
+        "completion_tokens": 81618,
+        "reasoning_tokens": 57018,
+        "prompt_cache_hit_tokens": 178048
+      }
+    },
+    "_total": {
+      "values": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "correct": 112,
+        "extracted": 112,
+        "gt": 112
+      },
+      "sample_id": {
+        "precision": 0.823,
+        "recall": 1.0,
+        "f1": 0.903,
+        "tp": 51,
+        "extracted": 62,
+        "gt": 51
+      }
+    }
+  },
+  "fast_e2e": {
+    "P1_natcommun_lactone": {
+      "samples_extracted": 22,
+      "samples_scored": 14,
+      "samples_gt": 14,
+      "sample_id": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 14
+      },
+      "fields": {
+        "mn": {
+          "correct": 14,
+          "extracted": 14,
+          "gt": 14,
+          "page_ok": 14,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "pdi": {
+          "correct": 14,
+          "extracted": 14,
+          "gt": 14,
+          "page_ok": 14,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "tg": {
+          "correct": 2,
+          "extracted": 2,
+          "gt": 5,
+          "page_ok": 1,
+          "precision": 1.0,
+          "recall": 0.4,
+          "f1": 0.571
+        }
+      },
+      "values_overall": {
+        "precision": 1.0,
+        "recall": 0.909,
+        "f1": 0.952,
+        "correct": 30,
+        "extracted": 30,
+        "gt": 33,
+        "page_ok": 29
+      },
+      "provenance_page_ok": 0.967,
+      "completeness": {
+        "properties_per_sample": 3.27,
+        "processing_steps_per_sample": 1.82,
+        "with_synthesis_method": 22,
+        "with_smiles": 22,
+        "tiers": {
+          "gold": 21,
+          "silver": 1
+        }
+      },
+      "unmatched_extracted": [],
+      "missed_gt": [],
+      "value_errors": [],
+      "pipeline_error": null,
+      "llm_usage": {
+        "model": "deepseek-flash",
+        "requests": 9,
+        "prompt_tokens": 340898,
+        "completion_tokens": 79237,
+        "reasoning_tokens": 46575,
+        "prompt_cache_hit_tokens": 306176
+      }
+    },
+    "P2_polym_star_raft": {
+      "samples_extracted": 24,
+      "samples_scored": 14,
+      "samples_gt": 14,
+      "sample_id": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 14
+      },
+      "fields": {
+        "mn": {
+          "correct": 14,
+          "extracted": 14,
+          "gt": 14,
+          "page_ok": 14,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "pdi": {
+          "correct": 14,
+          "extracted": 14,
+          "gt": 14,
+          "page_ok": 14,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "values_overall": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "correct": 28,
+        "extracted": 28,
+        "gt": 28,
+        "page_ok": 28
+      },
+      "provenance_page_ok": 1.0,
+      "completeness": {
+        "properties_per_sample": 5.5,
+        "processing_steps_per_sample": 2.67,
+        "with_synthesis_method": 24,
+        "with_smiles": 24,
+        "tiers": {
+          "gold": 24
+        }
+      },
+      "unmatched_extracted": [],
+      "missed_gt": [],
+      "value_errors": [],
+      "pipeline_error": null,
+      "llm_usage": {
+        "model": "deepseek-flash",
+        "requests": 8,
+        "prompt_tokens": 183155,
+        "completion_tokens": 96277,
+        "reasoning_tokens": 63098,
+        "prompt_cache_hit_tokens": 158720
+      }
+    },
+    "P3_polym_tmc_rop": {
+      "samples_extracted": 16,
+      "samples_scored": 14,
+      "samples_gt": 14,
+      "sample_id": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 14
+      },
+      "fields": {
+        "mn": {
+          "correct": 14,
+          "extracted": 14,
+          "gt": 14,
+          "page_ok": 14,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "pdi": {
+          "correct": 14,
+          "extracted": 14,
+          "gt": 14,
+          "page_ok": 14,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "values_overall": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "correct": 28,
+        "extracted": 28,
+        "gt": 28,
+        "page_ok": 28
+      },
+      "provenance_page_ok": 1.0,
+      "completeness": {
+        "properties_per_sample": 2.94,
+        "processing_steps_per_sample": 2.12,
+        "with_synthesis_method": 16,
+        "with_smiles": 16,
+        "tiers": {
+          "gold": 16
+        }
+      },
+      "unmatched_extracted": [],
+      "missed_gt": [],
+      "value_errors": [],
+      "pipeline_error": null,
+      "llm_usage": {
+        "model": "deepseek-flash",
+        "requests": 9,
+        "prompt_tokens": 157710,
+        "completion_tokens": 53187,
+        "reasoning_tokens": 32275,
+        "prompt_cache_hit_tokens": 121216
+      }
+    },
+    "P4_polym_carbonate_scanned": {
+      "samples_extracted": 9,
+      "samples_scored": 9,
+      "samples_gt": 9,
+      "sample_id": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 9
+      },
+      "fields": {
+        "mn": {
+          "correct": 9,
+          "extracted": 9,
+          "gt": 9,
+          "page_ok": 9,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "pdi": {
+          "correct": 9,
+          "extracted": 9,
+          "gt": 9,
+          "page_ok": 9,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "tg": {
+          "correct": 2,
+          "extracted": 2,
+          "gt": 2,
+          "page_ok": 2,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "tm": {
+          "correct": 3,
+          "extracted": 3,
+          "gt": 3,
+          "page_ok": 3,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "values_overall": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "correct": 23,
+        "extracted": 23,
+        "gt": 23,
+        "page_ok": 23
+      },
+      "provenance_page_ok": 1.0,
+      "completeness": {
+        "properties_per_sample": 5.22,
+        "processing_steps_per_sample": 2.78,
+        "with_synthesis_method": 9,
+        "with_smiles": 9,
+        "tiers": {
+          "gold": 9
+        }
+      },
+      "unmatched_extracted": [],
+      "missed_gt": [],
+      "value_errors": [],
+      "pipeline_error": null,
+      "llm_usage": {
+        "model": "deepseek-flash",
+        "requests": 8,
+        "prompt_tokens": 131713,
+        "completion_tokens": 34356,
+        "reasoning_tokens": 15600,
+        "prompt_cache_hit_tokens": 106624
+      }
+    },
+    "P5_pccp_flory_huggins": {
+      "samples_extracted": 0,
+      "samples_scored": 0,
+      "samples_gt": 0,
+      "sample_id": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 0
+      },
+      "fields": {},
+      "values_overall": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "correct": 0,
+        "extracted": 0,
+        "gt": 0,
+        "page_ok": 0
+      },
+      "provenance_page_ok": null,
+      "completeness": {
+        "properties_per_sample": 0.0,
+        "processing_steps_per_sample": 0.0,
+        "with_synthesis_method": 0,
+        "with_smiles": 0,
+        "tiers": {}
+      },
+      "unmatched_extracted": [],
+      "missed_gt": [],
+      "value_errors": [],
+      "pipeline_error": null,
+      "llm_usage": null
+    },
+    "_total": {
+      "values": {
+        "precision": 1.0,
+        "recall": 0.973,
+        "f1": 0.986,
+        "correct": 109,
+        "extracted": 109,
+        "gt": 112
+      },
+      "sample_id": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 51,
+        "extracted": 51,
+        "gt": 51
+      }
+    }
+  },
+  "fast_e2e2": {
+    "P1_natcommun_lactone": {
+      "samples_extracted": 21,
+      "samples_scored": 14,
+      "samples_gt": 14,
+      "sample_id": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 14
+      },
+      "fields": {
+        "mn": {
+          "correct": 14,
+          "extracted": 14,
+          "gt": 14,
+          "page_ok": 14,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "pdi": {
+          "correct": 14,
+          "extracted": 14,
+          "gt": 14,
+          "page_ok": 14,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "tg": {
+          "correct": 5,
+          "extracted": 5,
+          "gt": 5,
+          "page_ok": 5,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "values_overall": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "correct": 33,
+        "extracted": 33,
+        "gt": 33,
+        "page_ok": 33
+      },
+      "provenance_page_ok": 1.0,
+      "completeness": {
+        "properties_per_sample": 2.9,
+        "processing_steps_per_sample": 1.95,
+        "with_synthesis_method": 21,
+        "with_smiles": 21,
+        "tiers": {
+          "gold": 21
+        }
+      },
+      "unmatched_extracted": [],
+      "missed_gt": [],
+      "value_errors": [],
+      "pipeline_error": null,
+      "llm_usage": {
+        "model": "deepseek-flash",
+        "requests": 9,
+        "prompt_tokens": 360770,
+        "completion_tokens": 74240,
+        "reasoning_tokens": 43494,
+        "prompt_cache_hit_tokens": 306176
+      }
+    },
+    "P2_polym_star_raft": {
+      "samples_extracted": 24,
+      "samples_scored": 14,
+      "samples_gt": 14,
+      "sample_id": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 14
+      },
+      "fields": {
+        "mn": {
+          "correct": 14,
+          "extracted": 14,
+          "gt": 14,
+          "page_ok": 14,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "pdi": {
+          "correct": 14,
+          "extracted": 14,
+          "gt": 14,
+          "page_ok": 14,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "values_overall": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "correct": 28,
+        "extracted": 28,
+        "gt": 28,
+        "page_ok": 28
+      },
+      "provenance_page_ok": 1.0,
+      "completeness": {
+        "properties_per_sample": 6.96,
+        "processing_steps_per_sample": 3.0,
+        "with_synthesis_method": 24,
+        "with_smiles": 24,
+        "tiers": {
+          "gold": 24
+        }
+      },
+      "unmatched_extracted": [],
+      "missed_gt": [],
+      "value_errors": [],
+      "pipeline_error": null,
+      "llm_usage": {
+        "model": "deepseek-flash",
+        "requests": 32,
+        "prompt_tokens": 588572,
+        "completion_tokens": 134108,
+        "reasoning_tokens": 71793,
+        "prompt_cache_hit_tokens": 459776
+      }
+    },
+    "P3_polym_tmc_rop": {
+      "samples_extracted": 16,
+      "samples_scored": 14,
+      "samples_gt": 14,
+      "sample_id": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 14
+      },
+      "fields": {
+        "mn": {
+          "correct": 14,
+          "extracted": 14,
+          "gt": 14,
+          "page_ok": 14,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "pdi": {
+          "correct": 14,
+          "extracted": 14,
+          "gt": 14,
+          "page_ok": 14,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "values_overall": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "correct": 28,
+        "extracted": 28,
+        "gt": 28,
+        "page_ok": 28
+      },
+      "provenance_page_ok": 1.0,
+      "completeness": {
+        "properties_per_sample": 2.81,
+        "processing_steps_per_sample": 1.94,
+        "with_synthesis_method": 16,
+        "with_smiles": 16,
+        "tiers": {
+          "silver": 2,
+          "gold": 14
+        }
+      },
+      "unmatched_extracted": [],
+      "missed_gt": [],
+      "value_errors": [],
+      "pipeline_error": null,
+      "llm_usage": {
+        "model": "deepseek-flash",
+        "requests": 9,
+        "prompt_tokens": 151788,
+        "completion_tokens": 61706,
+        "reasoning_tokens": 43785,
+        "prompt_cache_hit_tokens": 121728
+      }
+    },
+    "P4_polym_carbonate_scanned": {
+      "samples_extracted": 9,
+      "samples_scored": 9,
+      "samples_gt": 9,
+      "sample_id": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 9
+      },
+      "fields": {
+        "mn": {
+          "correct": 9,
+          "extracted": 9,
+          "gt": 9,
+          "page_ok": 9,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "pdi": {
+          "correct": 9,
+          "extracted": 9,
+          "gt": 9,
+          "page_ok": 9,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "tg": {
+          "correct": 2,
+          "extracted": 2,
+          "gt": 2,
+          "page_ok": 2,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "tm": {
+          "correct": 3,
+          "extracted": 3,
+          "gt": 3,
+          "page_ok": 3,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "values_overall": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "correct": 23,
+        "extracted": 23,
+        "gt": 23,
+        "page_ok": 23
+      },
+      "provenance_page_ok": 1.0,
+      "completeness": {
+        "properties_per_sample": 5.44,
+        "processing_steps_per_sample": 3.22,
+        "with_synthesis_method": 9,
+        "with_smiles": 9,
+        "tiers": {
+          "gold": 9
+        }
+      },
+      "unmatched_extracted": [],
+      "missed_gt": [],
+      "value_errors": [],
+      "pipeline_error": null,
+      "llm_usage": {
+        "model": "deepseek-flash",
+        "requests": 8,
+        "prompt_tokens": 133039,
+        "completion_tokens": 57286,
+        "reasoning_tokens": 38532,
+        "prompt_cache_hit_tokens": 107520
+      }
+    },
+    "P5_pccp_flory_huggins": {
+      "samples_extracted": 0,
+      "samples_scored": 0,
+      "samples_gt": 0,
+      "sample_id": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 0
+      },
+      "fields": {},
+      "values_overall": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "correct": 0,
+        "extracted": 0,
+        "gt": 0,
+        "page_ok": 0
+      },
+      "provenance_page_ok": null,
+      "completeness": {
+        "properties_per_sample": 0.0,
+        "processing_steps_per_sample": 0.0,
+        "with_synthesis_method": 0,
+        "with_smiles": 0,
+        "tiers": {}
+      },
+      "unmatched_extracted": [],
+      "missed_gt": [],
+      "value_errors": [],
+      "pipeline_error": null,
+      "llm_usage": null
+    },
+    "_total": {
+      "values": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "correct": 112,
+        "extracted": 112,
+        "gt": 112
+      },
+      "sample_id": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 51,
+        "extracted": 51,
+        "gt": 51
+      }
+    }
+  }
+}

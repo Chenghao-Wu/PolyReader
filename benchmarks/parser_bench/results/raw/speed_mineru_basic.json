@@ -1,0 +1,330 @@
+{
+  "config": "mineru_basic",
+  "backend": "mineru",
+  "options": {
+    "tier": "basic",
+    "executable": "/home/zhenghaowu//miniconda3/envs/mineru/bin/mineru-kit",
+    "extra_env": {
+      "MINERU_MODEL_SOURCE": "modelscope",
+      "MINERU_MODEL_ONNX_DEVICE": "gpu",
+      "MINERU_LLAMA_CPP_BACKEND": "vulkan",
+      "GGML_VK_VISIBLE_DEVICES": "2"
+    }
+  },
+  "cuda_visible_devices": "",
+  "watch_gpus": [
+    0,
+    1
+  ],
+  "environment": {
+    "hostname": "6133",
+    "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.35",
+    "python": "3.11.18",
+    "cpu_count": 80,
+    "packages": {
+      "marker-pdf": "1.10.2",
+      "surya-ocr": "0.17.1",
+      "torch": "2.7.1",
+      "pymupdf": "2.1",
+      "psutil": "7.2.2",
+      "nvidia-ml-py": "13.615.71"
+    },
+    "env": {
+      "CUDA_VISIBLE_DEVICES": "",
+      "MINERU_MODEL_ONNX_DEVICE": "",
+      "MINERU_LLAMA_CPP_BACKEND": "",
+      "GGML_VK_VISIBLE_DEVICES": ""
+    },
+    "ram_total_gb": 109.8,
+    "gpus": [
+      "0, NVIDIA GeForce RTX 3090, 535.288.01, 24576 MiB, 6488 MiB, 71 %",
+      "1, NVIDIA GeForce RTX 3090, 535.288.01, 24576 MiB, 2389 MiB, 49 %",
+      "2, NVIDIA GeForce RTX 3090, 535.288.01, 24576 MiB, 2388 MiB, 52 %",
+      "3, NVIDIA GeForce RTX 3090, 535.288.01, 24576 MiB, 6485 MiB, 72 %"
+    ]
+  },
+  "started_at": "2026-11-06 15:11:31",
+  "startup": {
+    "process_start_to_import_s": 0.453,
+    "import_s": 0.628,
+    "mean_gpu_util_pct": 60.8,
+    "peak_rss_mb": 70.9,
+    "peak_vram_mb": 0.0,
+    "peak_gpu_dev_delta_mb": 0.0
+  },
+  "backend_version": "4.1.4",
+  "init": {
+    "model_init_s": null,
+    "note": "MinerU runs as a subprocess per document; model loading is included in every document time."
+  },
+  "cold_start": {
+    "doc": "P1_natcommun_lactone/s41467-024-52090-2",
+    "pdf_pages": 12,
+    "first_doc_s": 165.567,
+    "model_init_s": null,
+    "import_s": 0.628,
+    "cold_total_s": 166.195,
+    "error": null,
+    "mean_gpu_util_pct": 64.8,
+    "peak_rss_mb": 3386.2,
+    "peak_vram_mb": 3410.7,
+    "peak_gpu_dev_delta_mb": 3419.8
+  },
+  "docs": [
+    {
+      "case": "P1_natcommun_lactone",
+      "doc": "s41467-024-52090-2",
+      "role": "main",
+      "scanned": false,
+      "pdf_pages": 12,
+      "seconds": 164.358,
+      "mean_gpu_util_pct": 62.8,
+      "peak_rss_mb": 3440.9,
+      "peak_vram_mb": 3410.7,
+      "peak_gpu_dev_delta_mb": 3419.8,
+      "parsed_pages": 12,
+      "images": 10,
+      "s_per_page": 13.697,
+      "pages_per_s": 0.073,
+      "parser_info": {
+        "backend": "mineru",
+        "version": "4.1.4",
+        "tier": "basic",
+        "pdf_pages": 12,
+        "exit_code": 0,
+        "elapsed_s": 164.28,
+        "structure_source": "structured_content.json"
+      }
+    },
+    {
+      "case": "P1_natcommun_lactone",
+      "doc": "s41467-024-52090-2_SI",
+      "role": "si",
+      "scanned": false,
+      "pdf_pages": 34,
+      "seconds": 85.505,
+      "mean_gpu_util_pct": 60.7,
+      "peak_rss_mb": 4049.2,
+      "peak_vram_mb": 3318.7,
+      "peak_gpu_dev_delta_mb": 3327.8,
+      "parsed_pages": 34,
+      "images": 40,
+      "s_per_page": 2.515,
+      "pages_per_s": 0.398,
+      "parser_info": {
+        "backend": "mineru",
+        "version": "4.1.4",
+        "tier": "basic",
+        "pdf_pages": 34,
+        "exit_code": 0,
+        "elapsed_s": 85.29,
+        "structure_source": "structured_content.json"
+      }
+    },
+    {
+      "case": "P2_polym_star_raft",
+      "doc": "polymers-15-02002",
+      "role": "main",
+      "scanned": false,
+      "pdf_pages": 14,
+      "seconds": 47.88,
+      "mean_gpu_util_pct": 59.9,
+      "peak_rss_mb": 3289.9,
+      "peak_vram_mb": 3400.7,
+      "peak_gpu_dev_delta_mb": 3409.8,
+      "parsed_pages": 14,
+      "images": 31,
+      "s_per_page": 3.42,
+      "pages_per_s": 0.292,
+      "parser_info": {
+        "backend": "mineru",
+        "version": "4.1.4",
+        "tier": "basic",
+        "pdf_pages": 14,
+        "exit_code": 0,
+        "elapsed_s": 47.74,
+        "structure_source": "structured_content.json"
+      }
+    },
+    {
+      "case": "P2_polym_star_raft",
+      "doc": "polymers-2246784-supplementary",
+      "role": "si",
+      "scanned": false,
+      "pdf_pages": 6,
+      "seconds": 28.79,
+      "mean_gpu_util_pct": 60.2,
+      "peak_rss_mb": 1920.3,
+      "peak_vram_mb": 2893.8,
+      "peak_gpu_dev_delta_mb": 2902.8,
+      "parsed_pages": 6,
+      "images": 15,
+      "s_per_page": 4.798,
+      "pages_per_s": 0.208,
+      "parser_info": {
+        "backend": "mineru",
+        "version": "4.1.4",
+        "tier": "basic",
+        "pdf_pages": 6,
+        "exit_code": 0,
+        "elapsed_s": 28.72,
+        "structure_source": "structured_content.json"
+      }
+    },
+    {
+      "case": "P3_polym_tmc_rop",
+      "doc": "polymers-15-00720",
+      "role": "main",
+      "scanned": false,
+      "pdf_pages": 11,
+      "seconds": 77.556,
+      "mean_gpu_util_pct": 61.9,
+      "peak_rss_mb": 2939.4,
+      "peak_vram_mb": 3319.3,
+      "peak_gpu_dev_delta_mb": 3328.3,
+      "parsed_pages": 11,
+      "images": 16,
+      "s_per_page": 7.051,
+      "pages_per_s": 0.142,
+      "parser_info": {
+        "backend": "mineru",
+        "version": "4.1.4",
+        "tier": "basic",
+        "pdf_pages": 11,
+        "exit_code": 0,
+        "elapsed_s": 77.5,
+        "structure_source": "structured_content.json"
+      }
+    },
+    {
+      "case": "P4_polym_carbonate_scanned",
+      "doc": "polymers-16-03364_scanned",
+      "role": "main",
+      "scanned": true,
+      "pdf_pages": 11,
+      "seconds": 69.838,
+      "mean_gpu_util_pct": 61.4,
+      "peak_rss_mb": 3026.3,
+      "peak_vram_mb": 3431.3,
+      "peak_gpu_dev_delta_mb": 3440.6,
+      "parsed_pages": 11,
+      "images": 7,
+      "s_per_page": 6.349,
+      "pages_per_s": 0.158,
+      "parser_info": {
+        "backend": "mineru",
+        "version": "4.1.4",
+        "tier": "basic",
+        "pdf_pages": 11,
+        "exit_code": 0,
+        "elapsed_s": 69.77,
+        "structure_source": "structured_content.json"
+      }
+    },
+    {
+      "case": "P5_pccp_flory_huggins",
+      "doc": "d4cp03690e",
+      "role": "main",
+      "scanned": false,
+      "pdf_pages": 12,
+      "seconds": 84.231,
+      "mean_gpu_util_pct": 63.3,
+      "peak_rss_mb": 3145.5,
+      "peak_vram_mb": 3408.7,
+      "peak_gpu_dev_delta_mb": 3417.8,
+      "parsed_pages": 12,
+      "images": 17,
+      "s_per_page": 7.019,
+      "pages_per_s": 0.142,
+      "parser_info": {
+        "backend": "mineru",
+        "version": "4.1.4",
+        "tier": "basic",
+        "pdf_pages": 12,
+        "exit_code": 0,
+        "elapsed_s": 84.15,
+        "structure_source": "structured_content.json"
+      }
+    },
+    {
+      "case": "P5_pccp_flory_huggins",
+      "doc": "d4cp03690e1_suppl",
+      "role": "si",
+      "scanned": false,
+      "pdf_pages": 6,
+      "seconds": 12.788,
+      "mean_gpu_util_pct": 64.0,
+      "peak_rss_mb": 1529.2,
+      "peak_vram_mb": 1318.0,
+      "peak_gpu_dev_delta_mb": 1326.9,
+      "parsed_pages": 6,
+      "images": 7,
+      "s_per_page": 2.131,
+      "pages_per_s": 0.469,
+      "parser_info": {
+        "backend": "mineru",
+        "version": "4.1.4",
+        "tier": "basic",
+        "pdf_pages": 6,
+        "exit_code": 0,
+        "elapsed_s": 12.75,
+        "structure_source": "structured_content.json"
+      }
+    }
+  ],
+  "totals": {
+    "docs_ok": 8,
+    "docs_failed": 0,
+    "pages": 106,
+    "seconds": 570.95,
+    "s_per_page": 5.386,
+    "pages_per_s": 0.186
+  },
+  "warm": {
+    "doc": "P1_natcommun_lactone/s41467-024-52090-2",
+    "seconds": 164.358,
+    "s_per_page": 13.697
+  },
+  "concurrency": {
+    "n": 2,
+    "mode": "worker processes",
+    "docs": [
+      "P1_natcommun_lactone/s41467-024-52090-2",
+      "P2_polym_star_raft/polymers-15-02002"
+    ],
+    "pages": 26,
+    "wall_s": 168.41,
+    "pages_per_s": 0.154,
+    "sequential_s": 212.24,
+    "speedup_vs_sequential": 1.26,
+    "workers": [
+      {
+        "doc": "P1_natcommun_lactone/s41467-024-52090-2",
+        "exit_code": 0,
+        "init_s": 0.0,
+        "parse_s": 167.726,
+        "pages": 12
+      },
+      {
+        "doc": "P2_polym_star_raft/polymers-15-02002",
+        "exit_code": 0,
+        "init_s": 0.0,
+        "parse_s": 47.757,
+        "pages": 14
+      }
+    ],
+    "errors": [],
+    "mean_gpu_util_pct": 62.8,
+    "peak_rss_mb": 5333.6,
+    "peak_vram_mb": 6081.9,
+    "peak_gpu_dev_delta_mb": 6099.8
+  },
+  "global": {
+    "mean_gpu_util_pct": 62.6,
+    "peak_rss_mb": 5333.6,
+    "peak_vram_mb": 6081.9,
+    "peak_gpu_dev_delta_mb": 6099.8
+  },
+  "vram_per_pid_measured": true,
+  "finished_at": "2026-11-06 15:26:38"
+}

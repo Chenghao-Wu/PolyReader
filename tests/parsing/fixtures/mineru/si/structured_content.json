@@ -1,0 +1,396 @@
+{
+  "pages": [
+    {
+      "page_idx": 0,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.011,
+            0.0,
+            0.658,
+            0.032
+          ],
+          "content": "Supplementary Information (SI) for Physical Chemistry Chemical Physics. This journal is © the Owner Societies 2024"
+        },
+        {
+          "type": "doc_title",
+          "bbox": [
+            0.322,
+            0.092,
+            0.677,
+            0.12
+          ],
+          "level": 1,
+          "content": "Supporting Information for"
+        },
+        {
+          "type": "doc_title",
+          "bbox": [
+            0.113,
+            0.13,
+            0.858,
+            0.173
+          ],
+          "level": 1,
+          "content": "Solubility of Selected Polymers in Cyclohexane: Comparison between Flory-Huggins Interaction Parameters Calculated Using Three Different Molecular Dynamics Simulation Approaches"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.23,
+            0.614,
+            0.248
+          ],
+          "content": "Gabriel P. Costa,<sup>1</sup> Stanislav R. Stoyanov,<sup>2,\\*</sup> Qi Liu,<sup>1</sup> Phillip Choi.<sup>1,3,\\*</sup>"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.285,
+            0.849,
+            0.302
+          ],
+          "content": "<sup>1</sup>Department of Chemical and Materials Engineering, University of Alberta, Edmonton, AB T6G 2G6, Canada;"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.306,
+            0.83,
+            0.323
+          ],
+          "content": "<sup>2</sup>Natural Resources Canada, CanmetENERGY Devon, 1 Oil Patch Drive, Devon, Alberta T9G 1A8 Canada;"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.328,
+            0.764,
+            0.346
+          ],
+          "content": "<sup>3</sup>Faculty of Engineering and Applied Science, University of Regina, Regina, SK S4S 2A0, Canada."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.374,
+            0.876,
+            0.392
+          ],
+          "content": "Corresponding authors: [phillip.choi@uregina.ca](mailto:phillip.choi@uregina.ca) (PC) and [stanislav.stoyanov@nrcan-rncan.gc.ca](mailto:stanislav.stoyanov@nrcan-rncan.gc.ca) (SRS)"
+        }
+      ]
+    },
+    {
+      "page_idx": 1,
+      "blocks": [
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.115,
+            0.092,
+            0.245,
+            0.107
+          ],
+          "level": 2,
+          "content": "Table of content"
+        },
+        {
+          "type": "index",
+          "bbox": [
+            0.114,
+            0.146,
+            0.885,
+            0.238
+          ],
+          "content": "- **1.** Degree of Polymerization ....3\n- **2.** Radial distribution function....4\n- **3.** Initial and final spatial disposition of PEO ....4\n- **4.** Mean square displacement....5"
+        }
+      ]
+    },
+    {
+      "page_idx": 2,
+      "blocks": [
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.142,
+            0.091,
+            0.375,
+            0.109
+          ],
+          "level": 2,
+          "content": "1. Degree of Polymerization"
+        },
+        {
+          "type": "chart",
+          "bbox": [
+            0.229,
+            0.136,
+            0.771,
+            0.446
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_2_chart_1.jpg"
+        },
+        {
+          "type": "chart",
+          "bbox": [
+            0.228,
+            0.453,
+            0.771,
+            0.761
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.185,
+                0.77,
+                0.811,
+                0.789
+              ],
+              "content": "Figure S1. Chain length dependence of the Hildebrand solubility parameters at 298 K."
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_2_chart_2.jpg"
+        }
+      ]
+    },
+    {
+      "page_idx": 3,
+      "blocks": [
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.142,
+            0.091,
+            0.395,
+            0.108
+          ],
+          "level": 2,
+          "content": "2. Radial distribution function"
+        },
+        {
+          "type": "chart",
+          "bbox": [
+            0.218,
+            0.143,
+            0.734,
+            0.464
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.189,
+                0.475,
+                0.808,
+                0.493
+              ],
+              "content": "Figure S2. Radial distribution function o the functional groups over a radius of 1 nm."
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_3_chart_1.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.142,
+            0.526,
+            0.504,
+            0.545
+          ],
+          "level": 2,
+          "content": "3. Initial and final spatial disposition of PEO"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.136,
+            0.572,
+            0.498,
+            0.814
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_3_image_4.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.501,
+            0.573,
+            0.862,
+            0.814
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.129,
+                0.823,
+                0.868,
+                0.865
+              ],
+              "content": "Figure S3. Snapshot of the initial (left) and final (right) conformation of PEO in cyclohexane solution after 50 ns of simulation. The snapshots were obtained using the VMD software.<sup>1</sup>"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_3_image_5.jpg"
+        }
+      ]
+    },
+    {
+      "page_idx": 4,
+      "blocks": [
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.142,
+            0.091,
+            0.386,
+            0.109
+          ],
+          "level": 2,
+          "content": "4. Mean square displacement"
+        },
+        {
+          "type": "chart",
+          "bbox": [
+            0.218,
+            0.166,
+            0.733,
+            0.491
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_4_chart_1.jpg"
+        },
+        {
+          "type": "chart",
+          "bbox": [
+            0.203,
+            0.525,
+            0.732,
+            0.85
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.191,
+                0.859,
+                0.805,
+                0.878
+              ],
+              "content": "Figure S4. Mean square displacement of the polymer (top) and the solvent (bottom)."
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_4_chart_2.jpg"
+        }
+      ]
+    },
+    {
+      "page_idx": 5,
+      "blocks": [
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.114,
+            0.091,
+            0.205,
+            0.107
+          ],
+          "level": 2,
+          "content": "References"
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.115,
+            0.115,
+            0.876,
+            0.148
+          ],
+          "content": "1 W. Humphrey, A. Dalke and K. Schulten, VMD: Visual molecular dynamics, J Mol Graph, 1996, 14, 33–38."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.4"
+    },
+    "document": {
+      "authors": [
+        "Gabriel Pereira da Costa"
+      ],
+      "languages": [
+        "en-CA"
+      ],
+      "created_at": "2024-11-10T03:28:00Z",
+      "modified_at": "2024-11-18T08:02:26",
+      "creator_application": "Aspose Ltd.",
+      "producer_application": "Aspose.Pdf for .NET 9.3.0",
+      "page_count": 6,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "standard",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 0,
+          "width_pt": 612.0,
+          "height_pt": 792.0
+        },
+        {
+          "page_idx": 1,
+          "width_pt": 612.0,
+          "height_pt": 792.0
+        },
+        {
+          "page_idx": 2,
+          "width_pt": 612.0,
+          "height_pt": 792.0
+        },
+        {
+          "page_idx": 3,
+          "width_pt": 612.0,
+          "height_pt": 792.0
+        },
+        {
+          "page_idx": 4,
+          "width_pt": 612.0,
+          "height_pt": 792.0
+        },
+        {
+          "page_idx": 5,
+          "width_pt": 612.0,
+          "height_pt": 792.0
+        }
+      ]
+    }
+  },
+  "is_full_document": true
+}

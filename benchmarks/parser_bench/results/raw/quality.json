@@ -1,0 +1,6894 @@
+{
+  "configs": {
+    "marker": {
+      "docs": [
+        {
+          "case": "P1_natcommun_lactone",
+          "doc": "s41467-024-52090-2",
+          "role": "main",
+          "scanned": false,
+          "pdf_pages": 12,
+          "parsed_pages": 12,
+          "page_count_match": true,
+          "empty_pages": 0,
+          "ref_tokens": 11143,
+          "parsed_tokens": 10872,
+          "token_recall": 0.9593,
+          "token_precision": 0.9832,
+          "page_mapping_accuracy": 1.0,
+          "order_score": 0.9449,
+          "headings": 20,
+          "tables": 1,
+          "table_cells": 160,
+          "equations_display": 1,
+          "equations_inline": 185,
+          "image_refs": 6,
+          "image_files": 6,
+          "broken_image_refs": 0,
+          "symbol_retention": 0.9363,
+          "symbols_ref": {
+            "Đ (dispersity)": 13,
+            "Mn": 29,
+            "Mw": 1,
+            "Tg": 4,
+            "Tm": 0,
+            "°C": 72,
+            "g/mol": 3,
+            "mol%": 2,
+            "-co-": 0,
+            "-b-": 0,
+            "×10": 0,
+            "±": 0,
+            "Sn(Oct)2": 4,
+            "α": 8,
+            "β": 3,
+            "δ": 20,
+            "ε": 2,
+            "χ": 0,
+            "μ": 8,
+            "λ": 4,
+            "θ": 0,
+            "η": 0,
+            "σ": 0,
+            "Δ": 31
+          },
+          "symbols_parsed": {
+            "Đ (dispersity)": 5,
+            "Mn": 27,
+            "Mw": 1,
+            "Tg": 7,
+            "Tm": 0,
+            "°C": 72,
+            "g/mol": 3,
+            "mol%": 2,
+            "-co-": 0,
+            "-b-": 0,
+            "×10": 0,
+            "±": 0,
+            "Sn(Oct)2": 4,
+            "α": 8,
+            "β": 3,
+            "δ": 17,
+            "ε": 2,
+            "χ": 0,
+            "μ": 8,
+            "λ": 4,
+            "θ": 3,
+            "η": 0,
+            "σ": 0,
+            "Δ": 31
+          },
+          "per_page": [
+            {
+              "page": 1,
+              "recall": 0.9762,
+              "precision": 0.9762,
+              "best_ref_page": 1,
+              "order_score": 0.9776
+            },
+            {
+              "page": 2,
+              "recall": 0.9662,
+              "precision": 0.9959,
+              "best_ref_page": 2,
+              "order_score": 1.0
+            },
+            {
+              "page": 3,
+              "recall": 0.9708,
+              "precision": 0.9708,
+              "best_ref_page": 3,
+              "order_score": 0.9736
+            },
+            {
+              "page": 4,
+              "recall": 0.8978,
+              "precision": 0.9543,
+              "best_ref_page": 4,
+              "order_score": 0.6601
+            },
+            {
+              "page": 5,
+              "recall": 0.9789,
+              "precision": 0.9807,
+              "best_ref_page": 5,
+              "order_score": 1.0
+            },
+            {
+              "page": 6,
+              "recall": 0.8739,
+              "precision": 1.0,
+              "best_ref_page": 6,
+              "order_score": 0.927
+            },
+            {
+              "page": 7,
+              "recall": 0.9568,
+              "precision": 0.9546,
+              "best_ref_page": 7,
+              "order_score": 0.9335
+            },
+            {
+              "page": 8,
+              "recall": 0.938,
+              "precision": 0.9956,
+              "best_ref_page": 8,
+              "order_score": 0.87
+            },
+            {
+              "page": 9,
+              "recall": 0.9699,
+              "precision": 0.9764,
+              "best_ref_page": 9,
+              "order_score": 1.0
+            },
+            {
+              "page": 10,
+              "recall": 0.9594,
+              "precision": 0.9853,
+              "best_ref_page": 10,
+              "order_score": 0.9975
+            },
+            {
+              "page": 11,
+              "recall": 0.9792,
+              "precision": 0.9869,
+              "best_ref_page": 11,
+              "order_score": 1.0
+            },
+            {
+              "page": 12,
+              "recall": 0.9327,
+              "precision": 0.9935,
+              "best_ref_page": 12,
+              "order_score": 1.0
+            }
+          ]
+        },
+        {
+          "case": "P1_natcommun_lactone",
+          "doc": "s41467-024-52090-2_SI",
+          "role": "si",
+          "scanned": false,
+          "pdf_pages": 34,
+          "parsed_pages": 34,
+          "page_count_match": true,
+          "empty_pages": 0,
+          "ref_tokens": 4438,
+          "parsed_tokens": 4437,
+          "token_recall": 0.9642,
+          "token_precision": 0.9644,
+          "page_mapping_accuracy": 1.0,
+          "order_score": 0.9946,
+          "headings": 9,
+          "tables": 4,
+          "table_cells": 334,
+          "equations_display": 7,
+          "equations_inline": 0,
+          "image_refs": 37,
+          "image_files": 37,
+          "broken_image_refs": 0,
+          "symbol_retention": 1.0,
+          "symbols_ref": {
+            "Đ (dispersity)": 7,
+            "Mn": 7,
+            "Mw": 0,
+            "Tg": 0,
+            "Tm": 0,
+            "°C": 14,
+            "g/mol": 0,
+            "mol%": 0,
+            "-co-": 0,
+            "-b-": 0,
+            "×10": 0,
+            "±": 0,
+            "Sn(Oct)2": 0,
+            "α": 1,
+            "β": 0,
+            "δ": 1,
+            "ε": 0,
+            "χ": 0,
+            "μ": 1,
+            "λ": 0,
+            "θ": 0,
+            "η": 0,
+            "σ": 0,
+            "Δ": 24
+          },
+          "symbols_parsed": {
+            "Đ (dispersity)": 7,
+            "Mn": 7,
+            "Mw": 0,
+            "Tg": 0,
+            "Tm": 0,
+            "°C": 14,
+            "g/mol": 0,
+            "mol%": 0,
+            "-co-": 0,
+            "-b-": 0,
+            "×10": 0,
+            "±": 0,
+            "Sn(Oct)2": 0,
+            "α": 1,
+            "β": 0,
+            "δ": 1,
+            "ε": 0,
+            "χ": 0,
+            "μ": 1,
+            "λ": 0,
+            "θ": 0,
+            "η": 0,
+            "σ": 0,
+            "Δ": 24
+          },
+          "per_page": [
+            {
+              "page": 1,
+              "recall": 0.9919,
+              "precision": 1.0,
+              "best_ref_page": 1,
+              "order_score": 0.918
+            },
+            {
+              "page": 2,
+              "recall": 0.9345,
+              "precision": 0.93,
+              "best_ref_page": 2,
+              "order_score": 0.9403
+            },
+            {
+              "page": 3,
+              "recall": 0.9278,
+              "precision": 0.9533,
+              "best_ref_page": 3,
+              "order_score": 0.9798
+            },
+            {
+              "page": 4,
+              "recall": 0.8462,
+              "precision": 0.8938,
+              "best_ref_page": 4,
+              "order_score": 1.0
+            },
+            {
+              "page": 5,
+              "recall": 0.9701,
+              "precision": 0.9701,
+              "best_ref_page": 5,
+              "order_score": 1.0
+            },
+            {
+              "page": 6,
+              "recall": 0.9545,
+              "precision": 0.9545,
+              "best_ref_page": 6,
+              "order_score": 1.0
+            },
+            {
+              "page": 7,
+              "recall": 0.9455,
+              "precision": 0.9286,
+              "best_ref_page": 7,
+              "order_score": 1.0
+            },
+            {
+              "page": 8,
+              "recall": 0.9362,
+              "precision": 0.9167,
+              "best_ref_page": 8,
+              "order_score": 1.0
+            },
+            {
+              "page": 9,
+              "recall": 0.9167,
+              "precision": 0.9167,
+              "best_ref_page": null,
+              "order_score": 1.0
+            },
+            {
+              "page": 10,
+              "recall": 0.9556,
+              "precision": 0.9556,
+              "best_ref_page": 10,
+              "order_score": 1.0
+            },
+            {
+              "page": 11,
+              "recall": 0.9038,
+              "precision": 0.8545,
+              "best_ref_page": 11,
+              "order_score": 1.0
+            },
+            {
+              "page": 12,
+              "recall": 0.9787,
+              "precision": 1.0,
+              "best_ref_page": 12,
+              "order_score": 1.0
+            },
+            {
+              "page": 13,
+              "recall": 0.9872,
+              "precision": 1.0,
+              "best_ref_page": 13,
+              "order_score": 1.0
+            },
+            {
+              "page": 14,
+              "recall": 0.9899,
+              "precision": 1.0,
+              "best_ref_page": 14,
+              "order_score": 1.0
+            },
+            {
+              "page": 15,
+              "recall": 0.9459,
+              "precision": 0.9459,
+              "best_ref_page": 15,
+              "order_score": 1.0
+            },
+            {
+              "page": 16,
+              "recall": 0.9487,
+              "precision": 0.9487,
+              "best_ref_page": 16,
+              "order_score": 1.0
+            },
+            {
+              "page": 17,
+              "recall": 0.9792,
+              "precision": 1.0,
+              "best_ref_page": 17,
+              "order_score": 1.0
+            },
+            {
+              "page": 18,
+              "recall": 0.9787,
+              "precision": 1.0,
+              "best_ref_page": 18,
+              "order_score": 1.0
+            },
+            {
+              "page": 19,
+              "recall": 0.973,
+              "precision": 1.0,
+              "best_ref_page": 19,
+              "order_score": 1.0
+            },
+            {
+              "page": 20,
+              "recall": 0.9459,
+              "precision": 0.9459,
+              "best_ref_page": 20,
+              "order_score": 1.0
+            },
+            {
+              "page": 21,
+              "recall": 0.975,
+              "precision": 1.0,
+              "best_ref_page": 21,
+              "order_score": 1.0
+            },
+            {
+              "page": 22,
+              "recall": 0.9062,
+              "precision": 0.8788,
+              "best_ref_page": 22,
+              "order_score": 1.0
+            },
+            {
+              "page": 23,
+              "recall": 0.8333,
+              "precision": 0.8333,
+              "best_ref_page": null,
+              "order_score": null
+            },
+            {
+              "page": 24,
+              "recall": 0.9688,
+              "precision": 0.9654,
+              "best_ref_page": 24,
+              "order_score": 1.0
+            },
+            {
+              "page": 25,
+              "recall": 0.9911,
+              "precision": 0.9882,
+              "best_ref_page": 25,
+              "order_score": 0.985
+            },
+            {
+              "page": 26,
+              "recall": 0.8684,
+              "precision": 0.7857,
+              "best_ref_page": 26,
+              "order_score": 1.0
+            },
+            {
+              "page": 27,
+              "recall": 0.9796,
+              "precision": 0.9796,
+              "best_ref_page": 27,
+              "order_score": 1.0
+            },
+            {
+              "page": 28,
+              "recall": 0.9922,
+              "precision": 0.9922,
+              "best_ref_page": 28,
+              "order_score": 1.0
+            },
+            {
+              "page": 29,
+              "recall": 0.9962,
+              "precision": 1.0,
+              "best_ref_page": 29,
+              "order_score": 1.0
+            },
+            {
+              "page": 30,
+              "recall": 0.9324,
+              "precision": 0.8734,
+              "best_ref_page": 30,
+              "order_score": 1.0
+            },
+            {
+              "page": 31,
+              "recall": 0.9912,
+              "precision": 0.9882,
+              "best_ref_page": 31,
+              "order_score": 1.0
+            },
+            {
+              "page": 32,
+              "recall": 0.985,
+              "precision": 0.985,
+              "best_ref_page": 32,
+              "order_score": 1.0
+            },
+            {
+              "page": 33,
+              "recall": 0.9974,
+              "precision": 1.0,
+              "best_ref_page": 33,
+              "order_score": 1.0
+            },
+            {
+              "page": 34,
+              "recall": 0.9935,
+              "precision": 1.0,
+              "best_ref_page": 34,
+              "order_score": 1.0
+            }
+          ]
+        },
+        {
+          "case": "P2_polym_star_raft",
+          "doc": "polymers-15-02002",
+          "role": "main",
+          "scanned": false,
+          "pdf_pages": 14,
+          "parsed_pages": 14,
+          "page_count_match": true,
+          "empty_pages": 0,
+          "ref_tokens": 7193,
+          "parsed_tokens": 7628,
+          "token_recall": 0.996,
+          "token_precision": 0.9392,
+          "page_mapping_accuracy": 1.0,
+          "order_score": 0.9882,
+          "headings": 25,
+          "tables": 1,
+          "table_cells": 135,
+          "equations_display": 76,
+          "equations_inline": 1,
+          "image_refs": 12,
+          "image_files": 12,
+          "broken_image_refs": 0,
+          "symbol_retention": 0.8824,
+          "symbols_ref": {
+            "Đ (dispersity)": 3,
+            "Mn": 4,
+            "Mw": 1,
+            "Tg": 2,
+            "Tm": 0,
+            "°C": 14,
+            "g/mol": 0,
+            "mol%": 0,
+            "-co-": 0,
+            "-b-": 57,
+            "×10": 0,
+            "±": 0,
+            "Sn(Oct)2": 0,
+            "α": 1,
+            "β": 0,
+            "δ": 1,
+            "ε": 0,
+            "χ": 0,
+            "μ": 2,
+            "λ": 0,
+            "θ": 0,
+            "η": 0,
+            "σ": 0,
+            "Δ": 0
+          },
+          "symbols_parsed": {
+            "Đ (dispersity)": 1,
+            "Mn": 4,
+            "Mw": 1,
+            "Tg": 2,
+            "Tm": 0,
+            "°C": 14,
+            "g/mol": 0,
+            "mol%": 0,
+            "-co-": 0,
+            "-b-": 49,
+            "×10": 0,
+            "±": 0,
+            "Sn(Oct)2": 0,
+            "α": 1,
+            "β": 0,
+            "δ": 1,
+            "ε": 0,
+            "χ": 0,
+            "μ": 2,
+            "λ": 0,
+            "θ": 1,
+            "η": 0,
+            "σ": 0,
+            "Δ": 0
+          },
+          "per_page": [
+            {
+              "page": 1,
+              "recall": 0.9721,
+              "precision": 1.0,
+              "best_ref_page": 1,
+              "order_score": 0.8516
+            },
+            {
+              "page": 2,
+              "recall": 0.9969,
+              "precision": 0.9938,
+              "best_ref_page": 2,
+              "order_score": 1.0
+            },
+            {
+              "page": 3,
+              "recall": 0.9985,
+              "precision": 0.997,
+              "best_ref_page": 3,
+              "order_score": 1.0
+            },
+            {
+              "page": 4,
+              "recall": 0.9917,
+              "precision": 0.5786,
+              "best_ref_page": 4,
+              "order_score": 1.0
+            },
+            {
+              "page": 5,
+              "recall": 1.0,
+              "precision": 1.0,
+              "best_ref_page": 5,
+              "order_score": 1.0
+            },
+            {
+              "page": 6,
+              "recall": 1.0,
+              "precision": 1.0,
+              "best_ref_page": 6,
+              "order_score": 1.0
+            },
+            {
+              "page": 7,
+              "recall": 0.9867,
+              "precision": 0.977,
+              "best_ref_page": 7,
+              "order_score": 0.9832
+            },
+            {
+              "page": 8,
+              "recall": 1.0,
+              "precision": 1.0,
+              "best_ref_page": 8,
+              "order_score": 1.0
+            },
+            {
+              "page": 9,
+              "recall": 1.0,
+              "precision": 1.0,
+              "best_ref_page": 9,
+              "order_score": 1.0
+            },
+            {
+              "page": 10,
+              "recall": 1.0,
+              "precision": 0.6957,
+              "best_ref_page": 10,
+              "order_score": 1.0
+            },
+            {
+              "page": 11,
+              "recall": 1.0,
+              "precision": 1.0,
+              "best_ref_page": 11,
+              "order_score": 1.0
+            },
+            {
+              "page": 12,
+              "recall": 0.9985,
+              "precision": 0.9969,
+              "best_ref_page": 12,
+              "order_score": 1.0
+            },
+            {
+              "page": 13,
+              "recall": 1.0,
+              "precision": 0.9977,
+              "best_ref_page": 13,
+              "order_score": 1.0
+            },
+            {
+              "page": 14,
+              "recall": 0.9989,
+              "precision": 0.9978,
+              "best_ref_page": 14,
+              "order_score": 1.0
+            }
+          ]
+        },
+        {
+          "case": "P2_polym_star_raft",
+          "doc": "polymers-2246784-supplementary",
+          "role": "si",
+          "scanned": false,
+          "pdf_pages": 6,
+          "parsed_pages": 6,
+          "page_count_match": true,
+          "empty_pages": 0,
+          "ref_tokens": 780,
+          "parsed_tokens": 833,
+          "token_recall": 0.9641,
+          "token_precision": 0.9028,
+          "page_mapping_accuracy": 1.0,
+          "order_score": 0.9329,
+          "headings": 3,
+          "tables": 4,
+          "table_cells": 549,
+          "equations_display": 0,
+          "equations_inline": 5,
+          "image_refs": 6,
+          "image_files": 6,
+          "broken_image_refs": 0,
+          "symbol_retention": 0.7586,
+          "symbols_ref": {
+            "Đ (dispersity)": 1,
+            "Mn": 2,
+            "Mw": 0,
+            "Tg": 0,
+            "Tm": 0,
+            "°C": 18,
+            "g/mol": 2,
+            "mol%": 0,
+            "-co-": 0,
+            "-b-": 6,
+            "×10": 0,
+            "±": 0,
+            "Sn(Oct)2": 0,
+            "α": 0,
+            "β": 0,
+            "δ": 0,
+            "ε": 0,
+            "χ": 0,
+            "μ": 0,
+            "λ": 0,
+            "θ": 0,
+            "η": 0,
+            "σ": 0,
+            "Δ": 0
+          },
+          "symbols_parsed": {
+            "Đ (dispersity)": 0,
+            "Mn": 2,
+            "Mw": 0,
+            "Tg": 0,
+            "Tm": 0,
+            "°C": 18,
+            "g/mol": 2,
+            "mol%": 0,
+            "-co-": 0,
+            "-b-": 0,
+            "×10": 0,
+            "±": 0,
+            "Sn(Oct)2": 0,
+            "α": 0,
+            "β": 0,
+            "δ": 0,
+            "ε": 0,
+            "χ": 0,
+            "μ": 0,
+            "λ": 0,
+            "θ": 0,
+            "η": 0,
+            "σ": 0,
+            "Δ": 0
+          },
+          "per_page": [
+            {
+              "page": 1,
+              "recall": 0.9969,
+              "precision": 0.9939,
+              "best_ref_page": 1,
+              "order_score": 1.0
+            },
+            {
+              "page": 2,
+              "recall": 0.9726,
+              "precision": 0.9103,
+              "best_ref_page": 2,
+              "order_score": 0.8592
+            },
+            {
+              "page": 3,
+              "recall": 0.925,
+              "precision": 0.745,
+              "best_ref_page": 3,
+              "order_score": 0.7838
+            },
+            {
+              "page": 4,
+              "recall": 0.9059,
+              "precision": 0.8191,
+              "best_ref_page": 4,
+              "order_score": 0.9545
+            },
+            {
+              "page": 5,
+              "recall": 1.0,
+              "precision": 1.0,
+              "best_ref_page": 5,
+              "order_score": 1.0
+            },
+            {
+              "page": 6,
+              "recall": 1.0,
+              "precision": 1.0,
+              "best_ref_page": 6,
+              "order_score": 1.0
+            }
+          ]
+        },
+        {
+          "case": "P3_polym_tmc_rop",
+          "doc": "polymers-15-00720",
+          "role": "main",
+          "scanned": false,
+          "pdf_pages": 11,
+          "parsed_pages": 11,
+          "page_count_match": true,
+          "empty_pages": 0,
+          "ref_tokens": 5807,
+          "parsed_tokens": 5821,
+          "token_recall": 0.9938,
+          "token_precision": 0.9914,
+          "page_mapping_accuracy": 1.0,
+          "order_score": 0.9876,
+          "headings": 14,
+          "tables": 2,
+          "table_cells": 139,
+          "equations_display": 59,
+          "equations_inline": 8,
+          "image_refs": 11,
+          "image_files": 11,
+          "broken_image_refs": 0,
+          "symbol_retention": 0.9573,
+          "symbols_ref": {
+            "Đ (dispersity)": 15,
+            "Mn": 22,
+            "Mw": 0,
+            "Tg": 4,
+            "Tm": 0,
+            "°C": 17,
+            "g/mol": 19,
+            "mol%": 0,
+            "-co-": 0,
+            "-b-": 13,
+            "×10": 7,
+            "±": 0,
+            "Sn(Oct)2": 0,
+            "α": 2,
+            "β": 1,
+            "δ": 3,
+            "ε": 7,
+            "χ": 0,
+            "μ": 7,
+            "λ": 0,
+            "θ": 0,
+            "η": 0,
+            "σ": 0,
+            "Δ": 0
+          },
+          "symbols_parsed": {
+            "Đ (dispersity)": 10,
+            "Mn": 22,
+            "Mw": 0,
+            "Tg": 4,
+            "Tm": 0,
+            "°C": 17,
+            "g/mol": 19,
+            "mol%": 0,
+            "-co-": 0,
+            "-b-": 13,
+            "×10": 7,
+            "±": 0,
+            "Sn(Oct)2": 0,
+            "α": 2,
+            "β": 1,
+            "δ": 3,
+            "ε": 7,
+            "χ": 0,
+            "μ": 7,
+            "λ": 0,
+            "θ": 0,
+            "η": 0,
+            "σ": 0,
+            "Δ": 0
+          },
+          "per_page": [
+            {
+              "page": 1,
+              "recall": 0.9728,
+              "precision": 1.0,
+              "best_ref_page": 1,
+              "order_score": 0.8637
+            },
+            {
+              "page": 2,
+              "recall": 0.9939,
+              "precision": 0.991,
+              "best_ref_page": 2,
+              "order_score": 1.0
+            },
+            {
+              "page": 3,
+              "recall": 0.9922,
+              "precision": 0.9871,
+              "best_ref_page": 3,
+              "order_score": 1.0
+            },
+            {
+              "page": 4,
+              "recall": 1.0,
+              "precision": 1.0,
+              "best_ref_page": 4,
+              "order_score": 1.0
+            },
+            {
+              "page": 5,
+              "recall": 0.998,
+              "precision": 0.992,
+              "best_ref_page": 5,
+              "order_score": 1.0
+            },
+            {
+              "page": 6,
+              "recall": 1.0,
+              "precision": 0.9971,
+              "best_ref_page": 6,
+              "order_score": 1.0
+            },
+            {
+              "page": 7,
+              "recall": 1.0,
+              "precision": 1.0,
+              "best_ref_page": 7,
+              "order_score": 1.0
+            },
+            {
+              "page": 8,
+              "recall": 0.9967,
+              "precision": 0.9934,
+              "best_ref_page": 8,
+              "order_score": 1.0
+            },
+            {
+              "page": 9,
+              "recall": 0.9958,
+              "precision": 0.9917,
+              "best_ref_page": 9,
+              "order_score": 1.0
+            },
+            {
+              "page": 10,
+              "recall": 0.9955,
+              "precision": 0.9769,
+              "best_ref_page": 10,
+              "order_score": 1.0
+            },
+            {
+              "page": 11,
+              "recall": 1.0,
+              "precision": 1.0,
+              "best_ref_page": 11,
+              "order_score": 1.0
+            }
+          ]
+        },
+        {
+          "case": "P4_polym_carbonate_scanned",
+          "doc": "polymers-16-03364_scanned",
+          "role": "main",
+          "scanned": true,
+          "pdf_pages": 11,
+          "parsed_pages": 11,
+          "page_count_match": true,
+          "empty_pages": 0,
+          "ref_tokens": 6333,
+          "parsed_tokens": 6331,
+          "token_recall": 0.9864,
+          "token_precision": 0.9867,
+          "page_mapping_accuracy": 1.0,
+          "order_score": 0.9766,
+          "headings": 8,
+          "tables": 2,
+          "table_cells": 276,
+          "equations_display": 1,
+          "equations_inline": 95,
+          "image_refs": 6,
+          "image_files": 6,
+          "broken_image_refs": 0,
+          "symbol_retention": 0.968,
+          "symbols_ref": {
+            "Đ (dispersity)": 2,
+            "Mn": 1,
+            "Mw": 0,
+            "Tg": 1,
+            "Tm": 1,
+            "°C": 20,
+            "g/mol": 1,
+            "mol%": 0,
+            "-co-": 7,
+            "-b-": 1,
+            "×10": 0,
+            "±": 3,
+            "Sn(Oct)2": 11,
+            "α": 1,
+            "β": 17,
+            "δ": 8,
+            "ε": 50,
+            "χ": 0,
+            "μ": 1,
+            "λ": 0,
+            "θ": 0,
+            "η": 0,
+            "σ": 0,
+            "Δ": 0
+          },
+          "symbols_parsed": {
+            "Đ (dispersity)": 0,
+            "Mn": 0,
+            "Mw": 0,
+            "Tg": 1,
+            "Tm": 1,
+            "°C": 19,
+            "g/mol": 1,
+            "mol%": 0,
+            "-co-": 7,
+            "-b-": 1,
+            "×10": 0,
+            "±": 3,
+            "Sn(Oct)2": 11,
+            "α": 1,
+            "β": 17,
+            "δ": 8,
+            "ε": 50,
+            "χ": 0,
+            "μ": 1,
+            "λ": 0,
+            "θ": 0,
+            "η": 0,
+            "σ": 0,
+            "Δ": 0
+          },
+          "per_page": [
+            {
+              "page": 1,
+              "recall": 0.9692,
+              "precision": 0.9937,
+              "best_ref_page": 1,
+              "order_score": 0.8175
+            },
+            {
+              "page": 2,
+              "recall": 0.9441,
+              "precision": 1.0,
+              "best_ref_page": 2,
+              "order_score": 1.0
+            },
+            {
+              "page": 3,
+              "recall": 0.9947,
+              "precision": 0.9881,
+              "best_ref_page": 3,
+              "order_score": 1.0
+            },
+            {
+              "page": 4,
+              "recall": 0.9926,
+              "precision": 0.983,
+              "best_ref_page": 4,
+              "order_score": 1.0
+            },
+            {
+              "page": 5,
+              "recall": 1.0,
+              "precision": 0.9926,
+              "best_ref_page": 5,
+              "order_score": 1.0
+            },
+            {
+              "page": 6,
+              "recall": 0.9843,
+              "precision": 0.8508,
+              "best_ref_page": 6,
+              "order_score": 0.9283
+            },
+            {
+              "page": 7,
+              "recall": 0.9902,
+              "precision": 0.9829,
+              "best_ref_page": 7,
+              "order_score": 0.9988
+            },
+            {
+              "page": 8,
+              "recall": 0.9599,
+              "precision": 0.9913,
+              "best_ref_page": 8,
+              "order_score": 0.9978
+            },
+            {
+              "page": 9,
+              "recall": 0.9959,
+              "precision": 0.9972,
+              "best_ref_page": 9,
+              "order_score": 1.0
+            },
+            {
+              "page": 10,
+              "recall": 0.9948,
+              "precision": 0.9979,
+              "best_ref_page": 10,
+              "order_score": 1.0
+            },
+            {
+              "page": 11,
+              "recall": 0.9928,
+              "precision": 1.0,
+              "best_ref_page": 11,
+              "order_score": 1.0
+            }
+          ]
+        },
+        {
+          "case": "P5_pccp_flory_huggins",
+          "doc": "d4cp03690e",
+          "role": "main",
+          "scanned": false,
+          "pdf_pages": 12,
+          "parsed_pages": 12,
+          "page_count_match": true,
+          "empty_pages": 0,
+          "ref_tokens": 10098,
+          "parsed_tokens": 9883,
+          "token_recall": 0.9599,
+          "token_precision": 0.9808,
+          "page_mapping_accuracy": 1.0,
+          "order_score": 0.9073,
+          "headings": 20,
+          "tables": 2,
+          "table_cells": 153,
+          "equations_display": 20,
+          "equations_inline": 70,
+          "image_refs": 7,
+          "image_files": 7,
+          "broken_image_refs": 0,
+          "symbol_retention": 1.0,
+          "symbols_ref": {
+            "Đ (dispersity)": 0,
+            "Mn": 0,
+            "Mw": 0,
+            "Tg": 0,
+            "Tm": 0,
+            "°C": 0,
+            "g/mol": 0,
+            "mol%": 0,
+            "-co-": 0,
+            "-b-": 1,
+            "×10": 0,
+            "±": 0,
+            "Sn(Oct)2": 0,
+            "α": 0,
+            "β": 0,
+            "δ": 0,
+            "ε": 0,
+            "χ": 0,
+            "μ": 0,
+            "λ": 0,
+            "θ": 0,
+            "η": 0,
+            "σ": 0,
+            "Δ": 0
+          },
+          "symbols_parsed": {
+            "Đ (dispersity)": 0,
+            "Mn": 0,
+            "Mw": 0,
+            "Tg": 0,
+            "Tm": 0,
+            "°C": 0,
+            "g/mol": 0,
+            "mol%": 0,
+            "-co-": 0,
+            "-b-": 1,
+            "×10": 0,
+            "±": 0,
+            "Sn(Oct)2": 0,
+            "α": 1,
+            "β": 0,
+            "δ": 16,
+            "ε": 4,
+            "χ": 32,
+            "μ": 0,
+            "λ": 10,
+            "θ": 0,
+            "η": 0,
+            "σ": 0,
+            "Δ": 40
+          },
+          "per_page": [
+            {
+              "page": 1,
+              "recall": 0.9669,
+              "precision": 0.9986,
+              "best_ref_page": 1,
+              "order_score": 0.9657
+            },
+            {
+              "page": 2,
+              "recall": 0.8483,
+              "precision": 0.8844,
+              "best_ref_page": 2,
+              "order_score": 0.9972
+            },
+            {
+              "page": 3,
+              "recall": 0.9759,
+              "precision": 0.9961,
+              "best_ref_page": 3,
+              "order_score": 1.0
+            },
+            {
+              "page": 4,
+              "recall": 0.9474,
+              "precision": 0.9673,
+              "best_ref_page": 4,
+              "order_score": 0.9989
+            },
+            {
+              "page": 5,
+              "recall": 0.9705,
+              "precision": 0.9968,
+              "best_ref_page": 5,
+              "order_score": 0.9327
+            },
+            {
+              "page": 6,
+              "recall": 0.9748,
+              "precision": 0.9985,
+              "best_ref_page": 6,
+              "order_score": 0.962
+            },
+            {
+              "page": 7,
+              "recall": 0.9788,
+              "precision": 0.9989,
+              "best_ref_page": 7,
+              "order_score": 0.7989
+            },
+            {
+              "page": 8,
+              "recall": 0.9519,
+              "precision": 0.9589,
+              "best_ref_page": 8,
+              "order_score": 0.2695
+            },
+            {
+              "page": 9,
+              "recall": 0.9663,
+              "precision": 0.9931,
+              "best_ref_page": 9,
+              "order_score": 0.9669
+            },
+            {
+              "page": 10,
+              "recall": 0.9814,
+              "precision": 1.0,
+              "best_ref_page": 10,
+              "order_score": 0.9976
+            },
+            {
+              "page": 11,
+              "recall": 0.9819,
+              "precision": 1.0,
+              "best_ref_page": 11,
+              "order_score": 1.0
+            },
+            {
+              "page": 12,
+              "recall": 0.9778,
+              "precision": 0.9893,
+              "best_ref_page": 12,
+              "order_score": 0.9978
+            }
+          ]
+        },
+        {
+          "case": "P5_pccp_flory_huggins",
+          "doc": "d4cp03690e1_suppl",
+          "role": "si",
+          "scanned": false,
+          "pdf_pages": 6,
+          "parsed_pages": 6,
+          "page_count_match": true,
+          "empty_pages": 0,
+          "ref_tokens": 392,
+          "parsed_tokens": 244,
+          "token_recall": 0.6224,
+          "token_precision": 1.0,
+          "page_mapping_accuracy": 1.0,
+          "order_score": 0.9545,
+          "headings": 7,
+          "tables": 1,
+          "table_cells": 12,
+          "equations_display": 0,
+          "equations_inline": 0,
+          "image_refs": 4,
+          "image_files": 4,
+          "broken_image_refs": 0,
+          "symbol_retention": null,
+          "symbols_ref": {
+            "Đ (dispersity)": 0,
+            "Mn": 0,
+            "Mw": 0,
+            "Tg": 0,
+            "Tm": 0,
+            "°C": 0,
+            "g/mol": 0,
+            "mol%": 0,
+            "-co-": 0,
+            "-b-": 0,
+            "×10": 0,
+            "±": 0,
+            "Sn(Oct)2": 0,
+            "α": 0,
+            "β": 0,
+            "δ": 0,
+            "ε": 0,
+            "χ": 0,
+            "μ": 0,
+            "λ": 0,
+            "θ": 0,
+            "η": 0,
+            "σ": 0,
+            "Δ": 0
+          },
+          "symbols_parsed": {
+            "Đ (dispersity)": 0,
+            "Mn": 0,
+            "Mw": 0,
+            "Tg": 0,
+            "Tm": 0,
+            "°C": 0,
+            "g/mol": 0,
+            "mol%": 0,
+            "-co-": 0,
+            "-b-": 0,
+            "×10": 0,
+            "±": 0,
+            "Sn(Oct)2": 0,
+            "α": 0,
+            "β": 0,
+            "δ": 0,
+            "ε": 0,
+            "χ": 0,
+            "μ": 0,
+            "λ": 0,
+            "θ": 0,
+            "η": 0,
+            "σ": 0,
+            "Δ": 0
+          },
+          "per_page": [
+            {
+              "page": 1,
+              "recall": 1.0,
+              "precision": 1.0,
+              "best_ref_page": 1,
+              "order_score": 0.8636
+            },
+            {
+              "page": 2,
+              "recall": 0.8519,
+              "precision": 1.0,
+              "best_ref_page": null,
+              "order_score": 1.0
+            },
+            {
+              "page": 3,
+              "recall": 0.2931,
+              "precision": 1.0,
+              "best_ref_page": null,
+              "order_score": null
+            },
+            {
+              "page": 4,
+              "recall": 0.5876,
+              "precision": 1.0,
+              "best_ref_page": 4,
+              "order_score": 1.0
+            },
+            {
+              "page": 5,
+              "recall": 0.2375,
+              "precision": 1.0,
+              "best_ref_page": null,
+              "order_score": null
+            },
+            {
+              "page": 6,
+              "recall": 0.9,
+              "precision": 1.0,
+              "best_ref_page": null,
+              "order_score": null
+            }
+          ]
+        }
+      ]
+    },
+    "marker_4090": {
+      "docs": [
+        {
+          "case": "P1_natcommun_lactone",
+          "doc": "s41467-024-52090-2",
+          "role": "main",
+          "scanned": false,
+          "pdf_pages": 12,
+          "parsed_pages": 12,
+          "page_count_match": true,
+          "empty_pages": 0,
+          "ref_tokens": 11143,
+          "parsed_tokens": 11305,
+          "token_recall": 0.9589,
+          "token_precision": 0.9452,
+          "page_mapping_accuracy": 1.0,
+          "order_score": 0.9448,
+          "headings": 20,
+          "tables": 1,
+          "table_cells": 160,
+          "equations_display": 1,
+          "equations_inline": 331,
+          "image_refs": 6,
+          "image_files": 6,
+          "broken_image_refs": 0,
+          "symbol_retention": 0.9265,
+          "symbols_ref": {
+            "Đ (dispersity)": 13,
+            "Mn": 29,
+            "Mw": 1,
+            "Tg": 4,
+            "Tm": 0,
+            "°C": 72,
+            "g/mol": 3,
+            "mol%": 2,
+            "-co-": 0,
+            "-b-": 0,
+            "×10": 0,
+            "±": 0,
+            "Sn(Oct)2": 4,
+            "α": 8,
+            "β": 3,
+            "δ": 20,
+            "ε": 2,
+            "χ": 0,
+            "μ": 8,
+            "λ": 4,
+            "θ": 0,
+            "η": 0,
+            "σ": 0,
+            "Δ": 31
+          },
+          "symbols_parsed": {
+            "Đ (dispersity)": 5,
+            "Mn": 27,
+            "Mw": 1,
+            "Tg": 7,
+            "Tm": 0,
+            "°C": 70,
+            "g/mol": 3,
+            "mol%": 2,
+            "-co-": 0,
+            "-b-": 0,
+            "×10": 0,
+            "±": 0,
+            "Sn(Oct)2": 4,
+            "α": 8,
+            "β": 3,
+            "δ": 17,
+            "ε": 2,
+            "χ": 0,
+            "μ": 8,
+            "λ": 4,
+            "θ": 3,
+            "η": 0,
+            "σ": 0,
+            "Δ": 31
+          },
+          "per_page": [
+            {
+              "page": 1,
+              "recall": 0.9762,
+              "precision": 0.9762,
+              "best_ref_page": 1,
+              "order_score": 0.9776
+            },
+            {
+              "page": 2,
+              "recall": 0.9662,
+              "precision": 0.9959,
+              "best_ref_page": 2,
+              "order_score": 1.0
+            },
+            {
+              "page": 3,
+              "recall": 0.9708,
+              "precision": 0.7727,
+              "best_ref_page": 3,
+              "order_score": 0.9736
+            },
+            {
+              "page": 4,
+              "recall": 0.9007,
+              "precision": 0.956,
+              "best_ref_page": 4,
+              "order_score": 0.6612
+            },
+            {
+              "page": 5,
+              "recall": 0.9789,
+              "precision": 0.9807,
+              "best_ref_page": 5,
+              "order_score": 1.0
+            },
+            {
+              "page": 6,
+              "recall": 0.8739,
+              "precision": 1.0,
+              "best_ref_page": 6,
+              "order_score": 0.927
+            },
+            {
+              "page": 7,
+              "recall": 0.9557,
+              "precision": 0.9535,
+              "best_ref_page": 7,
+              "order_score": 0.9346
+            },
+            {
+              "page": 8,
+              "recall": 0.937,
+              "precision": 0.9934,
+              "best_ref_page": 8,
+              "order_score": 0.8699
+            },
+            {
+              "page": 9,
+              "recall": 0.9686,
+              "precision": 0.8894,
+              "best_ref_page": 9,
+              "order_score": 0.9965
+            },
+            {
+              "page": 10,
+              "recall": 0.9626,
+              "precision": 0.9902,
+              "best_ref_page": 10,
+              "order_score": 0.9967
+            },
+            {
+              "page": 11,
+              "recall": 0.9792,
+              "precision": 0.9869,
+              "best_ref_page": 11,
+              "order_score": 1.0
+            },
+            {
+              "page": 12,
+              "recall": 0.9327,
+              "precision": 0.9935,
+              "best_ref_page": 12,
+              "order_score": 1.0
+            }
+          ]
+        },
+        {
+          "case": "P1_natcommun_lactone",
+          "doc": "s41467-024-52090-2_SI",
+          "role": "si",
+          "scanned": false,
+          "pdf_pages": 34,
+          "parsed_pages": 34,
+          "page_count_match": true,
+          "empty_pages": 0,
+          "ref_tokens": 4438,
+          "parsed_tokens": 4437,
+          "token_recall": 0.9642,
+          "token_precision": 0.9644,
+          "page_mapping_accuracy": 1.0,
+          "order_score": 0.9945,
+          "headings": 9,
+          "tables": 4,
+          "table_cells": 343,
+          "equations_display": 7,
+          "equations_inline": 0,
+          "image_refs": 37,
+          "image_files": 37,
+          "broken_image_refs": 0,
+          "symbol_retention": 1.0,
+          "symbols_ref": {
+            "Đ (dispersity)": 7,
+            "Mn": 7,
+            "Mw": 0,
+            "Tg": 0,
+            "Tm": 0,
+            "°C": 14,
+            "g/mol": 0,
+            "mol%": 0,
+            "-co-": 0,
+            "-b-": 0,
+            "×10": 0,
+            "±": 0,
+            "Sn(Oct)2": 0,
+            "α": 1,
+            "β": 0,
+            "δ": 1,
+            "ε": 0,
+            "χ": 0,
+            "μ": 1,
+            "λ": 0,
+            "θ": 0,
+            "η": 0,
+            "σ": 0,
+            "Δ": 24
+          },
+          "symbols_parsed": {
+            "Đ (dispersity)": 7,
+            "Mn": 7,
+            "Mw": 0,
+            "Tg": 0,
+            "Tm": 0,
+            "°C": 14,
+            "g/mol": 0,
+            "mol%": 0,
+            "-co-": 0,
+            "-b-": 0,
+            "×10": 0,
+            "±": 0,
+            "Sn(Oct)2": 0,
+            "α": 1,
+            "β": 0,
+            "δ": 1,
+            "ε": 0,
+            "χ": 0,
+            "μ": 1,
+            "λ": 0,
+            "θ": 0,
+            "η": 0,
+            "σ": 0,
+            "Δ": 24
+          },
+          "per_page": [
+            {
+              "page": 1,
+              "recall": 0.9919,
+              "precision": 1.0,
+              "best_ref_page": 1,
+              "order_score": 0.918
+            },
+            {
+              "page": 2,
+              "recall": 0.9345,
+              "precision": 0.93,
+              "best_ref_page": 2,
+              "order_score": 0.9403
+            },
+            {
+              "page": 3,
+              "recall": 0.9278,
+              "precision": 0.9533,
+              "best_ref_page": 3,
+              "order_score": 0.9798
+            },
+            {
+              "page": 4,
+              "recall": 0.8462,
+              "precision": 0.8938,
+              "best_ref_page": 4,
+              "order_score": 1.0
+            },
+            {
+              "page": 5,
+              "recall": 0.9701,
+              "precision": 0.9701,
+              "best_ref_page": 5,
+              "order_score": 1.0
+            },
+            {
+              "page": 6,
+              "recall": 0.9545,
+              "precision": 0.9545,
+              "best_ref_page": 6,
+              "order_score": 1.0
+            },
+            {
+              "page": 7,
+              "recall": 0.9455,
+              "precision": 0.9286,
+              "best_ref_page": 7,
+              "order_score": 1.0
+            },
+            {
+              "page": 8,
+              "recall": 0.9362,
+              "precision": 0.9167,
+              "best_ref_page": 8,
+              "order_score": 1.0
+            },
+            {
+              "page": 9,
+              "recall": 0.9167,
+              "precision": 0.9167,
+              "best_ref_page": null,
+              "order_score": 1.0
+            },
+            {
+              "page": 10,
+              "recall": 0.9556,
+              "precision": 0.9556,
+              "best_ref_page": 10,
+              "order_score": 1.0
+            },
+            {
+              "page": 11,
+              "recall": 0.9038,
+              "precision": 0.8545,
+              "best_ref_page": 11,
+              "order_score": 1.0
+            },
+            {
+              "page": 12,
+              "recall": 0.9787,
+              "precision": 1.0,
+              "best_ref_page": 12,
+              "order_score": 1.0
+            },
+            {
+              "page": 13,
+              "recall": 0.9872,
+              "precision": 1.0,
+              "best_ref_page": 13,
+              "order_score": 1.0
+            },
+            {
+              "page": 14,
+              "recall": 0.9899,
+              "precision": 1.0,
+              "best_ref_page": 14,
+              "order_score": 1.0
+            },
+            {
+              "page": 15,
+              "recall": 0.9459,
+              "precision": 0.9459,
+              "best_ref_page": 15,
+              "order_score": 1.0
+            },
+            {
+              "page": 16,
+              "recall": 0.9487,
+              "precision": 0.9487,
+              "best_ref_page": 16,
+              "order_score": 1.0
+            },
+            {
+              "page": 17,
+              "recall": 0.9792,
+              "precision": 1.0,
+              "best_ref_page": 17,
+              "order_score": 1.0
+            },
+            {
+              "page": 18,
+              "recall": 0.9787,
+              "precision": 1.0,
+              "best_ref_page": 18,
+              "order_score": 1.0
+            },
+            {
+              "page": 19,
+              "recall": 0.973,
+              "precision": 1.0,
+              "best_ref_page": 19,
+              "order_score": 1.0
+            },
+            {
+              "page": 20,
+              "recall": 0.9459,
+              "precision": 0.9459,
+              "best_ref_page": 20,
+              "order_score": 1.0
+            },
+            {
+              "page": 21,
+              "recall": 0.975,
+              "precision": 1.0,
+              "best_ref_page": 21,
+              "order_score": 1.0
+            },
+            {
+              "page": 22,
+              "recall": 0.9062,
+              "precision": 0.8788,
+              "best_ref_page": 22,
+              "order_score": 1.0
+            },
+            {
+              "page": 23,
+              "recall": 0.8333,
+              "precision": 0.8333,
+              "best_ref_page": null,
+              "order_score": null
+            },
+            {
+              "page": 24,
+              "recall": 0.9688,
+              "precision": 0.9654,
+              "best_ref_page": 24,
+              "order_score": 1.0
+            },
+            {
+              "page": 25,
+              "recall": 0.9911,
+              "precision": 0.9882,
+              "best_ref_page": 25,
+              "order_score": 0.988
+            },
+            {
+              "page": 26,
+              "recall": 0.8684,
+              "precision": 0.7857,
+              "best_ref_page": 26,
+              "order_score": 1.0
+            },
+            {
+              "page": 27,
+              "recall": 0.9796,
+              "precision": 0.9796,
+              "best_ref_page": 27,
+              "order_score": 1.0
+            },
+            {
+              "page": 28,
+              "recall": 0.9922,
+              "precision": 0.9922,
+              "best_ref_page": 28,
+              "order_score": 0.9921
+            },
+            {
+              "page": 29,
+              "recall": 0.9962,
+              "precision": 1.0,
+              "best_ref_page": 29,
+              "order_score": 1.0
+            },
+            {
+              "page": 30,
+              "recall": 0.9324,
+              "precision": 0.8734,
+              "best_ref_page": 30,
+              "order_score": 1.0
+            },
+            {
+              "page": 31,
+              "recall": 0.9912,
+              "precision": 0.9882,
+              "best_ref_page": 31,
+              "order_score": 1.0
+            },
+            {
+              "page": 32,
+              "recall": 0.985,
+              "precision": 0.985,
+              "best_ref_page": 32,
+              "order_score": 1.0
+            },
+            {
+              "page": 33,
+              "recall": 0.9974,
+              "precision": 1.0,
+              "best_ref_page": 33,
+              "order_score": 1.0
+            },
+            {
+              "page": 34,
+              "recall": 0.9935,
+              "precision": 1.0,
+              "best_ref_page": 34,
+              "order_score": 1.0
+            }
+          ]
+        },
+        {
+          "case": "P2_polym_star_raft",
+          "doc": "polymers-15-02002",
+          "role": "main",
+          "scanned": false,
+          "pdf_pages": 14,
+          "parsed_pages": 14,
+          "page_count_match": true,
+          "empty_pages": 0,
+          "ref_tokens": 7193,
+          "parsed_tokens": 7481,
+          "token_recall": 0.9957,
+          "token_precision": 0.9574,
+          "page_mapping_accuracy": 1.0,
+          "order_score": 0.9882,
+          "headings": 25,
+          "tables": 1,
+          "table_cells": 135,
+          "equations_display": 76,
+          "equations_inline": 1,
+          "image_refs": 12,
+          "image_files": 12,
+          "broken_image_refs": 0,
+          "symbol_retention": 0.9059,
+          "symbols_ref": {
+            "Đ (dispersity)": 3,
+            "Mn": 4,
+            "Mw": 1,
+            "Tg": 2,
+            "Tm": 0,
+            "°C": 14,
+            "g/mol": 0,
+            "mol%": 0,
+            "-co-": 0,
+            "-b-": 57,
+            "×10": 0,
+            "±": 0,
+            "Sn(Oct)2": 0,
+            "α": 1,
+            "β": 0,
+            "δ": 1,
+            "ε": 0,
+            "χ": 0,
+            "μ": 2,
+            "λ": 0,
+            "θ": 0,
+            "η": 0,
+            "σ": 0,
+            "Δ": 0
+          },
+          "symbols_parsed": {
+            "Đ (dispersity)": 1,
+            "Mn": 4,
+            "Mw": 1,
+            "Tg": 2,
+            "Tm": 0,
+            "°C": 14,
+            "g/mol": 0,
+            "mol%": 0,
+            "-co-": 0,
+            "-b-": 51,
+            "×10": 0,
+            "±": 0,
+            "Sn(Oct)2": 0,
+            "α": 1,
+            "β": 0,
+            "δ": 1,
+            "ε": 0,
+            "χ": 0,
+            "μ": 2,
+            "λ": 0,
+            "θ": 1,
+            "η": 0,
+            "σ": 0,
+            "Δ": 0
+          },
+          "per_page": [
+            {
+              "page": 1,
+              "recall": 0.9721,
+              "precision": 1.0,
+              "best_ref_page": 1,
+              "order_score": 0.8516
+            },
+            {
+              "page": 2,
+              "recall": 0.9969,
+              "precision": 0.9938,
+              "best_ref_page": 2,
+              "order_score": 1.0
+            },
+            {
+              "page": 3,
+              "recall": 0.9985,
+              "precision": 0.997,
+              "best_ref_page": 3,
+              "order_score": 1.0
+            },
+            {
+              "page": 4,
+              "recall": 0.9917,
+              "precision": 0.758,
+              "best_ref_page": 4,
+              "order_score": 1.0
+            },
+            {
+              "page": 5,
+              "recall": 1.0,
+              "precision": 1.0,
+              "best_ref_page": 5,
+              "order_score": 1.0
+            },
+            {
+              "page": 6,
+              "recall": 1.0,
+              "precision": 1.0,
+              "best_ref_page": 6,
+              "order_score": 1.0
+            },
+            {
+              "page": 7,
+              "recall": 0.9834,
+              "precision": 0.9753,
+              "best_ref_page": 7,
+              "order_score": 0.9831
+            },
+            {
+              "page": 8,
+              "recall": 1.0,
+              "precision": 1.0,
+              "best_ref_page": 8,
+              "order_score": 1.0
+            },
+            {
+              "page": 9,
+              "recall": 1.0,
+              "precision": 1.0,
+              "best_ref_page": 9,
+              "order_score": 1.0
+            },
+            {
+              "page": 10,
+              "recall": 1.0,
+              "precision": 0.6957,
+              "best_ref_page": 10,
+              "order_score": 1.0
+            },
+            {
+              "page": 11,
+              "recall": 1.0,
+              "precision": 1.0,
+              "best_ref_page": 11,
+              "order_score": 1.0
+            },
+            {
+              "page": 12,
+              "recall": 0.9985,
+              "precision": 0.9969,
+              "best_ref_page": 12,
+              "order_score": 1.0
+            },
+            {
+              "page": 13,
+              "recall": 1.0,
+              "precision": 0.9977,
+              "best_ref_page": 13,
+              "order_score": 1.0
+            },
+            {
+              "page": 14,
+              "recall": 0.9989,
+              "precision": 0.9978,
+              "best_ref_page": 14,
+              "order_score": 1.0
+            }
+          ]
+        },
+        {
+          "case": "P2_polym_star_raft",
+          "doc": "polymers-2246784-supplementary",
+          "role": "si",
+          "scanned": false,
+          "pdf_pages": 6,
+          "parsed_pages": 6,
+          "page_count_match": true,
+          "empty_pages": 0,
+          "ref_tokens": 780,
+          "parsed_tokens": 826,
+          "token_recall": 0.959,
+          "token_precision": 0.9056,
+          "page_mapping_accuracy": 1.0,
+          "order_score": 0.9327,
+          "headings": 3,
+          "tables": 4,
+          "table_cells": 555,
+          "equations_display": 0,
+          "equations_inline": 5,
+          "image_refs": 6,
+          "image_files": 6,
+          "broken_image_refs": 0,
+          "symbol_retention": 0.8276,
+          "symbols_ref": {
+            "Đ (dispersity)": 1,
+            "Mn": 2,
+            "Mw": 0,
+            "Tg": 0,
+            "Tm": 0,
+            "°C": 18,
+            "g/mol": 2,
+            "mol%": 0,
+            "-co-": 0,
+            "-b-": 6,
+            "×10": 0,
+            "±": 0,
+            "Sn(Oct)2": 0,
+            "α": 0,
+            "β": 0,
+            "δ": 0,
+            "ε": 0,
+            "χ": 0,
+            "μ": 0,
+            "λ": 0,
+            "θ": 0,
+            "η": 0,
+            "σ": 0,
+            "Δ": 0
+          },
+          "symbols_parsed": {
+            "Đ (dispersity)": 1,
+            "Mn": 2,
+            "Mw": 0,
+            "Tg": 0,
+            "Tm": 0,
+            "°C": 18,
+            "g/mol": 2,
+            "mol%": 0,
+            "-co-": 0,
+            "-b-": 1,
+            "×10": 0,
+            "±": 0,
+            "Sn(Oct)2": 0,
+            "α": 0,
+            "β": 0,
+            "δ": 0,
+            "ε": 0,
+            "χ": 0,
+            "μ": 0,
+            "λ": 0,
+            "θ": 0,
+            "η": 0,
+            "σ": 0,
+            "Δ": 0
+          },
+          "per_page": [
+            {
+              "page": 1,
+              "recall": 0.9969,
+              "precision": 0.9939,
+              "best_ref_page": 1,
+              "order_score": 1.0
+            },
+            {
+              "page": 2,
+              "recall": 0.9726,
+              "precision": 0.8554,
+              "best_ref_page": 2,
+              "order_score": 0.8451
+            },
+            {
+              "page": 3,
+              "recall": 0.9167,
+              "precision": 0.7857,
+              "best_ref_page": 3,
+              "order_score": 0.7909
+            },
+            {
+              "page": 4,
+              "recall": 0.8882,
+              "precision": 0.8162,
+              "best_ref_page": 4,
+              "order_score": 0.9603
+            },
+            {
+              "page": 5,
+              "recall": 1.0,
+              "precision": 1.0,
+              "best_ref_page": 5,
+              "order_score": 1.0
+            },
+            {
+              "page": 6,
+              "recall": 1.0,
+              "precision": 1.0,
+              "best_ref_page": 6,
+              "order_score": 1.0
+            }
+          ]
+        },
+        {
+          "case": "P3_polym_tmc_rop",
+          "doc": "polymers-15-00720",
+          "role": "main",
+          "scanned": false,
+          "pdf_pages": 11,
+          "parsed_pages": 11,
+          "page_count_match": true,
+          "empty_pages": 0,
+          "ref_tokens": 5807,
+          "parsed_tokens": 5825,
+          "token_recall": 0.9936,
+          "token_precision": 0.9906,
+          "page_mapping_accuracy": 1.0,
+          "order_score": 0.9876,
+          "headings": 14,
+          "tables": 2,
+          "table_cells": 139,
+          "equations_display": 59,
+          "equations_inline": 11,
+          "image_refs": 11,
+          "image_files": 11,
+          "broken_image_refs": 0,
+          "symbol_retention": 0.9573,
+          "symbols_ref": {
+            "Đ (dispersity)": 15,
+            "Mn": 22,
+            "Mw": 0,
+            "Tg": 4,
+            "Tm": 0,
+            "°C": 17,
+            "g/mol": 19,
+            "mol%": 0,
+            "-co-": 0,
+            "-b-": 13,
+            "×10": 7,
+            "±": 0,
+            "Sn(Oct)2": 0,
+            "α": 2,
+            "β": 1,
+            "δ": 3,
+            "ε": 7,
+            "χ": 0,
+            "μ": 7,
+            "λ": 0,
+            "θ": 0,
+            "η": 0,
+            "σ": 0,
+            "Δ": 0
+          },
+          "symbols_parsed": {
+            "Đ (dispersity)": 10,
+            "Mn": 22,
+            "Mw": 0,
+            "Tg": 4,
+            "Tm": 0,
+            "°C": 17,
+            "g/mol": 19,
+            "mol%": 0,
+            "-co-": 0,
+            "-b-": 13,
+            "×10": 7,
+            "±": 0,
+            "Sn(Oct)2": 0,
+            "α": 2,
+            "β": 1,
+            "δ": 3,
+            "ε": 7,
+            "χ": 0,
+            "μ": 7,
+            "λ": 0,
+            "θ": 0,
+            "η": 0,
+            "σ": 0,
+            "Δ": 0
+          },
+          "per_page": [
+            {
+              "page": 1,
+              "recall": 0.9728,
+              "precision": 1.0,
+              "best_ref_page": 1,
+              "order_score": 0.8637
+            },
+            {
+              "page": 2,
+              "recall": 0.9939,
+              "precision": 0.991,
+              "best_ref_page": 2,
+              "order_score": 1.0
+            },
+            {
+              "page": 3,
+              "recall": 0.9909,
+              "precision": 0.9845,
+              "best_ref_page": 3,
+              "order_score": 1.0
+            },
+            {
+              "page": 4,
+              "recall": 1.0,
+              "precision": 1.0,
+              "best_ref_page": 4,
+              "order_score": 1.0
+            },
+            {
+              "page": 5,
+              "recall": 0.998,
+              "precision": 0.992,
+              "best_ref_page": 5,
+              "order_score": 1.0
+            },
+            {
+              "page": 6,
+              "recall": 1.0,
+              "precision": 0.9971,
+              "best_ref_page": 6,
+              "order_score": 1.0
+            },
+            {
+              "page": 7,
+              "recall": 1.0,
+              "precision": 1.0,
+              "best_ref_page": 7,
+              "order_score": 1.0
+            },
+            {
+              "page": 8,
+              "recall": 0.99,
+              "precision": 0.977,
+              "best_ref_page": 8,
+              "order_score": 1.0
+            },
+            {
+              "page": 9,
+              "recall": 0.9958,
+              "precision": 0.9917,
+              "best_ref_page": 9,
+              "order_score": 1.0
+            },
+            {
+              "page": 10,
+              "recall": 0.9955,
+              "precision": 0.9769,
+              "best_ref_page": 10,
+              "order_score": 1.0
+            },
+            {
+              "page": 11,
+              "recall": 1.0,
+              "precision": 1.0,
+              "best_ref_page": 11,
+              "order_score": 1.0
+            }
+          ]
+        },
+        {
+          "case": "P4_polym_carbonate_scanned",
+          "doc": "polymers-16-03364_scanned",
+          "role": "main",
+          "scanned": true,
+          "pdf_pages": 11,
+          "parsed_pages": 11,
+          "page_count_match": true,
+          "empty_pages": 0,
+          "ref_tokens": 6333,
+          "parsed_tokens": 6317,
+          "token_recall": 0.9848,
+          "token_precision": 0.9873,
+          "page_mapping_accuracy": 1.0,
+          "order_score": 0.973,
+          "headings": 9,
+          "tables": 3,
+          "table_cells": 340,
+          "equations_display": 1,
+          "equations_inline": 93,
+          "image_refs": 6,
+          "image_files": 6,
+          "broken_image_refs": 0,
+          "symbol_retention": 0.968,
+          "symbols_ref": {
+            "Đ (dispersity)": 2,
+            "Mn": 1,
+            "Mw": 0,
+            "Tg": 1,
+            "Tm": 1,
+            "°C": 20,
+            "g/mol": 1,
+            "mol%": 0,
+            "-co-": 7,
+            "-b-": 1,
+            "×10": 0,
+            "±": 3,
+            "Sn(Oct)2": 11,
+            "α": 1,
+            "β": 17,
+            "δ": 8,
+            "ε": 50,
+            "χ": 0,
+            "μ": 1,
+            "λ": 0,
+            "θ": 0,
+            "η": 0,
+            "σ": 0,
+            "Δ": 0
+          },
+          "symbols_parsed": {
+            "Đ (dispersity)": 0,
+            "Mn": 0,
+            "Mw": 0,
+            "Tg": 1,
+            "Tm": 1,
+            "°C": 19,
+            "g/mol": 1,
+            "mol%": 0,
+            "-co-": 7,
+            "-b-": 1,
+            "×10": 0,
+            "±": 3,
+            "Sn(Oct)2": 11,
+            "α": 1,
+            "β": 17,
+            "δ": 8,
+            "ε": 52,
+            "χ": 0,
+            "μ": 1,
+            "λ": 0,
+            "θ": 0,
+            "η": 0,
+            "σ": 0,
+            "Δ": 0
+          },
+          "per_page": [
+            {
+              "page": 1,
+              "recall": 0.9677,
+              "precision": 0.9906,
+              "best_ref_page": 1,
+              "order_score": 0.8172
+            },
+            {
+              "page": 2,
+              "recall": 0.9441,
+              "precision": 1.0,
+              "best_ref_page": 2,
+              "order_score": 1.0
+            },
+            {
+              "page": 3,
+              "recall": 0.9947,
+              "precision": 0.9881,
+              "best_ref_page": 3,
+              "order_score": 1.0
+            },
+            {
+              "page": 4,
+              "recall": 0.9926,
+              "precision": 0.983,
+              "best_ref_page": 4,
+              "order_score": 1.0
+            },
+            {
+              "page": 5,
+              "recall": 1.0,
+              "precision": 0.9963,
+              "best_ref_page": 5,
+              "order_score": 1.0
+            },
+            {
+              "page": 6,
+              "recall": 0.9765,
+              "precision": 0.8646,
+              "best_ref_page": 6,
+              "order_score": 0.8876
+            },
+            {
+              "page": 7,
+              "recall": 0.9902,
+              "precision": 0.9829,
+              "best_ref_page": 7,
+              "order_score": 0.9988
+            },
+            {
+              "page": 8,
+              "recall": 0.9599,
+              "precision": 0.9913,
+              "best_ref_page": 8,
+              "order_score": 1.0
+            },
+            {
+              "page": 9,
+              "recall": 0.9959,
+              "precision": 0.9972,
+              "best_ref_page": 9,
+              "order_score": 1.0
+            },
+            {
+              "page": 10,
+              "recall": 0.9875,
+              "precision": 0.9979,
+              "best_ref_page": 10,
+              "order_score": 1.0
+            },
+            {
+              "page": 11,
+              "recall": 0.9928,
+              "precision": 1.0,
+              "best_ref_page": 11,
+              "order_score": 1.0
+            }
+          ]
+        },
+        {
+          "case": "P5_pccp_flory_huggins",
+          "doc": "d4cp03690e",
+          "role": "main",
+          "scanned": false,
+          "pdf_pages": 12,
+          "parsed_pages": 12,
+          "page_count_match": true,
+          "empty_pages": 0,
+          "ref_tokens": 10098,
+          "parsed_tokens": 9869,
+          "token_recall": 0.9587,
+          "token_precision": 0.981,
+          "page_mapping_accuracy": 1.0,
+          "order_score": 0.9079,
+          "headings": 20,
+          "tables": 2,
+          "table_cells": 160,
+          "equations_display": 20,
+          "equations_inline": 72,
+          "image_refs": 7,
+          "image_files": 7,
+          "broken_image_refs": 0,
+          "symbol_retention": 1.0,
+          "symbols_ref": {
+            "Đ (dispersity)": 0,
+            "Mn": 0,
+            "Mw": 0,
+            "Tg": 0,
+            "Tm": 0,
+            "°C": 0,
+            "g/mol": 0,
+            "mol%": 0,
+            "-co-": 0,
+            "-b-": 1,
+            "×10": 0,
+            "±": 0,
+            "Sn(Oct)2": 0,
+            "α": 0,
+            "β": 0,
+            "δ": 0,
+            "ε": 0,
+            "χ": 0,
+            "μ": 0,
+            "λ": 0,
+            "θ": 0,
+            "η": 0,
+            "σ": 0,
+            "Δ": 0
+          },
+          "symbols_parsed": {
+            "Đ (dispersity)": 0,
+            "Mn": 0,
+            "Mw": 0,
+            "Tg": 0,
+            "Tm": 0,
+            "°C": 0,
+            "g/mol": 0,
+            "mol%": 0,
+            "-co-": 0,
+            "-b-": 1,
+            "×10": 0,
+            "±": 0,
+            "Sn(Oct)2": 0,
+            "α": 1,
+            "β": 0,
+            "δ": 16,
+            "ε": 4,
+            "χ": 34,
+            "μ": 0,
+            "λ": 10,
+            "θ": 0,
+            "η": 0,
+            "σ": 0,
+            "Δ": 40
+          },
+          "per_page": [
+            {
+              "page": 1,
+              "recall": 0.9669,
+              "precision": 0.9986,
+              "best_ref_page": 1,
+              "order_score": 0.9657
+            },
+            {
+              "page": 2,
+              "recall": 0.8413,
+              "precision": 0.8857,
+              "best_ref_page": 2,
+              "order_score": 0.9972
+            },
+            {
+              "page": 3,
+              "recall": 0.9759,
+              "precision": 0.9961,
+              "best_ref_page": 3,
+              "order_score": 1.0
+            },
+            {
+              "page": 4,
+              "recall": 0.9474,
+              "precision": 0.9673,
+              "best_ref_page": 4,
+              "order_score": 0.9989
+            },
+            {
+              "page": 5,
+              "recall": 0.9705,
+              "precision": 0.9968,
+              "best_ref_page": 5,
+              "order_score": 0.9327
+            },
+            {
+              "page": 6,
+              "recall": 0.9719,
+              "precision": 0.9985,
+              "best_ref_page": 6,
+              "order_score": 0.9649
+            },
+            {
+              "page": 7,
+              "recall": 0.9788,
+              "precision": 0.9989,
+              "best_ref_page": 7,
+              "order_score": 0.7989
+            },
+            {
+              "page": 8,
+              "recall": 0.9519,
+              "precision": 0.9589,
+              "best_ref_page": 8,
+              "order_score": 0.2695
+            },
+            {
+              "page": 9,
+              "recall": 0.9663,
+              "precision": 0.9931,
+              "best_ref_page": 9,
+              "order_score": 0.9669
+            },
+            {
+              "page": 10,
+              "recall": 0.9791,
+              "precision": 1.0,
+              "best_ref_page": 10,
+              "order_score": 1.0
+            },
+            {
+              "page": 11,
+              "recall": 0.9819,
+              "precision": 1.0,
+              "best_ref_page": 11,
+              "order_score": 1.0
+            },
+            {
+              "page": 12,
+              "recall": 0.9756,
+              "precision": 0.9893,
+              "best_ref_page": 12,
+              "order_score": 1.0
+            }
+          ]
+        },
+        {
+          "case": "P5_pccp_flory_huggins",
+          "doc": "d4cp03690e1_suppl",
+          "role": "si",
+          "scanned": false,
+          "pdf_pages": 6,
+          "parsed_pages": 6,
+          "page_count_match": true,
+          "empty_pages": 0,
+          "ref_tokens": 392,
+          "parsed_tokens": 242,
+          "token_recall": 0.6173,
+          "token_precision": 1.0,
+          "page_mapping_accuracy": 1.0,
+          "order_score": 0.9545,
+          "headings": 7,
+          "tables": 1,
+          "table_cells": 12,
+          "equations_display": 0,
+          "equations_inline": 0,
+          "image_refs": 4,
+          "image_files": 4,
+          "broken_image_refs": 0,
+          "symbol_retention": null,
+          "symbols_ref": {
+            "Đ (dispersity)": 0,
+            "Mn": 0,
+            "Mw": 0,
+            "Tg": 0,
+            "Tm": 0,
+            "°C": 0,
+            "g/mol": 0,
+            "mol%": 0,
+            "-co-": 0,
+            "-b-": 0,
+            "×10": 0,
+            "±": 0,
+            "Sn(Oct)2": 0,
+            "α": 0,
+            "β": 0,
+            "δ": 0,
+            "ε": 0,
+            "χ": 0,
+            "μ": 0,
+            "λ": 0,
+            "θ": 0,
+            "η": 0,
+            "σ": 0,
+            "Δ": 0
+          },
+          "symbols_parsed": {
+            "Đ (dispersity)": 0,
+            "Mn": 0,
+            "Mw": 0,
+            "Tg": 0,
+            "Tm": 0,
+            "°C": 0,
+            "g/mol": 0,
+            "mol%": 0,
+            "-co-": 0,
+            "-b-": 0,
+            "×10": 0,
+            "±": 0,
+            "Sn(Oct)2": 0,
+            "α": 0,
+            "β": 0,
+            "δ": 0,
+            "ε": 0,
+            "χ": 0,
+            "μ": 0,
+            "λ": 0,
+            "θ": 0,
+            "η": 0,
+            "σ": 0,
+            "Δ": 0
+          },
+          "per_page": [
+            {
+              "page": 1,
+              "recall": 1.0,
+              "precision": 1.0,
+              "best_ref_page": 1,
+              "order_score": 0.8636
+            },
+            {
+              "page": 2,
+              "recall": 0.7778,
+              "precision": 1.0,
+              "best_ref_page": null,
+              "order_score": 1.0
+            },
+            {
+              "page": 3,
+              "recall": 0.2931,
+              "precision": 1.0,
+              "best_ref_page": null,
+              "order_score": null
+            },
+            {
+              "page": 4,
+              "recall": 0.5876,
+              "precision": 1.0,
+              "best_ref_page": 4,
+              "order_score": 1.0
+            },
+            {
+              "page": 5,
+              "recall": 0.2375,
+              "precision": 1.0,
+              "best_ref_page": null,
+              "order_score": null
+            },
+            {
+              "page": 6,
+              "recall": 0.9,
+              "precision": 1.0,
+              "best_ref_page": null,
+              "order_score": null
+            }
+          ]
+        }
+      ]
+    },
+    "mineru_advanced": {
+      "docs": [
+        {
+          "case": "P1_natcommun_lactone",
+          "doc": "s41467-024-52090-2",
+          "role": "main",
+          "scanned": false,
+          "pdf_pages": 12,
+          "parsed_pages": 12,
+          "page_count_match": true,
+          "empty_pages": 0,
+          "ref_tokens": 11143,
+          "parsed_tokens": 11078,
+          "token_recall": 0.9656,
+          "token_precision": 0.9713,
+          "page_mapping_accuracy": 1.0,
+          "order_score": 0.9462,
+          "headings": 19,
+          "tables": 2,
+          "table_cells": 174,
+          "equations_display": 0,
+          "equations_inline": 273,
+          "image_refs": 6,
+          "image_files": 6,
+          "broken_image_refs": 0,
+          "symbol_retention": 0.9657,
+          "symbols_ref": {
+            "Đ (dispersity)": 13,
+            "Mn": 29,
+            "Mw": 1,
+            "Tg": 4,
+            "Tm": 0,
+            "°C": 72,
+            "g/mol": 3,
+            "mol%": 2,
+            "-co-": 0,
+            "-b-": 0,
+            "×10": 0,
+            "±": 0,
+            "Sn(Oct)2": 4,
+            "α": 8,
+            "β": 3,
+            "δ": 20,
+            "ε": 2,
+            "χ": 0,
+            "μ": 8,
+            "λ": 4,
+            "θ": 0,
+            "η": 0,
+            "σ": 0,
+            "Δ": 31
+          },
+          "symbols_parsed": {
+            "Đ (dispersity)": 6,
+            "Mn": 29,
+            "Mw": 1,
+            "Tg": 4,
+            "Tm": 0,
+            "°C": 77,
+            "g/mol": 3,
+            "mol%": 2,
+            "-co-": 1,
+            "-b-": 0,
+            "×10": 0,
+            "±": 0,
+            "Sn(Oct)2": 4,
+            "α": 8,
+            "β": 3,
+            "δ": 20,
+            "ε": 2,
+            "χ": 0,
+            "μ": 8,
+            "λ": 4,
+            "θ": 0,
+            "η": 0,
+            "σ": 0,
+            "Δ": 31
+          },
+          "per_page": [
+            {
+              "page": 1,
+              "recall": 0.9643,
+              "precision": 0.9878,
+              "best_ref_page": 1,
+              "order_score": 0.9753
+            },
+            {
+              "page": 2,
+              "recall": 0.9642,
+              "precision": 0.7555,
+              "best_ref_page": 2,
+              "order_score": 1.0
+            },
+            {
+              "page": 3,
+              "recall": 0.9655,
+              "precision": 0.9587,
+              "best_ref_page": 3,
+              "order_score": 0.9716
+            },
+            {
+              "page": 4,
+              "recall": 0.9348,
+              "precision": 0.9546,
+              "best_ref_page": 4,
+              "order_score": 0.6688
+            },
+            {
+              "page": 5,
+              "recall": 0.9833,
+              "precision": 0.9897,
+              "best_ref_page": 5,
+              "order_score": 1.0
+            },
+            {
+              "page": 6,
+              "recall": 0.8623,
+              "precision": 0.99,
+              "best_ref_page": 6,
+              "order_score": 0.9345
+            },
+            {
+              "page": 7,
+              "recall": 0.9511,
+              "precision": 0.9404,
+              "best_ref_page": 7,
+              "order_score": 0.9343
+            },
+            {
+              "page": 8,
+              "recall": 0.9349,
+              "precision": 0.9945,
+              "best_ref_page": 8,
+              "order_score": 0.8707
+            },
+            {
+              "page": 9,
+              "recall": 0.9799,
+              "precision": 0.9852,
+              "best_ref_page": 9,
+              "order_score": 1.0
+            },
+            {
+              "page": 10,
+              "recall": 0.9833,
+              "precision": 0.9912,
+              "best_ref_page": 10,
+              "order_score": 0.9992
+            },
+            {
+              "page": 11,
+              "recall": 0.9783,
+              "precision": 0.9843,
+              "best_ref_page": 11,
+              "order_score": 1.0
+            },
+            {
+              "page": 12,
+              "recall": 0.945,
+              "precision": 0.9872,
+              "best_ref_page": 12,
+              "order_score": 1.0
+            }
+          ]
+        },
+        {
+          "case": "P1_natcommun_lactone",
+          "doc": "s41467-024-52090-2_SI",
+          "role": "si",
+          "scanned": false,
+          "pdf_pages": 34,
+          "parsed_pages": 34,
+          "page_count_match": true,
+          "empty_pages": 0,
+          "ref_tokens": 4438,
+          "parsed_tokens": 8531,
+          "token_recall": 0.9912,
+          "token_precision": 0.5156,
+          "page_mapping_accuracy": 0.9412,
+          "order_score": 0.9965,
+          "headings": 9,
+          "tables": 30,
+          "table_cells": 2374,
+          "equations_display": 7,
+          "equations_inline": 79,
+          "image_refs": 37,
+          "image_files": 37,
+          "broken_image_refs": 0,
+          "symbol_retention": 0.9273,
+          "symbols_ref": {
+            "Đ (dispersity)": 7,
+            "Mn": 7,
+            "Mw": 0,
+            "Tg": 0,
+            "Tm": 0,
+            "°C": 14,
+            "g/mol": 0,
+            "mol%": 0,
+            "-co-": 0,
+            "-b-": 0,
+            "×10": 0,
+            "±": 0,
+            "Sn(Oct)2": 0,
+            "α": 1,
+            "β": 0,
+            "δ": 1,
+            "ε": 0,
+            "χ": 0,
+            "μ": 1,
+            "λ": 0,
+            "θ": 0,
+            "η": 0,
+            "σ": 0,
+            "Δ": 24
+          },
+          "symbols_parsed": {
+            "Đ (dispersity)": 3,
+            "Mn": 10,
+            "Mw": 0,
+            "Tg": 1,
+            "Tm": 0,
+            "°C": 23,
+            "g/mol": 0,
+            "mol%": 0,
+            "-co-": 0,
+            "-b-": 0,
+            "×10": 0,
+            "±": 0,
+            "Sn(Oct)2": 0,
+            "α": 1,
+            "β": 0,
+            "δ": 1,
+            "ε": 0,
+            "χ": 0,
+            "μ": 1,
+            "λ": 0,
+            "θ": 0,
+            "η": 0,
+            "σ": 0,
+            "Δ": 38
+          },
+          "per_page": [
+            {
+              "page": 1,
+              "recall": 0.9919,
+              "precision": 1.0,
+              "best_ref_page": 1,
+              "order_score": 1.0
+            },
+            {
+              "page": 2,
+              "recall": 0.9806,
+              "precision": 0.9926,
+              "best_ref_page": 2,
+              "order_score": 1.0
+            },
+            {
+              "page": 3,
+              "recall": 0.9947,
+              "precision": 0.9947,
+              "best_ref_page": 3,
+              "order_score": 1.0
+            },
+            {
+              "page": 4,
+              "recall": 0.9941,
+              "precision": 1.0,
+              "best_ref_page": 4,
+              "order_score": 1.0
+            },
+            {
+              "page": 5,
+              "recall": 1.0,
+              "precision": 0.6381,
+              "best_ref_page": 5,
+              "order_score": 0.9851
+            },
+            {
+              "page": 6,
+              "recall": 1.0,
+              "precision": 0.4272,
+              "best_ref_page": 6,
+              "order_score": 0.9773
+            },
+            {
+              "page": 7,
+              "recall": 1.0,
+              "precision": 0.019,
+              "best_ref_page": 7,
+              "order_score": 1.0
+            },
+            {
+              "page": 8,
+              "recall": 0.9787,
+              "precision": 0.6389,
+              "best_ref_page": 8,
+              "order_score": 1.0
+            },
+            {
+              "page": 9,
+              "recall": 0.9583,
+              "precision": 0.6389,
+              "best_ref_page": 8,
+              "order_score": 1.0
+            },
+            {
+              "page": 10,
+              "recall": 0.9333,
+              "precision": 0.9767,
+              "best_ref_page": 10,
+              "order_score": 1.0
+            },
+            {
+              "page": 11,
+              "recall": 0.9423,
+              "precision": 0.3203,
+              "best_ref_page": 11,
+              "order_score": 1.0
+            },
+            {
+              "page": 12,
+              "recall": 1.0,
+              "precision": 0.2597,
+              "best_ref_page": 12,
+              "order_score": 1.0
+            },
+            {
+              "page": 13,
+              "recall": 0.9872,
+              "precision": 0.4503,
+              "best_ref_page": 13,
+              "order_score": 1.0
+            },
+            {
+              "page": 14,
+              "recall": 0.9899,
+              "precision": 0.7,
+              "best_ref_page": 14,
+              "order_score": 1.0
+            },
+            {
+              "page": 15,
+              "recall": 1.0,
+              "precision": 0.2256,
+              "best_ref_page": 15,
+              "order_score": 0.973
+            },
+            {
+              "page": 16,
+              "recall": 0.9744,
+              "precision": 0.4471,
+              "best_ref_page": 16,
+              "order_score": 1.0
+            },
+            {
+              "page": 17,
+              "recall": 1.0,
+              "precision": 0.4948,
+              "best_ref_page": 17,
+              "order_score": 0.9792
+            },
+            {
+              "page": 18,
+              "recall": 1.0,
+              "precision": 0.4196,
+              "best_ref_page": 18,
+              "order_score": 0.9787
+            },
+            {
+              "page": 19,
+              "recall": 0.973,
+              "precision": 0.5217,
+              "best_ref_page": 19,
+              "order_score": 1.0
+            },
+            {
+              "page": 20,
+              "recall": 0.973,
+              "precision": 0.4865,
+              "best_ref_page": 20,
+              "order_score": 1.0
+            },
+            {
+              "page": 21,
+              "recall": 0.975,
+              "precision": 0.4756,
+              "best_ref_page": 21,
+              "order_score": 1.0
+            },
+            {
+              "page": 22,
+              "recall": 0.9688,
+              "precision": 0.1076,
+              "best_ref_page": 22,
+              "order_score": 1.0
+            },
+            {
+              "page": 23,
+              "recall": 0.9167,
+              "precision": 0.2558,
+              "best_ref_page": 24,
+              "order_score": null
+            },
+            {
+              "page": 24,
+              "recall": 0.9826,
+              "precision": 0.9861,
+              "best_ref_page": 24,
+              "order_score": 1.0
+            },
+            {
+              "page": 25,
+              "recall": 0.9852,
+              "precision": 0.994,
+              "best_ref_page": 25,
+              "order_score": 1.0
+            },
+            {
+              "page": 26,
+              "recall": 0.8421,
+              "precision": 0.7111,
+              "best_ref_page": 26,
+              "order_score": 1.0
+            },
+            {
+              "page": 27,
+              "recall": 0.9898,
+              "precision": 1.0,
+              "best_ref_page": 27,
+              "order_score": 1.0
+            },
+            {
+              "page": 28,
+              "recall": 0.9765,
+              "precision": 0.9727,
+              "best_ref_page": 28,
+              "order_score": 1.0
+            },
+            {
+              "page": 29,
+              "recall": 0.9808,
+              "precision": 0.8472,
+              "best_ref_page": 29,
+              "order_score": 1.0
+            },
+            {
+              "page": 30,
+              "recall": 0.8716,
+              "precision": 0.733,
+              "best_ref_page": 30,
+              "order_score": 0.9922
+            },
+            {
+              "page": 31,
+              "recall": 0.9971,
+              "precision": 1.0,
+              "best_ref_page": 31,
+              "order_score": 1.0
+            },
+            {
+              "page": 32,
+              "recall": 0.9925,
+              "precision": 1.0,
+              "best_ref_page": 32,
+              "order_score": 1.0
+            },
+            {
+              "page": 33,
+              "recall": 0.9974,
+              "precision": 1.0,
+              "best_ref_page": 33,
+              "order_score": 1.0
+            },
+            {
+              "page": 34,
+              "recall": 0.9935,
+              "precision": 1.0,
+              "best_ref_page": 34,
+              "order_score": 1.0
+            }
+          ]
+        },
+        {
+          "case": "P2_polym_star_raft",
+          "doc": "polymers-15-02002",
+          "role": "main",
+          "scanned": false,
+          "pdf_pages": 14,
+          "parsed_pages": 14,
+          "page_count_match": true,
+          "empty_pages": 0,
+          "ref_tokens": 7193,
+          "parsed_tokens": 7908,
+          "token_recall": 0.9851,
+          "token_precision": 0.8961,
+          "page_mapping_accuracy": 0.9286,
+          "order_score": 0.9836,
+          "headings": 26,
+          "tables": 1,
+          "table_cells": 135,
+          "equations_display": 0,
+          "equations_inline": 69,
+          "image_refs": 12,
+          "image_files": 12,
+          "broken_image_refs": 0,
+          "symbol_retention": 0.9765,
+          "symbols_ref": {
+            "Đ (dispersity)": 3,
+            "Mn": 4,
+            "Mw": 1,
+            "Tg": 2,
+            "Tm": 0,
+            "°C": 14,
+            "g/mol": 0,
+            "mol%": 0,
+            "-co-": 0,
+            "-b-": 57,
+            "×10": 0,
+            "±": 0,
+            "Sn(Oct)2": 0,
+            "α": 1,
+            "β": 0,
+            "δ": 1,
+            "ε": 0,
+            "χ": 0,
+            "μ": 2,
+            "λ": 0,
+            "θ": 0,
+            "η": 0,
+            "σ": 0,
+            "Δ": 0
+          },
+          "symbols_parsed": {
+            "Đ (dispersity)": 1,
+            "Mn": 4,
+            "Mw": 1,
+            "Tg": 2,
+            "Tm": 0,
+            "°C": 19,
+            "g/mol": 0,
+            "mol%": 0,
+            "-co-": 0,
+            "-b-": 60,
+            "×10": 0,
+            "±": 0,
+            "Sn(Oct)2": 0,
+            "α": 1,
+            "β": 0,
+            "δ": 1,
+            "ε": 0,
+            "χ": 0,
+            "μ": 2,
+            "λ": 0,
+            "θ": 0,
+            "η": 0,
+            "σ": 0,
+            "Δ": 0
+          },
+          "per_page": [
+            {
+              "page": 1,
+              "recall": 0.9705,
+              "precision": 0.995,
+              "best_ref_page": 1,
+              "order_score": 0.8514
+            },
+            {
+              "page": 2,
+              "recall": 0.9813,
+              "precision": 0.9921,
+              "best_ref_page": 2,
+              "order_score": 0.9984
+            },
+            {
+              "page": 3,
+              "recall": 0.9848,
+              "precision": 0.9954,
+              "best_ref_page": 3,
+              "order_score": 1.0
+            },
+            {
+              "page": 4,
+              "recall": 0.9667,
+              "precision": 0.6063,
+              "best_ref_page": 4,
+              "order_score": 0.9885
+            },
+            {
+              "page": 5,
+              "recall": 0.9735,
+              "precision": 0.6203,
+              "best_ref_page": 5,
+              "order_score": 0.9694
+            },
+            {
+              "page": 6,
+              "recall": 0.99,
+              "precision": 1.0,
+              "best_ref_page": 6,
+              "order_score": 1.0
+            },
+            {
+              "page": 7,
+              "recall": 0.985,
+              "precision": 0.8569,
+              "best_ref_page": 7,
+              "order_score": 0.9882
+            },
+            {
+              "page": 8,
+              "recall": 0.9474,
+              "precision": 0.9057,
+              "best_ref_page": 8,
+              "order_score": 0.9931
+            },
+            {
+              "page": 9,
+              "recall": 0.9665,
+              "precision": 0.914,
+              "best_ref_page": 9,
+              "order_score": 0.995
+            },
+            {
+              "page": 10,
+              "recall": 0.9808,
+              "precision": 0.6986,
+              "best_ref_page": 10,
+              "order_score": 0.9951
+            },
+            {
+              "page": 11,
+              "recall": 0.937,
+              "precision": 0.5064,
+              "best_ref_page": 12,
+              "order_score": 0.9916
+            },
+            {
+              "page": 12,
+              "recall": 0.9862,
+              "precision": 0.9969,
+              "best_ref_page": 12,
+              "order_score": 1.0
+            },
+            {
+              "page": 13,
+              "recall": 0.9907,
+              "precision": 0.9988,
+              "best_ref_page": 13,
+              "order_score": 1.0
+            },
+            {
+              "page": 14,
+              "recall": 0.9911,
+              "precision": 0.9978,
+              "best_ref_page": 14,
+              "order_score": 1.0
+            }
+          ]
+        },
+        {
+          "case": "P2_polym_star_raft",
+          "doc": "polymers-2246784-supplementary",
+          "role": "si",
+          "scanned": false,
+          "pdf_pages": 6,
+          "parsed_pages": 6,
+          "page_count_match": true,
+          "empty_pages": 0,
+          "ref_tokens": 780,
+          "parsed_tokens": 889,
+          "token_recall": 0.991,
+          "token_precision": 0.8695,
+          "page_mapping_accuracy": 1.0,
+          "order_score": 0.9323,
+          "headings": 2,
+          "tables": 7,
+          "table_cells": 452,
+          "equations_display": 0,
+          "equations_inline": 23,
+          "image_refs": 8,
+          "image_files": 8,
+          "broken_image_refs": 0,
+          "symbol_retention": 0.931,
+          "symbols_ref": {
+            "Đ (dispersity)": 1,
+            "Mn": 2,
+            "Mw": 0,
+            "Tg": 0,
+            "Tm": 0,
+            "°C": 18,
+            "g/mol": 2,
+            "mol%": 0,
+            "-co-": 0,
+            "-b-": 6,
+            "×10": 0,
+            "±": 0,
+            "Sn(Oct)2": 0,
+            "α": 0,
+            "β": 0,
+            "δ": 0,
+            "ε": 0,
+            "χ": 0,
+            "μ": 0,
+            "λ": 0,
+            "θ": 0,
+            "η": 0,
+            "σ": 0,
+            "Δ": 0
+          },
+          "symbols_parsed": {
+            "Đ (dispersity)": 0,
+            "Mn": 2,
+            "Mw": 0,
+            "Tg": 0,
+            "Tm": 0,
+            "°C": 17,
+            "g/mol": 2,
+            "mol%": 0,
+            "-co-": 0,
+            "-b-": 6,
+            "×10": 0,
+            "±": 0,
+            "Sn(Oct)2": 0,
+            "α": 0,
+            "β": 0,
+            "δ": 0,
+            "ε": 0,
+            "χ": 0,
+            "μ": 0,
+            "λ": 0,
+            "θ": 0,
+            "η": 0,
+            "σ": 0,
+            "Δ": 0
+          },
+          "per_page": [
+            {
+              "page": 1,
+              "recall": 0.9908,
+              "precision": 0.9969,
+              "best_ref_page": 1,
+              "order_score": 1.0
+            },
+            {
+              "page": 2,
+              "recall": 1.0,
+              "precision": 0.7157,
+              "best_ref_page": 2,
+              "order_score": 0.8219
+            },
+            {
+              "page": 3,
+              "recall": 1.0,
+              "precision": 1.0,
+              "best_ref_page": 3,
+              "order_score": 0.8083
+            },
+            {
+              "page": 4,
+              "recall": 0.9647,
+              "precision": 0.9762,
+              "best_ref_page": 4,
+              "order_score": 0.9634
+            },
+            {
+              "page": 5,
+              "recall": 1.0,
+              "precision": 0.4174,
+              "best_ref_page": 5,
+              "order_score": 1.0
+            },
+            {
+              "page": 6,
+              "recall": 1.0,
+              "precision": 0.7167,
+              "best_ref_page": 6,
+              "order_score": 1.0
+            }
+          ]
+        },
+        {
+          "case": "P3_polym_tmc_rop",
+          "doc": "polymers-15-00720",
+          "role": "main",
+          "scanned": false,
+          "pdf_pages": 11,
+          "parsed_pages": 11,
+          "page_count_match": true,
+          "empty_pages": 0,
+          "ref_tokens": 5807,
+          "parsed_tokens": 5807,
+          "token_recall": 0.9807,
+          "token_precision": 0.9807,
+          "page_mapping_accuracy": 1.0,
+          "order_score": 0.9867,
+          "headings": 15,
+          "tables": 3,
+          "table_cells": 154,
+          "equations_display": 0,
+          "equations_inline": 108,
+          "image_refs": 11,
+          "image_files": 11,
+          "broken_image_refs": 0,
+          "symbol_retention": 0.9402,
+          "symbols_ref": {
+            "Đ (dispersity)": 15,
+            "Mn": 22,
+            "Mw": 0,
+            "Tg": 4,
+            "Tm": 0,
+            "°C": 17,
+            "g/mol": 19,
+            "mol%": 0,
+            "-co-": 0,
+            "-b-": 13,
+            "×10": 7,
+            "±": 0,
+            "Sn(Oct)2": 0,
+            "α": 2,
+            "β": 1,
+            "δ": 3,
+            "ε": 7,
+            "χ": 0,
+            "μ": 7,
+            "λ": 0,
+            "θ": 0,
+            "η": 0,
+            "σ": 0,
+            "Δ": 0
+          },
+          "symbols_parsed": {
+            "Đ (dispersity)": 11,
+            "Mn": 22,
+            "Mw": 0,
+            "Tg": 4,
+            "Tm": 0,
+            "°C": 17,
+            "g/mol": 16,
+            "mol%": 0,
+            "-co-": 0,
+            "-b-": 14,
+            "×10": 7,
+            "±": 0,
+            "Sn(Oct)2": 0,
+            "α": 2,
+            "β": 1,
+            "δ": 3,
+            "ε": 7,
+            "χ": 0,
+            "μ": 7,
+            "λ": 0,
+            "θ": 0,
+            "η": 0,
+            "σ": 0,
+            "Δ": 0
+          },
+          "per_page": [
+            {
+              "page": 1,
+              "recall": 0.9696,
+              "precision": 0.9935,
+              "best_ref_page": 1,
+              "order_score": 0.8633
+            },
+            {
+              "page": 2,
+              "recall": 0.9894,
+              "precision": 1.0,
+              "best_ref_page": 2,
+              "order_score": 1.0
+            },
+            {
+              "page": 3,
+              "recall": 0.978,
+              "precision": 0.9856,
+              "best_ref_page": 3,
+              "order_score": 0.9987
+            },
+            {
+              "page": 4,
+              "recall": 0.9739,
+              "precision": 0.9596,
+              "best_ref_page": 4,
+              "order_score": 1.0
+            },
+            {
+              "page": 5,
+              "recall": 0.9859,
+              "precision": 0.9159,
+              "best_ref_page": 5,
+              "order_score": 0.998
+            },
+            {
+              "page": 6,
+              "recall": 0.9798,
+              "precision": 0.9971,
+              "best_ref_page": 6,
+              "order_score": 1.0
+            },
+            {
+              "page": 7,
+              "recall": 0.9815,
+              "precision": 0.9522,
+              "best_ref_page": 7,
+              "order_score": 0.9969
+            },
+            {
+              "page": 8,
+              "recall": 0.96,
+              "precision": 0.9829,
+              "best_ref_page": 8,
+              "order_score": 0.9965
+            },
+            {
+              "page": 9,
+              "recall": 0.9848,
+              "precision": 0.9903,
+              "best_ref_page": 9,
+              "order_score": 1.0
+            },
+            {
+              "page": 10,
+              "recall": 0.9854,
+              "precision": 0.9899,
+              "best_ref_page": 10,
+              "order_score": 1.0
+            },
+            {
+              "page": 11,
+              "recall": 0.9466,
+              "precision": 1.0,
+              "best_ref_page": 11,
+              "order_score": 1.0
+            }
+          ]
+        },
+        {
+          "case": "P4_polym_carbonate_scanned",
+          "doc": "polymers-16-03364_scanned",
+          "role": "main",
+          "scanned": true,
+          "pdf_pages": 11,
+          "parsed_pages": 11,
+          "page_count_match": true,
+          "empty_pages": 0,
+          "ref_tokens": 6333,
+          "parsed_tokens": 6345,
+          "token_recall": 0.9776,
+          "token_precision": 0.9757,
+          "page_mapping_accuracy": 1.0,
+          "order_score": 0.9731,
+          "headings": 10,
+          "tables": 3,
+          "table_cells": 220,
+          "equations_display": 0,
+          "equations_inline": 186,
+          "image_refs": 7,
+          "image_files": 7,
+          "broken_image_refs": 0,
+          "symbol_retention": 0.976,
+          "symbols_ref": {
+            "Đ (dispersity)": 2,
+            "Mn": 1,
+            "Mw": 0,
+            "Tg": 1,
+            "Tm": 1,
+            "°C": 20,
+            "g/mol": 1,
+            "mol%": 0,
+            "-co-": 7,
+            "-b-": 1,
+            "×10": 0,
+            "±": 3,
+            "Sn(Oct)2": 11,
+            "α": 1,
+            "β": 17,
+            "δ": 8,
+            "ε": 50,
+            "χ": 0,
+            "μ": 1,
+            "λ": 0,
+            "θ": 0,
+            "η": 0,
+            "σ": 0,
+            "Δ": 0
+          },
+          "symbols_parsed": {
+            "Đ (dispersity)": 0,
+            "Mn": 0,
+            "Mw": 0,
+            "Tg": 1,
+            "Tm": 1,
+            "°C": 20,
+            "g/mol": 1,
+            "mol%": 0,
+            "-co-": 7,
+            "-b-": 1,
+            "×10": 0,
+            "±": 3,
+            "Sn(Oct)2": 11,
+            "α": 1,
+            "β": 18,
+            "δ": 8,
+            "ε": 50,
+            "χ": 0,
+            "μ": 1,
+            "λ": 0,
+            "θ": 0,
+            "η": 0,
+            "σ": 0,
+            "Δ": 0
+          },
+          "per_page": [
+            {
+              "page": 1,
+              "recall": 0.9708,
+              "precision": 0.9844,
+              "best_ref_page": 1,
+              "order_score": 0.7338
+            },
+            {
+              "page": 2,
+              "recall": 0.9296,
+              "precision": 1.0,
+              "best_ref_page": 2,
+              "order_score": 1.0
+            },
+            {
+              "page": 3,
+              "recall": 0.988,
+              "precision": 0.9973,
+              "best_ref_page": 3,
+              "order_score": 1.0
+            },
+            {
+              "page": 4,
+              "recall": 0.9791,
+              "precision": 0.9661,
+              "best_ref_page": 4,
+              "order_score": 1.0
+            },
+            {
+              "page": 5,
+              "recall": 0.9739,
+              "precision": 0.8642,
+              "best_ref_page": 5,
+              "order_score": 0.9923
+            },
+            {
+              "page": 6,
+              "recall": 0.9647,
+              "precision": 0.9145,
+              "best_ref_page": 6,
+              "order_score": 0.9919
+            },
+            {
+              "page": 7,
+              "recall": 0.9742,
+              "precision": 0.9695,
+              "best_ref_page": 7,
+              "order_score": 0.9987
+            },
+            {
+              "page": 8,
+              "recall": 0.9747,
+              "precision": 0.9371,
+              "best_ref_page": 8,
+              "order_score": 0.987
+            },
+            {
+              "page": 9,
+              "recall": 0.9903,
+              "precision": 1.0,
+              "best_ref_page": 9,
+              "order_score": 1.0
+            },
+            {
+              "page": 10,
+              "recall": 0.9917,
+              "precision": 0.9979,
+              "best_ref_page": 10,
+              "order_score": 1.0
+            },
+            {
+              "page": 11,
+              "recall": 0.9496,
+              "precision": 1.0,
+              "best_ref_page": 11,
+              "order_score": 1.0
+            }
+          ]
+        },
+        {
+          "case": "P5_pccp_flory_huggins",
+          "doc": "d4cp03690e",
+          "role": "main",
+          "scanned": false,
+          "pdf_pages": 12,
+          "parsed_pages": 12,
+          "page_count_match": true,
+          "empty_pages": 0,
+          "ref_tokens": 10098,
+          "parsed_tokens": 10244,
+          "token_recall": 0.9583,
+          "token_precision": 0.9447,
+          "page_mapping_accuracy": 1.0,
+          "order_score": 0.8911,
+          "headings": 18,
+          "tables": 3,
+          "table_cells": 243,
+          "equations_display": 19,
+          "equations_inline": 118,
+          "image_refs": 7,
+          "image_files": 7,
+          "broken_image_refs": 0,
+          "symbol_retention": 1.0,
+          "symbols_ref": {
+            "Đ (dispersity)": 0,
+            "Mn": 0,
+            "Mw": 0,
+            "Tg": 0,
+            "Tm": 0,
+            "°C": 0,
+            "g/mol": 0,
+            "mol%": 0,
+            "-co-": 0,
+            "-b-": 1,
+            "×10": 0,
+            "±": 0,
+            "Sn(Oct)2": 0,
+            "α": 0,
+            "β": 0,
+            "δ": 0,
+            "ε": 0,
+            "χ": 0,
+            "μ": 0,
+            "λ": 0,
+            "θ": 0,
+            "η": 0,
+            "σ": 0,
+            "Δ": 0
+          },
+          "symbols_parsed": {
+            "Đ (dispersity)": 0,
+            "Mn": 0,
+            "Mw": 0,
+            "Tg": 0,
+            "Tm": 0,
+            "°C": 0,
+            "g/mol": 0,
+            "mol%": 0,
+            "-co-": 0,
+            "-b-": 1,
+            "×10": 0,
+            "±": 0,
+            "Sn(Oct)2": 0,
+            "α": 5,
+            "β": 0,
+            "δ": 20,
+            "ε": 3,
+            "χ": 53,
+            "μ": 0,
+            "λ": 8,
+            "θ": 0,
+            "η": 0,
+            "σ": 0,
+            "Δ": 56
+          },
+          "per_page": [
+            {
+              "page": 1,
+              "recall": 0.9586,
+              "precision": 0.9914,
+              "best_ref_page": 1,
+              "order_score": 0.7738
+            },
+            {
+              "page": 2,
+              "recall": 0.86,
+              "precision": 0.8162,
+              "best_ref_page": 2,
+              "order_score": 0.9932
+            },
+            {
+              "page": 3,
+              "recall": 0.9594,
+              "precision": 0.9844,
+              "best_ref_page": 3,
+              "order_score": 1.0
+            },
+            {
+              "page": 4,
+              "recall": 0.9525,
+              "precision": 0.9575,
+              "best_ref_page": 4,
+              "order_score": 0.9957
+            },
+            {
+              "page": 5,
+              "recall": 0.9705,
+              "precision": 0.9968,
+              "best_ref_page": 5,
+              "order_score": 0.9327
+            },
+            {
+              "page": 6,
+              "recall": 0.96,
+              "precision": 0.9878,
+              "best_ref_page": 6,
+              "order_score": 0.9645
+            },
+            {
+              "page": 7,
+              "recall": 0.9608,
+              "precision": 0.83,
+              "best_ref_page": 7,
+              "order_score": 0.7974
+            },
+            {
+              "page": 8,
+              "recall": 0.9547,
+              "precision": 0.9661,
+              "best_ref_page": 8,
+              "order_score": 0.2707
+            },
+            {
+              "page": 9,
+              "recall": 0.9579,
+              "precision": 0.8211,
+              "best_ref_page": 9,
+              "order_score": 0.9649
+            },
+            {
+              "page": 10,
+              "recall": 0.9744,
+              "precision": 0.9917,
+              "best_ref_page": 10,
+              "order_score": 1.0
+            },
+            {
+              "page": 11,
+              "recall": 0.9759,
+              "precision": 0.9939,
+              "best_ref_page": 11,
+              "order_score": 1.0
+            },
+            {
+              "page": 12,
+              "recall": 0.9672,
+              "precision": 0.9849,
+              "best_ref_page": 12,
+              "order_score": 1.0
+            }
+          ]
+        },
+        {
+          "case": "P5_pccp_flory_huggins",
+          "doc": "d4cp03690e1_suppl",
+          "role": "si",
+          "scanned": false,
+          "pdf_pages": 6,
+          "parsed_pages": 6,
+          "page_count_match": true,
+          "empty_pages": 0,
+          "ref_tokens": 392,
+          "parsed_tokens": 340,
+          "token_recall": 0.6939,
+          "token_precision": 0.8,
+          "page_mapping_accuracy": 1.0,
+          "order_score": 0.9564,
+          "headings": 7,
+          "tables": 1,
+          "table_cells": 72,
+          "equations_display": 0,
+          "equations_inline": 0,
+          "image_refs": 4,
+          "image_files": 4,
+          "broken_image_refs": 0,
+          "symbol_retention": null,
+          "symbols_ref": {
+            "Đ (dispersity)": 0,
+            "Mn": 0,
+            "Mw": 0,
+            "Tg": 0,
+            "Tm": 0,
+            "°C": 0,
+            "g/mol": 0,
+            "mol%": 0,
+            "-co-": 0,
+            "-b-": 0,
+            "×10": 0,
+            "±": 0,
+            "Sn(Oct)2": 0,
+            "α": 0,
+            "β": 0,
+            "δ": 0,
+            "ε": 0,
+            "χ": 0,
+            "μ": 0,
+            "λ": 0,
+            "θ": 0,
+            "η": 0,
+            "σ": 0,
+            "Δ": 0
+          },
+          "symbols_parsed": {
+            "Đ (dispersity)": 0,
+            "Mn": 0,
+            "Mw": 0,
+            "Tg": 0,
+            "Tm": 0,
+            "°C": 0,
+            "g/mol": 0,
+            "mol%": 0,
+            "-co-": 0,
+            "-b-": 0,
+            "×10": 0,
+            "±": 0,
+            "Sn(Oct)2": 0,
+            "α": 0,
+            "β": 0,
+            "δ": 0,
+            "ε": 0,
+            "χ": 0,
+            "μ": 0,
+            "λ": 0,
+            "θ": 0,
+            "η": 0,
+            "σ": 0,
+            "Δ": 0
+          },
+          "per_page": [
+            {
+              "page": 1,
+              "recall": 0.8636,
+              "precision": 1.0,
+              "best_ref_page": 1,
+              "order_score": 1.0
+            },
+            {
+              "page": 2,
+              "recall": 0.963,
+              "precision": 1.0,
+              "best_ref_page": null,
+              "order_score": 1.0
+            },
+            {
+              "page": 3,
+              "recall": 0.2931,
+              "precision": 1.0,
+              "best_ref_page": null,
+              "order_score": null
+            },
+            {
+              "page": 4,
+              "recall": 0.8866,
+              "precision": 0.5212,
+              "best_ref_page": 4,
+              "order_score": 0.8256
+            },
+            {
+              "page": 5,
+              "recall": 0.2125,
+              "precision": 1.0,
+              "best_ref_page": null,
+              "order_score": null
+            },
+            {
+              "page": 6,
+              "recall": 1.0,
+              "precision": 1.0,
+              "best_ref_page": null,
+              "order_score": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    "mineru_basic": {
+      "docs": [
+        {
+          "case": "P1_natcommun_lactone",
+          "doc": "s41467-024-52090-2",
+          "role": "main",
+          "scanned": false,
+          "pdf_pages": 12,
+          "parsed_pages": 12,
+          "page_count_match": true,
+          "empty_pages": 0,
+          "ref_tokens": 11143,
+          "parsed_tokens": 11406,
+          "token_recall": 0.9466,
+          "token_precision": 0.9248,
+          "page_mapping_accuracy": 1.0,
+          "order_score": 0.9368,
+          "headings": 16,
+          "tables": 1,
+          "table_cells": 160,
+          "equations_display": 0,
+          "equations_inline": 335,
+          "image_refs": 10,
+          "image_files": 10,
+          "broken_image_refs": 0,
+          "symbol_retention": 0.6422,
+          "symbols_ref": {
+            "Đ (dispersity)": 13,
+            "Mn": 29,
+            "Mw": 1,
+            "Tg": 4,
+            "Tm": 0,
+            "°C": 72,
+            "g/mol": 3,
+            "mol%": 2,
+            "-co-": 0,
+            "-b-": 0,
+            "×10": 0,
+            "±": 0,
+            "Sn(Oct)2": 4,
+            "α": 8,
+            "β": 3,
+            "δ": 20,
+            "ε": 2,
+            "χ": 0,
+            "μ": 8,
+            "λ": 4,
+            "θ": 0,
+            "η": 0,
+            "σ": 0,
+            "Δ": 31
+          },
+          "symbols_parsed": {
+            "Đ (dispersity)": 5,
+            "Mn": 7,
+            "Mw": 1,
+            "Tg": 3,
+            "Tm": 0,
+            "°C": 30,
+            "g/mol": 3,
+            "mol%": 2,
+            "-co-": 0,
+            "-b-": 0,
+            "×10": 0,
+            "±": 0,
+            "Sn(Oct)2": 4,
+            "α": 8,
+            "β": 3,
+            "δ": 20,
+            "ε": 2,
+            "χ": 0,
+            "μ": 8,
+            "λ": 4,
+            "θ": 0,
+            "η": 0,
+            "σ": 0,
+            "Δ": 31
+          },
+          "per_page": [
+            {
+              "page": 1,
+              "recall": 0.9603,
+              "precision": 0.9219,
+              "best_ref_page": 1,
+              "order_score": 0.9752
+            },
+            {
+              "page": 2,
+              "recall": 0.9404,
+              "precision": 0.9202,
+              "best_ref_page": 2,
+              "order_score": 0.9556
+            },
+            {
+              "page": 3,
+              "recall": 0.9434,
+              "precision": 0.9004,
+              "best_ref_page": 3,
+              "order_score": 0.97
+            },
+            {
+              "page": 4,
+              "recall": 0.8993,
+              "precision": 0.947,
+              "best_ref_page": 4,
+              "order_score": 0.6722
+            },
+            {
+              "page": 5,
+              "recall": 0.9641,
+              "precision": 0.9105,
+              "best_ref_page": 5,
+              "order_score": 0.9987
+            },
+            {
+              "page": 6,
+              "recall": 0.858,
+              "precision": 0.8732,
+              "best_ref_page": 6,
+              "order_score": 0.902
+            },
+            {
+              "page": 7,
+              "recall": 0.9205,
+              "precision": 0.8581,
+              "best_ref_page": 7,
+              "order_score": 0.9321
+            },
+            {
+              "page": 8,
+              "recall": 0.9143,
+              "precision": 0.904,
+              "best_ref_page": 8,
+              "order_score": 0.8407
+            },
+            {
+              "page": 9,
+              "recall": 0.9579,
+              "precision": 0.9197,
+              "best_ref_page": 9,
+              "order_score": 0.9972
+            },
+            {
+              "page": 10,
+              "recall": 0.9714,
+              "precision": 0.9622,
+              "best_ref_page": 10,
+              "order_score": 0.9992
+            },
+            {
+              "page": 11,
+              "recall": 0.9774,
+              "precision": 0.9808,
+              "best_ref_page": 11,
+              "order_score": 0.9991
+            },
+            {
+              "page": 12,
+              "recall": 0.945,
+              "precision": 0.9872,
+              "best_ref_page": 12,
+              "order_score": 1.0
+            }
+          ]
+        },
+        {
+          "case": "P1_natcommun_lactone",
+          "doc": "s41467-024-52090-2_SI",
+          "role": "si",
+          "scanned": false,
+          "pdf_pages": 34,
+          "parsed_pages": 34,
+          "page_count_match": true,
+          "empty_pages": 0,
+          "ref_tokens": 4438,
+          "parsed_tokens": 4604,
+          "token_recall": 0.9644,
+          "token_precision": 0.9296,
+          "page_mapping_accuracy": 1.0,
+          "order_score": 0.9968,
+          "headings": 8,
+          "tables": 4,
+          "table_cells": 304,
+          "equations_display": 8,
+          "equations_inline": 61,
+          "image_refs": 40,
+          "image_files": 40,
+          "broken_image_refs": 0,
+          "symbol_retention": 0.7455,
+          "symbols_ref": {
+            "Đ (dispersity)": 7,
+            "Mn": 7,
+            "Mw": 0,
+            "Tg": 0,
+            "Tm": 0,
+            "°C": 14,
+            "g/mol": 0,
+            "mol%": 0,
+            "-co-": 0,
+            "-b-": 0,
+            "×10": 0,
+            "±": 0,
+            "Sn(Oct)2": 0,
+            "α": 1,
+            "β": 0,
+            "δ": 1,
+            "ε": 0,
+            "χ": 0,
+            "μ": 1,
+            "λ": 0,
+            "θ": 0,
+            "η": 0,
+            "σ": 0,
+            "Δ": 24
+          },
+          "symbols_parsed": {
+            "Đ (dispersity)": 4,
+            "Mn": 6,
+            "Mw": 0,
+            "Tg": 0,
+            "Tm": 0,
+            "°C": 4,
+            "g/mol": 0,
+            "mol%": 0,
+            "-co-": 0,
+            "-b-": 0,
+            "×10": 0,
+            "±": 0,
+            "Sn(Oct)2": 0,
+            "α": 1,
+            "β": 0,
+            "δ": 1,
+            "ε": 0,
+            "χ": 0,
+            "μ": 1,
+            "λ": 0,
+            "θ": 0,
+            "η": 0,
+            "σ": 0,
+            "Δ": 36
+          },
+          "per_page": [
+            {
+              "page": 1,
+              "recall": 0.9675,
+              "precision": 0.9754,
+              "best_ref_page": 1,
+              "order_score": 1.0
+            },
+            {
+              "page": 2,
+              "recall": 0.9854,
+              "precision": 0.9927,
+              "best_ref_page": 2,
+              "order_score": 1.0
+            },
+            {
+              "page": 3,
+              "recall": 0.984,
+              "precision": 0.9558,
+              "best_ref_page": 3,
+              "order_score": 1.0
+            },
+            {
+              "page": 4,
+              "recall": 0.9882,
+              "precision": 0.9824,
+              "best_ref_page": 4,
+              "order_score": 1.0
+            },
+            {
+              "page": 5,
+              "recall": 0.9851,
+              "precision": 1.0,
+              "best_ref_page": 5,
+              "order_score": 1.0
+            },
+            {
+              "page": 6,
+              "recall": 0.9773,
+              "precision": 1.0,
+              "best_ref_page": 6,
+              "order_score": 1.0
+            },
+            {
+              "page": 7,
+              "recall": 0.9818,
+              "precision": 1.0,
+              "best_ref_page": 7,
+              "order_score": 1.0
+            },
+            {
+              "page": 8,
+              "recall": 0.9787,
+              "precision": 1.0,
+              "best_ref_page": 8,
+              "order_score": 1.0
+            },
+            {
+              "page": 9,
+              "recall": 0.9583,
+              "precision": 1.0,
+              "best_ref_page": null,
+              "order_score": 1.0
+            },
+            {
+              "page": 10,
+              "recall": 0.9778,
+              "precision": 0.9362,
+              "best_ref_page": 10,
+              "order_score": 1.0
+            },
+            {
+              "page": 11,
+              "recall": 0.9423,
+              "precision": 0.9074,
+              "best_ref_page": 11,
+              "order_score": 1.0
+            },
+            {
+              "page": 12,
+              "recall": 0.9787,
+              "precision": 1.0,
+              "best_ref_page": 12,
+              "order_score": 1.0
+            },
+            {
+              "page": 13,
+              "recall": 0.9872,
+              "precision": 1.0,
+              "best_ref_page": 13,
+              "order_score": 1.0
+            },
+            {
+              "page": 14,
+              "recall": 0.9899,
+              "precision": 1.0,
+              "best_ref_page": 14,
+              "order_score": 1.0
+            },
+            {
+              "page": 15,
+              "recall": 0.973,
+              "precision": 1.0,
+              "best_ref_page": 15,
+              "order_score": 1.0
+            },
+            {
+              "page": 16,
+              "recall": 0.9744,
+              "precision": 1.0,
+              "best_ref_page": 16,
+              "order_score": 1.0
+            },
+            {
+              "page": 17,
+              "recall": 0.875,
+              "precision": 0.7368,
+              "best_ref_page": 17,
+              "order_score": 1.0
+            },
+            {
+              "page": 18,
+              "recall": 0.9574,
+              "precision": 0.9375,
+              "best_ref_page": 18,
+              "order_score": 1.0
+            },
+            {
+              "page": 19,
+              "recall": 0.973,
+              "precision": 1.0,
+              "best_ref_page": 19,
+              "order_score": 1.0
+            },
+            {
+              "page": 20,
+              "recall": 0.973,
+              "precision": 1.0,
+              "best_ref_page": 20,
+              "order_score": 1.0
+            },
+            {
+              "page": 21,
+              "recall": 0.925,
+              "precision": 0.9024,
+              "best_ref_page": 21,
+              "order_score": 1.0
+            },
+            {
+              "page": 22,
+              "recall": 0.9375,
+              "precision": 0.9375,
+              "best_ref_page": 22,
+              "order_score": 1.0
+            },
+            {
+              "page": 23,
+              "recall": 0.8333,
+              "precision": 0.8333,
+              "best_ref_page": null,
+              "order_score": null
+            },
+            {
+              "page": 24,
+              "recall": 0.9688,
+              "precision": 0.9721,
+              "best_ref_page": 24,
+              "order_score": 1.0
+            },
+            {
+              "page": 25,
+              "recall": 0.8635,
+              "precision": 0.8899,
+              "best_ref_page": 25,
+              "order_score": 0.9897
+            },
+            {
+              "page": 26,
+              "recall": 0.8421,
+              "precision": 0.7529,
+              "best_ref_page": 26,
+              "order_score": 0.9531
+            },
+            {
+              "page": 27,
+              "recall": 0.9898,
+              "precision": 1.0,
+              "best_ref_page": 27,
+              "order_score": 1.0
+            },
+            {
+              "page": 28,
+              "recall": 0.9961,
+              "precision": 1.0,
+              "best_ref_page": 28,
+              "order_score": 1.0
+            },
+            {
+              "page": 29,
+              "recall": 0.9615,
+              "precision": 0.7102,
+              "best_ref_page": 29,
+              "order_score": 1.0
+            },
+            {
+              "page": 30,
+              "recall": 0.8108,
+              "precision": 0.5797,
+              "best_ref_page": 30,
+              "order_score": 0.95
+            },
+            {
+              "page": 31,
+              "recall": 0.9823,
+              "precision": 0.9737,
+              "best_ref_page": 31,
+              "order_score": 1.0
+            },
+            {
+              "page": 32,
+              "recall": 0.9699,
+              "precision": 0.9485,
+              "best_ref_page": 32,
+              "order_score": 1.0
+            },
+            {
+              "page": 33,
+              "recall": 0.9922,
+              "precision": 0.9846,
+              "best_ref_page": 33,
+              "order_score": 1.0
+            },
+            {
+              "page": 34,
+              "recall": 0.9935,
+              "precision": 1.0,
+              "best_ref_page": 34,
+              "order_score": 1.0
+            }
+          ]
+        },
+        {
+          "case": "P2_polym_star_raft",
+          "doc": "polymers-15-02002",
+          "role": "main",
+          "scanned": false,
+          "pdf_pages": 14,
+          "parsed_pages": 14,
+          "page_count_match": true,
+          "empty_pages": 0,
+          "ref_tokens": 7193,
+          "parsed_tokens": 8022,
+          "token_recall": 0.9798,
+          "token_precision": 0.8786,
+          "page_mapping_accuracy": 0.9286,
+          "order_score": 0.9749,
+          "headings": 26,
+          "tables": 1,
+          "table_cells": 154,
+          "equations_display": 0,
+          "equations_inline": 37,
+          "image_refs": 31,
+          "image_files": 31,
+          "broken_image_refs": 0,
+          "symbol_retention": 0.7882,
+          "symbols_ref": {
+            "Đ (dispersity)": 3,
+            "Mn": 4,
+            "Mw": 1,
+            "Tg": 2,
+            "Tm": 0,
+            "°C": 14,
+            "g/mol": 0,
+            "mol%": 0,
+            "-co-": 0,
+            "-b-": 57,
+            "×10": 0,
+            "±": 0,
+            "Sn(Oct)2": 0,
+            "α": 1,
+            "β": 0,
+            "δ": 1,
+            "ε": 0,
+            "χ": 0,
+            "μ": 2,
+            "λ": 0,
+            "θ": 0,
+            "η": 0,
+            "σ": 0,
+            "Δ": 0
+          },
+          "symbols_parsed": {
+            "Đ (dispersity)": 2,
+            "Mn": 1,
+            "Mw": 0,
+            "Tg": 1,
+            "Tm": 0,
+            "°C": 2,
+            "g/mol": 0,
+            "mol%": 0,
+            "-co-": 0,
+            "-b-": 64,
+            "×10": 0,
+            "±": 0,
+            "Sn(Oct)2": 0,
+            "α": 1,
+            "β": 0,
+            "δ": 1,
+            "ε": 0,
+            "χ": 0,
+            "μ": 3,
+            "λ": 0,
+            "θ": 0,
+            "η": 0,
+            "σ": 0,
+            "Δ": 0
+          },
+          "per_page": [
+            {
+              "page": 1,
+              "recall": 0.9705,
+              "precision": 1.0,
+              "best_ref_page": 1,
+              "order_score": 0.8514
+            },
+            {
+              "page": 2,
+              "recall": 0.9844,
+              "precision": 0.986,
+              "best_ref_page": 2,
+              "order_score": 0.9984
+            },
+            {
+              "page": 3,
+              "recall": 0.9726,
+              "precision": 0.9681,
+              "best_ref_page": 3,
+              "order_score": 1.0
+            },
+            {
+              "page": 4,
+              "recall": 0.9611,
+              "precision": 0.6758,
+              "best_ref_page": 4,
+              "order_score": 0.9827
+            },
+            {
+              "page": 5,
+              "recall": 0.9636,
+              "precision": 0.6165,
+              "best_ref_page": 5,
+              "order_score": 0.9588
+            },
+            {
+              "page": 6,
+              "recall": 0.9658,
+              "precision": 0.9417,
+              "best_ref_page": 6,
+              "order_score": 0.9985
+            },
+            {
+              "page": 7,
+              "recall": 0.9651,
+              "precision": 0.6884,
+              "best_ref_page": 7,
+              "order_score": 0.8916
+            },
+            {
+              "page": 8,
+              "recall": 0.9276,
+              "precision": 0.8598,
+              "best_ref_page": 8,
+              "order_score": 0.9858
+            },
+            {
+              "page": 9,
+              "recall": 0.9617,
+              "precision": 0.8973,
+              "best_ref_page": 9,
+              "order_score": 0.995
+            },
+            {
+              "page": 10,
+              "recall": 0.9808,
+              "precision": 0.6962,
+              "best_ref_page": 10,
+              "order_score": 0.9951
+            },
+            {
+              "page": 11,
+              "recall": 0.937,
+              "precision": 0.5613,
+              "best_ref_page": 12,
+              "order_score": 0.9916
+            },
+            {
+              "page": 12,
+              "recall": 0.9878,
+              "precision": 0.9969,
+              "best_ref_page": 12,
+              "order_score": 1.0
+            },
+            {
+              "page": 13,
+              "recall": 0.9907,
+              "precision": 0.9988,
+              "best_ref_page": 13,
+              "order_score": 1.0
+            },
+            {
+              "page": 14,
+              "recall": 0.9911,
+              "precision": 0.9978,
+              "best_ref_page": 14,
+              "order_score": 1.0
+            }
+          ]
+        },
+        {
+          "case": "P2_polym_star_raft",
+          "doc": "polymers-2246784-supplementary",
+          "role": "si",
+          "scanned": false,
+          "pdf_pages": 6,
+          "parsed_pages": 6,
+          "page_count_match": true,
+          "empty_pages": 0,
+          "ref_tokens": 780,
+          "parsed_tokens": 787,
+          "token_recall": 0.9872,
+          "token_precision": 0.9784,
+          "page_mapping_accuracy": 1.0,
+          "order_score": 0.9033,
+          "headings": 2,
+          "tables": 4,
+          "table_cells": 430,
+          "equations_display": 0,
+          "equations_inline": 8,
+          "image_refs": 15,
+          "image_files": 15,
+          "broken_image_refs": 0,
+          "symbol_retention": 0.8621,
+          "symbols_ref": {
+            "Đ (dispersity)": 1,
+            "Mn": 2,
+            "Mw": 0,
+            "Tg": 0,
+            "Tm": 0,
+            "°C": 18,
+            "g/mol": 2,
+            "mol%": 0,
+            "-co-": 0,
+            "-b-": 6,
+            "×10": 0,
+            "±": 0,
+            "Sn(Oct)2": 0,
+            "α": 0,
+            "β": 0,
+            "δ": 0,
+            "ε": 0,
+            "χ": 0,
+            "μ": 0,
+            "λ": 0,
+            "θ": 0,
+            "η": 0,
+            "σ": 0,
+            "Δ": 0
+          },
+          "symbols_parsed": {
+            "Đ (dispersity)": 1,
+            "Mn": 2,
+            "Mw": 0,
+            "Tg": 0,
+            "Tm": 0,
+            "°C": 16,
+            "g/mol": 2,
+            "mol%": 0,
+            "-co-": 0,
+            "-b-": 4,
+            "×10": 0,
+            "±": 0,
+            "Sn(Oct)2": 0,
+            "α": 0,
+            "β": 0,
+            "δ": 0,
+            "ε": 0,
+            "χ": 0,
+            "μ": 0,
+            "λ": 0,
+            "θ": 0,
+            "η": 0,
+            "σ": 0,
+            "Δ": 0
+          },
+          "per_page": [
+            {
+              "page": 1,
+              "recall": 0.9908,
+              "precision": 0.9969,
+              "best_ref_page": 1,
+              "order_score": 1.0
+            },
+            {
+              "page": 2,
+              "recall": 0.9726,
+              "precision": 0.9467,
+              "best_ref_page": 2,
+              "order_score": 0.8451
+            },
+            {
+              "page": 3,
+              "recall": 0.975,
+              "precision": 0.9669,
+              "best_ref_page": 3,
+              "order_score": 0.6581
+            },
+            {
+              "page": 4,
+              "recall": 0.9882,
+              "precision": 0.9655,
+              "best_ref_page": 4,
+              "order_score": 0.9167
+            },
+            {
+              "page": 5,
+              "recall": 1.0,
+              "precision": 0.96,
+              "best_ref_page": 5,
+              "order_score": 1.0
+            },
+            {
+              "page": 6,
+              "recall": 1.0,
+              "precision": 1.0,
+              "best_ref_page": 6,
+              "order_score": 1.0
+            }
+          ]
+        },
+        {
+          "case": "P3_polym_tmc_rop",
+          "doc": "polymers-15-00720",
+          "role": "main",
+          "scanned": false,
+          "pdf_pages": 11,
+          "parsed_pages": 11,
+          "page_count_match": true,
+          "empty_pages": 0,
+          "ref_tokens": 5807,
+          "parsed_tokens": 5969,
+          "token_recall": 0.96,
+          "token_precision": 0.934,
+          "page_mapping_accuracy": 1.0,
+          "order_score": 0.9849,
+          "headings": 14,
+          "tables": 3,
+          "table_cells": 154,
+          "equations_display": 0,
+          "equations_inline": 90,
+          "image_refs": 16,
+          "image_files": 16,
+          "broken_image_refs": 0,
+          "symbol_retention": 0.5556,
+          "symbols_ref": {
+            "Đ (dispersity)": 15,
+            "Mn": 22,
+            "Mw": 0,
+            "Tg": 4,
+            "Tm": 0,
+            "°C": 17,
+            "g/mol": 19,
+            "mol%": 0,
+            "-co-": 0,
+            "-b-": 13,
+            "×10": 7,
+            "±": 0,
+            "Sn(Oct)2": 0,
+            "α": 2,
+            "β": 1,
+            "δ": 3,
+            "ε": 7,
+            "χ": 0,
+            "μ": 7,
+            "λ": 0,
+            "θ": 0,
+            "η": 0,
+            "σ": 0,
+            "Δ": 0
+          },
+          "symbols_parsed": {
+            "Đ (dispersity)": 13,
+            "Mn": 6,
+            "Mw": 0,
+            "Tg": 0,
+            "Tm": 0,
+            "°C": 1,
+            "g/mol": 10,
+            "mol%": 0,
+            "-co-": 0,
+            "-b-": 13,
+            "×10": 2,
+            "±": 0,
+            "Sn(Oct)2": 0,
+            "α": 2,
+            "β": 1,
+            "δ": 3,
+            "ε": 7,
+            "χ": 0,
+            "μ": 7,
+            "λ": 0,
+            "θ": 0,
+            "η": 0,
+            "σ": 0,
+            "Δ": 0
+          },
+          "per_page": [
+            {
+              "page": 1,
+              "recall": 0.9665,
+              "precision": 0.9806,
+              "best_ref_page": 1,
+              "order_score": 0.8628
+            },
+            {
+              "page": 2,
+              "recall": 0.9682,
+              "precision": 0.9412,
+              "best_ref_page": 2,
+              "order_score": 1.0
+            },
+            {
+              "page": 3,
+              "recall": 0.9481,
+              "precision": 0.9241,
+              "best_ref_page": 3,
+              "order_score": 0.9891
+            },
+            {
+              "page": 4,
+              "recall": 0.9011,
+              "precision": 0.8342,
+              "best_ref_page": 4,
+              "order_score": 0.9959
+            },
+            {
+              "page": 5,
+              "recall": 0.9537,
+              "precision": 0.8713,
+              "best_ref_page": 5,
+              "order_score": 0.9979
+            },
+            {
+              "page": 6,
+              "recall": 0.9364,
+              "precision": 0.871,
+              "best_ref_page": 6,
+              "order_score": 0.9969
+            },
+            {
+              "page": 7,
+              "recall": 0.9415,
+              "precision": 0.8895,
+              "best_ref_page": 7,
+              "order_score": 1.0
+            },
+            {
+              "page": 8,
+              "recall": 0.95,
+              "precision": 0.9314,
+              "best_ref_page": 8,
+              "order_score": 0.993
+            },
+            {
+              "page": 9,
+              "recall": 0.982,
+              "precision": 0.9793,
+              "best_ref_page": 9,
+              "order_score": 0.9986
+            },
+            {
+              "page": 10,
+              "recall": 0.9854,
+              "precision": 0.9899,
+              "best_ref_page": 10,
+              "order_score": 1.0
+            },
+            {
+              "page": 11,
+              "recall": 0.9466,
+              "precision": 1.0,
+              "best_ref_page": 11,
+              "order_score": 1.0
+            }
+          ]
+        },
+        {
+          "case": "P4_polym_carbonate_scanned",
+          "doc": "polymers-16-03364_scanned",
+          "role": "main",
+          "scanned": true,
+          "pdf_pages": 11,
+          "parsed_pages": 11,
+          "page_count_match": true,
+          "empty_pages": 0,
+          "ref_tokens": 6333,
+          "parsed_tokens": 6261,
+          "token_recall": 0.9713,
+          "token_precision": 0.9824,
+          "page_mapping_accuracy": 1.0,
+          "order_score": 0.9673,
+          "headings": 10,
+          "tables": 2,
+          "table_cells": 276,
+          "equations_display": 0,
+          "equations_inline": 111,
+          "image_refs": 7,
+          "image_files": 7,
+          "broken_image_refs": 0,
+          "symbol_retention": 0.96,
+          "symbols_ref": {
+            "Đ (dispersity)": 2,
+            "Mn": 1,
+            "Mw": 0,
+            "Tg": 1,
+            "Tm": 1,
+            "°C": 20,
+            "g/mol": 1,
+            "mol%": 0,
+            "-co-": 7,
+            "-b-": 1,
+            "×10": 0,
+            "±": 3,
+            "Sn(Oct)2": 11,
+            "α": 1,
+            "β": 17,
+            "δ": 8,
+            "ε": 50,
+            "χ": 0,
+            "μ": 1,
+            "λ": 0,
+            "θ": 0,
+            "η": 0,
+            "σ": 0,
+            "Δ": 0
+          },
+          "symbols_parsed": {
+            "Đ (dispersity)": 1,
+            "Mn": 0,
+            "Mw": 0,
+            "Tg": 1,
+            "Tm": 1,
+            "°C": 17,
+            "g/mol": 1,
+            "mol%": 0,
+            "-co-": 7,
+            "-b-": 1,
+            "×10": 0,
+            "±": 3,
+            "Sn(Oct)2": 11,
+            "α": 1,
+            "β": 17,
+            "δ": 8,
+            "ε": 50,
+            "χ": 0,
+            "μ": 1,
+            "λ": 0,
+            "θ": 0,
+            "η": 0,
+            "σ": 0,
+            "Δ": 0
+          },
+          "per_page": [
+            {
+              "page": 1,
+              "recall": 0.9692,
+              "precision": 0.9875,
+              "best_ref_page": 1,
+              "order_score": 0.7365
+            },
+            {
+              "page": 2,
+              "recall": 0.9213,
+              "precision": 0.9955,
+              "best_ref_page": 2,
+              "order_score": 1.0
+            },
+            {
+              "page": 3,
+              "recall": 0.98,
+              "precision": 0.9748,
+              "best_ref_page": 3,
+              "order_score": 1.0
+            },
+            {
+              "page": 4,
+              "recall": 0.9755,
+              "precision": 0.9476,
+              "best_ref_page": 4,
+              "order_score": 0.9987
+            },
+            {
+              "page": 5,
+              "recall": 0.9701,
+              "precision": 0.9924,
+              "best_ref_page": 5,
+              "order_score": 1.0
+            },
+            {
+              "page": 6,
+              "recall": 0.8941,
+              "precision": 0.9268,
+              "best_ref_page": 6,
+              "order_score": 0.9167
+            },
+            {
+              "page": 7,
+              "recall": 0.9742,
+              "precision": 0.9683,
+              "best_ref_page": 7,
+              "order_score": 0.9975
+            },
+            {
+              "page": 8,
+              "recall": 0.9198,
+              "precision": 0.9646,
+              "best_ref_page": 8,
+              "order_score": 0.9908
+            },
+            {
+              "page": 9,
+              "recall": 0.9903,
+              "precision": 1.0,
+              "best_ref_page": 9,
+              "order_score": 1.0
+            },
+            {
+              "page": 10,
+              "recall": 0.9917,
+              "precision": 0.9979,
+              "best_ref_page": 10,
+              "order_score": 1.0
+            },
+            {
+              "page": 11,
+              "recall": 0.9496,
+              "precision": 1.0,
+              "best_ref_page": 11,
+              "order_score": 1.0
+            }
+          ]
+        },
+        {
+          "case": "P5_pccp_flory_huggins",
+          "doc": "d4cp03690e",
+          "role": "main",
+          "scanned": false,
+          "pdf_pages": 12,
+          "parsed_pages": 12,
+          "page_count_match": true,
+          "empty_pages": 0,
+          "ref_tokens": 10098,
+          "parsed_tokens": 10157,
+          "token_recall": 0.9522,
+          "token_precision": 0.9466,
+          "page_mapping_accuracy": 1.0,
+          "order_score": 0.901,
+          "headings": 18,
+          "tables": 2,
+          "table_cells": 135,
+          "equations_display": 19,
+          "equations_inline": 119,
+          "image_refs": 17,
+          "image_files": 17,
+          "broken_image_refs": 0,
+          "symbol_retention": 1.0,
+          "symbols_ref": {
+            "Đ (dispersity)": 0,
+            "Mn": 0,
+            "Mw": 0,
+            "Tg": 0,
+            "Tm": 0,
+            "°C": 0,
+            "g/mol": 0,
+            "mol%": 0,
+            "-co-": 0,
+            "-b-": 1,
+            "×10": 0,
+            "±": 0,
+            "Sn(Oct)2": 0,
+            "α": 0,
+            "β": 0,
+            "δ": 0,
+            "ε": 0,
+            "χ": 0,
+            "μ": 0,
+            "λ": 0,
+            "θ": 0,
+            "η": 0,
+            "σ": 0,
+            "Δ": 0
+          },
+          "symbols_parsed": {
+            "Đ (dispersity)": 0,
+            "Mn": 0,
+            "Mw": 0,
+            "Tg": 0,
+            "Tm": 0,
+            "°C": 0,
+            "g/mol": 0,
+            "mol%": 0,
+            "-co-": 0,
+            "-b-": 1,
+            "×10": 0,
+            "±": 0,
+            "Sn(Oct)2": 0,
+            "α": 5,
+            "β": 0,
+            "δ": 14,
+            "ε": 3,
+            "χ": 46,
+            "μ": 0,
+            "λ": 7,
+            "θ": 0,
+            "η": 0,
+            "σ": 0,
+            "Δ": 49
+          },
+          "per_page": [
+            {
+              "page": 1,
+              "recall": 0.9682,
+              "precision": 0.9859,
+              "best_ref_page": 1,
+              "order_score": 0.9044
+            },
+            {
+              "page": 2,
+              "recall": 0.8635,
+              "precision": 0.8096,
+              "best_ref_page": 2,
+              "order_score": 0.9878
+            },
+            {
+              "page": 3,
+              "recall": 0.9581,
+              "precision": 0.9606,
+              "best_ref_page": 3,
+              "order_score": 0.9801
+            },
+            {
+              "page": 4,
+              "recall": 0.9463,
+              "precision": 0.9235,
+              "best_ref_page": 4,
+              "order_score": 0.9956
+            },
+            {
+              "page": 5,
+              "recall": 0.9518,
+              "precision": 0.9592,
+              "best_ref_page": 5,
+              "order_score": 0.9314
+            },
+            {
+              "page": 6,
+              "recall": 0.9319,
+              "precision": 0.9291,
+              "best_ref_page": 6,
+              "order_score": 0.9618
+            },
+            {
+              "page": 7,
+              "recall": 0.945,
+              "precision": 0.9225,
+              "best_ref_page": 7,
+              "order_score": 0.8108
+            },
+            {
+              "page": 8,
+              "recall": 0.9583,
+              "precision": 0.9337,
+              "best_ref_page": 8,
+              "order_score": 0.2734
+            },
+            {
+              "page": 9,
+              "recall": 0.9545,
+              "precision": 0.9692,
+              "best_ref_page": 9,
+              "order_score": 0.9665
+            },
+            {
+              "page": 10,
+              "recall": 0.9744,
+              "precision": 0.9882,
+              "best_ref_page": 10,
+              "order_score": 1.0
+            },
+            {
+              "page": 11,
+              "recall": 0.9759,
+              "precision": 0.9939,
+              "best_ref_page": 11,
+              "order_score": 1.0
+            },
+            {
+              "page": 12,
+              "recall": 0.9672,
+              "precision": 0.9849,
+              "best_ref_page": 12,
+              "order_score": 1.0
+            }
+          ]
+        },
+        {
+          "case": "P5_pccp_flory_huggins",
+          "doc": "d4cp03690e1_suppl",
+          "role": "si",
+          "scanned": false,
+          "pdf_pages": 6,
+          "parsed_pages": 6,
+          "page_count_match": true,
+          "empty_pages": 0,
+          "ref_tokens": 392,
+          "parsed_tokens": 232,
+          "token_recall": 0.5918,
+          "token_precision": 1.0,
+          "page_mapping_accuracy": 1.0,
+          "order_score": 1.0,
+          "headings": 8,
+          "tables": 0,
+          "table_cells": 0,
+          "equations_display": 0,
+          "equations_inline": 0,
+          "image_refs": 7,
+          "image_files": 7,
+          "broken_image_refs": 0,
+          "symbol_retention": null,
+          "symbols_ref": {
+            "Đ (dispersity)": 0,
+            "Mn": 0,
+            "Mw": 0,
+            "Tg": 0,
+            "Tm": 0,
+            "°C": 0,
+            "g/mol": 0,
+            "mol%": 0,
+            "-co-": 0,
+            "-b-": 0,
+            "×10": 0,
+            "±": 0,
+            "Sn(Oct)2": 0,
+            "α": 0,
+            "β": 0,
+            "δ": 0,
+            "ε": 0,
+            "χ": 0,
+            "μ": 0,
+            "λ": 0,
+            "θ": 0,
+            "η": 0,
+            "σ": 0,
+            "Δ": 0
+          },
+          "symbols_parsed": {
+            "Đ (dispersity)": 0,
+            "Mn": 0,
+            "Mw": 0,
+            "Tg": 0,
+            "Tm": 0,
+            "°C": 0,
+            "g/mol": 0,
+            "mol%": 0,
+            "-co-": 0,
+            "-b-": 0,
+            "×10": 0,
+            "±": 0,
+            "Sn(Oct)2": 0,
+            "α": 0,
+            "β": 0,
+            "δ": 0,
+            "ε": 0,
+            "χ": 0,
+            "μ": 0,
+            "λ": 0,
+            "θ": 0,
+            "η": 0,
+            "σ": 0,
+            "Δ": 0
+          },
+          "per_page": [
+            {
+              "page": 1,
+              "recall": 0.8636,
+              "precision": 1.0,
+              "best_ref_page": 1,
+              "order_score": 1.0
+            },
+            {
+              "page": 2,
+              "recall": 0.963,
+              "precision": 1.0,
+              "best_ref_page": null,
+              "order_score": 1.0
+            },
+            {
+              "page": 3,
+              "recall": 0.2931,
+              "precision": 1.0,
+              "best_ref_page": null,
+              "order_score": null
+            },
+            {
+              "page": 4,
+              "recall": 0.5876,
+              "precision": 1.0,
+              "best_ref_page": 4,
+              "order_score": 1.0
+            },
+            {
+              "page": 5,
+              "recall": 0.2125,
+              "precision": 1.0,
+              "best_ref_page": null,
+              "order_score": null
+            },
+            {
+              "page": 6,
+              "recall": 1.0,
+              "precision": 1.0,
+              "best_ref_page": null,
+              "order_score": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    "mineru_standard": {
+      "docs": [
+        {
+          "case": "P1_natcommun_lactone",
+          "doc": "s41467-024-52090-2",
+          "role": "main",
+          "scanned": false,
+          "pdf_pages": 12,
+          "parsed_pages": 12,
+          "page_count_match": true,
+          "empty_pages": 0,
+          "ref_tokens": 11143,
+          "parsed_tokens": 10876,
+          "token_recall": 0.9616,
+          "token_precision": 0.9852,
+          "page_mapping_accuracy": 1.0,
+          "order_score": 0.9437,
+          "headings": 16,
+          "tables": 1,
+          "table_cells": 160,
+          "equations_display": 0,
+          "equations_inline": 263,
+          "image_refs": 10,
+          "image_files": 10,
+          "broken_image_refs": 0,
+          "symbol_retention": 0.9706,
+          "symbols_ref": {
+            "Đ (dispersity)": 13,
+            "Mn": 29,
+            "Mw": 1,
+            "Tg": 4,
+            "Tm": 0,
+            "°C": 72,
+            "g/mol": 3,
+            "mol%": 2,
+            "-co-": 0,
+            "-b-": 0,
+            "×10": 0,
+            "±": 0,
+            "Sn(Oct)2": 4,
+            "α": 8,
+            "β": 3,
+            "δ": 20,
+            "ε": 2,
+            "χ": 0,
+            "μ": 8,
+            "λ": 4,
+            "θ": 0,
+            "η": 0,
+            "σ": 0,
+            "Δ": 31
+          },
+          "symbols_parsed": {
+            "Đ (dispersity)": 7,
+            "Mn": 29,
+            "Mw": 1,
+            "Tg": 4,
+            "Tm": 0,
+            "°C": 72,
+            "g/mol": 3,
+            "mol%": 2,
+            "-co-": 0,
+            "-b-": 0,
+            "×10": 0,
+            "±": 0,
+            "Sn(Oct)2": 5,
+            "α": 8,
+            "β": 3,
+            "δ": 20,
+            "ε": 2,
+            "χ": 0,
+            "μ": 8,
+            "λ": 4,
+            "θ": 0,
+            "η": 0,
+            "σ": 0,
+            "Δ": 31
+          },
+          "per_page": [
+            {
+              "page": 1,
+              "recall": 0.9841,
+              "precision": 0.988,
+              "best_ref_page": 1,
+              "order_score": 0.9758
+            },
+            {
+              "page": 2,
+              "recall": 0.9642,
+              "precision": 0.9918,
+              "best_ref_page": 2,
+              "order_score": 0.9608
+            },
+            {
+              "page": 3,
+              "recall": 0.9673,
+              "precision": 0.9742,
+              "best_ref_page": 3,
+              "order_score": 0.9726
+            },
+            {
+              "page": 4,
+              "recall": 0.8859,
+              "precision": 0.9583,
+              "best_ref_page": 4,
+              "order_score": 0.6823
+            },
+            {
+              "page": 5,
+              "recall": 0.9833,
+              "precision": 0.9897,
+              "best_ref_page": 5,
+              "order_score": 1.0
+            },
+            {
+              "page": 6,
+              "recall": 0.8667,
+              "precision": 0.9901,
+              "best_ref_page": 6,
+              "order_score": 0.9298
+            },
+            {
+              "page": 7,
+              "recall": 0.9489,
+              "precision": 0.9576,
+              "best_ref_page": 7,
+              "order_score": 0.9353
+            },
+            {
+              "page": 8,
+              "recall": 0.936,
+              "precision": 0.9945,
+              "best_ref_page": 8,
+              "order_score": 0.8698
+            },
+            {
+              "page": 9,
+              "recall": 0.9806,
+              "precision": 0.9799,
+              "best_ref_page": 9,
+              "order_score": 0.9993
+            },
+            {
+              "page": 10,
+              "recall": 0.9833,
+              "precision": 0.992,
+              "best_ref_page": 10,
+              "order_score": 0.9992
+            },
+            {
+              "page": 11,
+              "recall": 0.9783,
+              "precision": 0.9843,
+              "best_ref_page": 11,
+              "order_score": 1.0
+            },
+            {
+              "page": 12,
+              "recall": 0.945,
+              "precision": 0.9872,
+              "best_ref_page": 12,
+              "order_score": 1.0
+            }
+          ]
+        },
+        {
+          "case": "P1_natcommun_lactone",
+          "doc": "s41467-024-52090-2_SI",
+          "role": "si",
+          "scanned": false,
+          "pdf_pages": 34,
+          "parsed_pages": 34,
+          "page_count_match": true,
+          "empty_pages": 0,
+          "ref_tokens": 4438,
+          "parsed_tokens": 4458,
+          "token_recall": 0.9712,
+          "token_precision": 0.9668,
+          "page_mapping_accuracy": 1.0,
+          "order_score": 0.9986,
+          "headings": 8,
+          "tables": 4,
+          "table_cells": 304,
+          "equations_display": 8,
+          "equations_inline": 123,
+          "image_refs": 40,
+          "image_files": 40,
+          "broken_image_refs": 0,
+          "symbol_retention": 0.9091,
+          "symbols_ref": {
+            "Đ (dispersity)": 7,
+            "Mn": 7,
+            "Mw": 0,
+            "Tg": 0,
+            "Tm": 0,
+            "°C": 14,
+            "g/mol": 0,
+            "mol%": 0,
+            "-co-": 0,
+            "-b-": 0,
+            "×10": 0,
+            "±": 0,
+            "Sn(Oct)2": 0,
+            "α": 1,
+            "β": 0,
+            "δ": 1,
+            "ε": 0,
+            "χ": 0,
+            "μ": 1,
+            "λ": 0,
+            "θ": 0,
+            "η": 0,
+            "σ": 0,
+            "Δ": 24
+          },
+          "symbols_parsed": {
+            "Đ (dispersity)": 4,
+            "Mn": 6,
+            "Mw": 0,
+            "Tg": 0,
+            "Tm": 0,
+            "°C": 13,
+            "g/mol": 0,
+            "mol%": 0,
+            "-co-": 0,
+            "-b-": 0,
+            "×10": 0,
+            "±": 0,
+            "Sn(Oct)2": 0,
+            "α": 1,
+            "β": 0,
+            "δ": 1,
+            "ε": 0,
+            "χ": 0,
+            "μ": 1,
+            "λ": 0,
+            "θ": 0,
+            "η": 0,
+            "σ": 0,
+            "Δ": 34
+          },
+          "per_page": [
+            {
+              "page": 1,
+              "recall": 0.9756,
+              "precision": 1.0,
+              "best_ref_page": 1,
+              "order_score": 1.0
+            },
+            {
+              "page": 2,
+              "recall": 0.9903,
+              "precision": 0.9927,
+              "best_ref_page": 2,
+              "order_score": 1.0
+            },
+            {
+              "page": 3,
+              "recall": 0.9866,
+              "precision": 0.9893,
+              "best_ref_page": 3,
+              "order_score": 1.0
+            },
+            {
+              "page": 4,
+              "recall": 0.9882,
+              "precision": 0.994,
+              "best_ref_page": 4,
+              "order_score": 1.0
+            },
+            {
+              "page": 5,
+              "recall": 0.9851,
+              "precision": 1.0,
+              "best_ref_page": 5,
+              "order_score": 1.0
+            },
+            {
+              "page": 6,
+              "recall": 0.9773,
+              "precision": 1.0,
+              "best_ref_page": 6,
+              "order_score": 1.0
+            },
+            {
+              "page": 7,
+              "recall": 0.9818,
+              "precision": 1.0,
+              "best_ref_page": 7,
+              "order_score": 1.0
+            },
+            {
+              "page": 8,
+              "recall": 0.9787,
+              "precision": 1.0,
+              "best_ref_page": 8,
+              "order_score": 1.0
+            },
+            {
+              "page": 9,
+              "recall": 0.9583,
+              "precision": 1.0,
+              "best_ref_page": null,
+              "order_score": 1.0
+            },
+            {
+              "page": 10,
+              "recall": 0.9333,
+              "precision": 0.913,
+              "best_ref_page": 10,
+              "order_score": 1.0
+            },
+            {
+              "page": 11,
+              "recall": 0.9423,
+              "precision": 0.9245,
+              "best_ref_page": 11,
+              "order_score": 1.0
+            },
+            {
+              "page": 12,
+              "recall": 0.9787,
+              "precision": 1.0,
+              "best_ref_page": 12,
+              "order_score": 1.0
+            },
+            {
+              "page": 13,
+              "recall": 0.9872,
+              "precision": 1.0,
+              "best_ref_page": 13,
+              "order_score": 1.0
+            },
+            {
+              "page": 14,
+              "recall": 0.9899,
+              "precision": 1.0,
+              "best_ref_page": 14,
+              "order_score": 1.0
+            },
+            {
+              "page": 15,
+              "recall": 0.973,
+              "precision": 1.0,
+              "best_ref_page": 15,
+              "order_score": 1.0
+            },
+            {
+              "page": 16,
+              "recall": 0.9744,
+              "precision": 1.0,
+              "best_ref_page": 16,
+              "order_score": 1.0
+            },
+            {
+              "page": 17,
+              "recall": 0.9792,
+              "precision": 0.94,
+              "best_ref_page": 17,
+              "order_score": 1.0
+            },
+            {
+              "page": 18,
+              "recall": 0.9787,
+              "precision": 1.0,
+              "best_ref_page": 18,
+              "order_score": 1.0
+            },
+            {
+              "page": 19,
+              "recall": 0.973,
+              "precision": 1.0,
+              "best_ref_page": 19,
+              "order_score": 1.0
+            },
+            {
+              "page": 20,
+              "recall": 0.973,
+              "precision": 1.0,
+              "best_ref_page": 20,
+              "order_score": 1.0
+            },
+            {
+              "page": 21,
+              "recall": 0.975,
+              "precision": 1.0,
+              "best_ref_page": 21,
+              "order_score": 1.0
+            },
+            {
+              "page": 22,
+              "recall": 0.9688,
+              "precision": 1.0,
+              "best_ref_page": 22,
+              "order_score": 1.0
+            },
+            {
+              "page": 23,
+              "recall": 0.9167,
+              "precision": 1.0,
+              "best_ref_page": null,
+              "order_score": null
+            },
+            {
+              "page": 24,
+              "recall": 0.9653,
+              "precision": 0.9754,
+              "best_ref_page": 24,
+              "order_score": 1.0
+            },
+            {
+              "page": 25,
+              "recall": 0.8665,
+              "precision": 0.9299,
+              "best_ref_page": 25,
+              "order_score": 1.0
+            },
+            {
+              "page": 26,
+              "recall": 0.8421,
+              "precision": 0.7111,
+              "best_ref_page": 26,
+              "order_score": 0.9688
+            },
+            {
+              "page": 27,
+              "recall": 0.9898,
+              "precision": 1.0,
+              "best_ref_page": 27,
+              "order_score": 1.0
+            },
+            {
+              "page": 28,
+              "recall": 0.9882,
+              "precision": 0.996,
+              "best_ref_page": 28,
+              "order_score": 1.0
+            },
+            {
+              "page": 29,
+              "recall": 0.9808,
+              "precision": 0.8703,
+              "best_ref_page": 29,
+              "order_score": 1.0
+            },
+            {
+              "page": 30,
+              "recall": 0.8784,
+              "precision": 0.7514,
+              "best_ref_page": 30,
+              "order_score": 0.9846
+            },
+            {
+              "page": 31,
+              "recall": 0.9941,
+              "precision": 1.0,
+              "best_ref_page": 31,
+              "order_score": 1.0
+            },
+            {
+              "page": 32,
+              "recall": 0.9925,
+              "precision": 1.0,
+              "best_ref_page": 32,
+              "order_score": 1.0
+            },
+            {
+              "page": 33,
+              "recall": 0.9974,
+              "precision": 1.0,
+              "best_ref_page": 33,
+              "order_score": 1.0
+            },
+            {
+              "page": 34,
+              "recall": 0.9935,
+              "precision": 1.0,
+              "best_ref_page": 34,
+              "order_score": 1.0
+            }
+          ]
+        },
+        {
+          "case": "P2_polym_star_raft",
+          "doc": "polymers-15-02002",
+          "role": "main",
+          "scanned": false,
+          "pdf_pages": 14,
+          "parsed_pages": 14,
+          "page_count_match": true,
+          "empty_pages": 0,
+          "ref_tokens": 7193,
+          "parsed_tokens": 7954,
+          "token_recall": 0.9844,
+          "token_precision": 0.8902,
+          "page_mapping_accuracy": 0.9286,
+          "order_score": 0.976,
+          "headings": 26,
+          "tables": 1,
+          "table_cells": 154,
+          "equations_display": 0,
+          "equations_inline": 21,
+          "image_refs": 31,
+          "image_files": 31,
+          "broken_image_refs": 0,
+          "symbol_retention": 0.9765,
+          "symbols_ref": {
+            "Đ (dispersity)": 3,
+            "Mn": 4,
+            "Mw": 1,
+            "Tg": 2,
+            "Tm": 0,
+            "°C": 14,
+            "g/mol": 0,
+            "mol%": 0,
+            "-co-": 0,
+            "-b-": 57,
+            "×10": 0,
+            "±": 0,
+            "Sn(Oct)2": 0,
+            "α": 1,
+            "β": 0,
+            "δ": 1,
+            "ε": 0,
+            "χ": 0,
+            "μ": 2,
+            "λ": 0,
+            "θ": 0,
+            "η": 0,
+            "σ": 0,
+            "Δ": 0
+          },
+          "symbols_parsed": {
+            "Đ (dispersity)": 2,
+            "Mn": 3,
+            "Mw": 1,
+            "Tg": 2,
+            "Tm": 0,
+            "°C": 14,
+            "g/mol": 0,
+            "mol%": 0,
+            "-co-": 0,
+            "-b-": 66,
+            "×10": 0,
+            "±": 0,
+            "Sn(Oct)2": 0,
+            "α": 1,
+            "β": 0,
+            "δ": 1,
+            "ε": 0,
+            "χ": 0,
+            "μ": 3,
+            "λ": 0,
+            "θ": 0,
+            "η": 0,
+            "σ": 0,
+            "Δ": 0
+          },
+          "per_page": [
+            {
+              "page": 1,
+              "recall": 0.9705,
+              "precision": 1.0,
+              "best_ref_page": 1,
+              "order_score": 0.8514
+            },
+            {
+              "page": 2,
+              "recall": 0.9813,
+              "precision": 0.9921,
+              "best_ref_page": 2,
+              "order_score": 0.9984
+            },
+            {
+              "page": 3,
+              "recall": 0.9848,
+              "precision": 0.9954,
+              "best_ref_page": 3,
+              "order_score": 1.0
+            },
+            {
+              "page": 4,
+              "recall": 0.9667,
+              "precision": 0.6918,
+              "best_ref_page": 4,
+              "order_score": 0.9856
+            },
+            {
+              "page": 5,
+              "recall": 0.9768,
+              "precision": 0.6413,
+              "best_ref_page": 5,
+              "order_score": 0.9627
+            },
+            {
+              "page": 6,
+              "recall": 0.99,
+              "precision": 1.0,
+              "best_ref_page": 6,
+              "order_score": 1.0
+            },
+            {
+              "page": 7,
+              "recall": 0.9651,
+              "precision": 0.6884,
+              "best_ref_page": 7,
+              "order_score": 0.8916
+            },
+            {
+              "page": 8,
+              "recall": 0.9474,
+              "precision": 0.9057,
+              "best_ref_page": 8,
+              "order_score": 0.9931
+            },
+            {
+              "page": 9,
+              "recall": 0.9665,
+              "precision": 0.9058,
+              "best_ref_page": 9,
+              "order_score": 0.995
+            },
+            {
+              "page": 10,
+              "recall": 0.9808,
+              "precision": 0.6962,
+              "best_ref_page": 10,
+              "order_score": 0.9951
+            },
+            {
+              "page": 11,
+              "recall": 0.937,
+              "precision": 0.5613,
+              "best_ref_page": 12,
+              "order_score": 0.9916
+            },
+            {
+              "page": 12,
+              "recall": 0.9878,
+              "precision": 0.9969,
+              "best_ref_page": 12,
+              "order_score": 1.0
+            },
+            {
+              "page": 13,
+              "recall": 0.9907,
+              "precision": 0.9988,
+              "best_ref_page": 13,
+              "order_score": 1.0
+            },
+            {
+              "page": 14,
+              "recall": 0.9911,
+              "precision": 0.9978,
+              "best_ref_page": 14,
+              "order_score": 1.0
+            }
+          ]
+        },
+        {
+          "case": "P2_polym_star_raft",
+          "doc": "polymers-2246784-supplementary",
+          "role": "si",
+          "scanned": false,
+          "pdf_pages": 6,
+          "parsed_pages": 6,
+          "page_count_match": true,
+          "empty_pages": 0,
+          "ref_tokens": 780,
+          "parsed_tokens": 780,
+          "token_recall": 0.9962,
+          "token_precision": 0.9962,
+          "page_mapping_accuracy": 1.0,
+          "order_score": 0.9233,
+          "headings": 2,
+          "tables": 4,
+          "table_cells": 426,
+          "equations_display": 0,
+          "equations_inline": 9,
+          "image_refs": 15,
+          "image_files": 15,
+          "broken_image_refs": 0,
+          "symbol_retention": 1.0,
+          "symbols_ref": {
+            "Đ (dispersity)": 1,
+            "Mn": 2,
+            "Mw": 0,
+            "Tg": 0,
+            "Tm": 0,
+            "°C": 18,
+            "g/mol": 2,
+            "mol%": 0,
+            "-co-": 0,
+            "-b-": 6,
+            "×10": 0,
+            "±": 0,
+            "Sn(Oct)2": 0,
+            "α": 0,
+            "β": 0,
+            "δ": 0,
+            "ε": 0,
+            "χ": 0,
+            "μ": 0,
+            "λ": 0,
+            "θ": 0,
+            "η": 0,
+            "σ": 0,
+            "Δ": 0
+          },
+          "symbols_parsed": {
+            "Đ (dispersity)": 1,
+            "Mn": 2,
+            "Mw": 0,
+            "Tg": 0,
+            "Tm": 0,
+            "°C": 18,
+            "g/mol": 2,
+            "mol%": 0,
+            "-co-": 0,
+            "-b-": 6,
+            "×10": 0,
+            "±": 0,
+            "Sn(Oct)2": 0,
+            "α": 0,
+            "β": 0,
+            "δ": 0,
+            "ε": 0,
+            "χ": 0,
+            "μ": 0,
+            "λ": 0,
+            "θ": 0,
+            "η": 0,
+            "σ": 0,
+            "Δ": 0
+          },
+          "per_page": [
+            {
+              "page": 1,
+              "recall": 0.9908,
+              "precision": 0.9969,
+              "best_ref_page": 1,
+              "order_score": 1.0
+            },
+            {
+              "page": 2,
+              "recall": 1.0,
+              "precision": 1.0,
+              "best_ref_page": 2,
+              "order_score": 0.8082
+            },
+            {
+              "page": 3,
+              "recall": 1.0,
+              "precision": 1.0,
+              "best_ref_page": 3,
+              "order_score": 0.8083
+            },
+            {
+              "page": 4,
+              "recall": 1.0,
+              "precision": 1.0,
+              "best_ref_page": 4,
+              "order_score": 0.9235
+            },
+            {
+              "page": 5,
+              "recall": 1.0,
+              "precision": 0.96,
+              "best_ref_page": 5,
+              "order_score": 1.0
+            },
+            {
+              "page": 6,
+              "recall": 1.0,
+              "precision": 1.0,
+              "best_ref_page": 6,
+              "order_score": 1.0
+            }
+          ]
+        },
+        {
+          "case": "P3_polym_tmc_rop",
+          "doc": "polymers-15-00720",
+          "role": "main",
+          "scanned": false,
+          "pdf_pages": 11,
+          "parsed_pages": 11,
+          "page_count_match": true,
+          "empty_pages": 0,
+          "ref_tokens": 5807,
+          "parsed_tokens": 5748,
+          "token_recall": 0.9766,
+          "token_precision": 0.9866,
+          "page_mapping_accuracy": 1.0,
+          "order_score": 0.987,
+          "headings": 14,
+          "tables": 3,
+          "table_cells": 154,
+          "equations_display": 0,
+          "equations_inline": 95,
+          "image_refs": 16,
+          "image_files": 16,
+          "broken_image_refs": 0,
+          "symbol_retention": 0.8547,
+          "symbols_ref": {
+            "Đ (dispersity)": 15,
+            "Mn": 22,
+            "Mw": 0,
+            "Tg": 4,
+            "Tm": 0,
+            "°C": 17,
+            "g/mol": 19,
+            "mol%": 0,
+            "-co-": 0,
+            "-b-": 13,
+            "×10": 7,
+            "±": 0,
+            "Sn(Oct)2": 0,
+            "α": 2,
+            "β": 1,
+            "δ": 3,
+            "ε": 7,
+            "χ": 0,
+            "μ": 7,
+            "λ": 0,
+            "θ": 0,
+            "η": 0,
+            "σ": 0,
+            "Δ": 0
+          },
+          "symbols_parsed": {
+            "Đ (dispersity)": 13,
+            "Mn": 19,
+            "Mw": 0,
+            "Tg": 4,
+            "Tm": 0,
+            "°C": 17,
+            "g/mol": 10,
+            "mol%": 0,
+            "-co-": 0,
+            "-b-": 13,
+            "×10": 4,
+            "±": 0,
+            "Sn(Oct)2": 0,
+            "α": 2,
+            "β": 1,
+            "δ": 3,
+            "ε": 7,
+            "χ": 0,
+            "μ": 7,
+            "λ": 0,
+            "θ": 0,
+            "η": 0,
+            "σ": 0,
+            "Δ": 0
+          },
+          "per_page": [
+            {
+              "page": 1,
+              "recall": 0.9696,
+              "precision": 0.9984,
+              "best_ref_page": 1,
+              "order_score": 0.8633
+            },
+            {
+              "page": 2,
+              "recall": 0.9894,
+              "precision": 1.0,
+              "best_ref_page": 2,
+              "order_score": 1.0
+            },
+            {
+              "page": 3,
+              "recall": 0.9624,
+              "precision": 0.9712,
+              "best_ref_page": 3,
+              "order_score": 0.9973
+            },
+            {
+              "page": 4,
+              "recall": 0.9608,
+              "precision": 0.981,
+              "best_ref_page": 4,
+              "order_score": 1.0
+            },
+            {
+              "page": 5,
+              "recall": 0.9839,
+              "precision": 0.9477,
+              "best_ref_page": 5,
+              "order_score": 1.0
+            },
+            {
+              "page": 6,
+              "recall": 0.9798,
+              "precision": 0.9971,
+              "best_ref_page": 6,
+              "order_score": 1.0
+            },
+            {
+              "page": 7,
+              "recall": 0.9785,
+              "precision": 1.0,
+              "best_ref_page": 7,
+              "order_score": 1.0
+            },
+            {
+              "page": 8,
+              "recall": 0.96,
+              "precision": 0.9829,
+              "best_ref_page": 8,
+              "order_score": 0.9965
+            },
+            {
+              "page": 9,
+              "recall": 0.9848,
+              "precision": 0.9903,
+              "best_ref_page": 9,
+              "order_score": 1.0
+            },
+            {
+              "page": 10,
+              "recall": 0.9854,
+              "precision": 0.9899,
+              "best_ref_page": 10,
+              "order_score": 1.0
+            },
+            {
+              "page": 11,
+              "recall": 0.9466,
+              "precision": 1.0,
+              "best_ref_page": 11,
+              "order_score": 1.0
+            }
+          ]
+        },
+        {
+          "case": "P4_polym_carbonate_scanned",
+          "doc": "polymers-16-03364_scanned",
+          "role": "main",
+          "scanned": true,
+          "pdf_pages": 11,
+          "parsed_pages": 11,
+          "page_count_match": true,
+          "empty_pages": 0,
+          "ref_tokens": 6333,
+          "parsed_tokens": 6244,
+          "token_recall": 0.9752,
+          "token_precision": 0.9891,
+          "page_mapping_accuracy": 1.0,
+          "order_score": 0.9753,
+          "headings": 10,
+          "tables": 2,
+          "table_cells": 196,
+          "equations_display": 0,
+          "equations_inline": 183,
+          "image_refs": 7,
+          "image_files": 7,
+          "broken_image_refs": 0,
+          "symbol_retention": 0.976,
+          "symbols_ref": {
+            "Đ (dispersity)": 2,
+            "Mn": 1,
+            "Mw": 0,
+            "Tg": 1,
+            "Tm": 1,
+            "°C": 20,
+            "g/mol": 1,
+            "mol%": 0,
+            "-co-": 7,
+            "-b-": 1,
+            "×10": 0,
+            "±": 3,
+            "Sn(Oct)2": 11,
+            "α": 1,
+            "β": 17,
+            "δ": 8,
+            "ε": 50,
+            "χ": 0,
+            "μ": 1,
+            "λ": 0,
+            "θ": 0,
+            "η": 0,
+            "σ": 0,
+            "Δ": 0
+          },
+          "symbols_parsed": {
+            "Đ (dispersity)": 1,
+            "Mn": 0,
+            "Mw": 0,
+            "Tg": 1,
+            "Tm": 1,
+            "°C": 19,
+            "g/mol": 1,
+            "mol%": 0,
+            "-co-": 7,
+            "-b-": 1,
+            "×10": 0,
+            "±": 3,
+            "Sn(Oct)2": 11,
+            "α": 1,
+            "β": 17,
+            "δ": 8,
+            "ε": 50,
+            "χ": 0,
+            "μ": 1,
+            "λ": 0,
+            "θ": 0,
+            "η": 0,
+            "σ": 0,
+            "Δ": 0
+          },
+          "per_page": [
+            {
+              "page": 1,
+              "recall": 0.9708,
+              "precision": 0.9798,
+              "best_ref_page": 1,
+              "order_score": 0.7338
+            },
+            {
+              "page": 2,
+              "recall": 0.9296,
+              "precision": 1.0,
+              "best_ref_page": 2,
+              "order_score": 1.0
+            },
+            {
+              "page": 3,
+              "recall": 0.988,
+              "precision": 0.9973,
+              "best_ref_page": 3,
+              "order_score": 1.0
+            },
+            {
+              "page": 4,
+              "recall": 0.9791,
+              "precision": 0.9661,
+              "best_ref_page": 4,
+              "order_score": 1.0
+            },
+            {
+              "page": 5,
+              "recall": 0.9664,
+              "precision": 0.9962,
+              "best_ref_page": 5,
+              "order_score": 1.0
+            },
+            {
+              "page": 6,
+              "recall": 0.9569,
+              "precision": 0.9839,
+              "best_ref_page": 6,
+              "order_score": 1.0
+            },
+            {
+              "page": 7,
+              "recall": 0.9755,
+              "precision": 0.9707,
+              "best_ref_page": 7,
+              "order_score": 0.9987
+            },
+            {
+              "page": 8,
+              "recall": 0.9451,
+              "precision": 0.9912,
+              "best_ref_page": 8,
+              "order_score": 0.9955
+            },
+            {
+              "page": 9,
+              "recall": 0.9903,
+              "precision": 1.0,
+              "best_ref_page": 9,
+              "order_score": 1.0
+            },
+            {
+              "page": 10,
+              "recall": 0.9917,
+              "precision": 0.9979,
+              "best_ref_page": 10,
+              "order_score": 1.0
+            },
+            {
+              "page": 11,
+              "recall": 0.9496,
+              "precision": 1.0,
+              "best_ref_page": 11,
+              "order_score": 1.0
+            }
+          ]
+        },
+        {
+          "case": "P5_pccp_flory_huggins",
+          "doc": "d4cp03690e",
+          "role": "main",
+          "scanned": false,
+          "pdf_pages": 12,
+          "parsed_pages": 12,
+          "page_count_match": true,
+          "empty_pages": 0,
+          "ref_tokens": 10098,
+          "parsed_tokens": 9971,
+          "token_recall": 0.9561,
+          "token_precision": 0.9683,
+          "page_mapping_accuracy": 1.0,
+          "order_score": 0.9008,
+          "headings": 18,
+          "tables": 2,
+          "table_cells": 153,
+          "equations_display": 19,
+          "equations_inline": 102,
+          "image_refs": 17,
+          "image_files": 17,
+          "broken_image_refs": 0,
+          "symbol_retention": 1.0,
+          "symbols_ref": {
+            "Đ (dispersity)": 0,
+            "Mn": 0,
+            "Mw": 0,
+            "Tg": 0,
+            "Tm": 0,
+            "°C": 0,
+            "g/mol": 0,
+            "mol%": 0,
+            "-co-": 0,
+            "-b-": 1,
+            "×10": 0,
+            "±": 0,
+            "Sn(Oct)2": 0,
+            "α": 0,
+            "β": 0,
+            "δ": 0,
+            "ε": 0,
+            "χ": 0,
+            "μ": 0,
+            "λ": 0,
+            "θ": 0,
+            "η": 0,
+            "σ": 0,
+            "Δ": 0
+          },
+          "symbols_parsed": {
+            "Đ (dispersity)": 0,
+            "Mn": 0,
+            "Mw": 0,
+            "Tg": 0,
+            "Tm": 0,
+            "°C": 0,
+            "g/mol": 0,
+            "mol%": 0,
+            "-co-": 0,
+            "-b-": 1,
+            "×10": 0,
+            "±": 0,
+            "Sn(Oct)2": 0,
+            "α": 5,
+            "β": 0,
+            "δ": 14,
+            "ε": 3,
+            "χ": 46,
+            "μ": 0,
+            "λ": 7,
+            "θ": 0,
+            "η": 0,
+            "σ": 0,
+            "Δ": 49
+          },
+          "per_page": [
+            {
+              "page": 1,
+              "recall": 0.971,
+              "precision": 0.9915,
+              "best_ref_page": 1,
+              "order_score": 0.9047
+            },
+            {
+              "page": 2,
+              "recall": 0.86,
+              "precision": 0.8216,
+              "best_ref_page": 2,
+              "order_score": 0.9932
+            },
+            {
+              "page": 3,
+              "recall": 0.9594,
+              "precision": 0.9844,
+              "best_ref_page": 3,
+              "order_score": 0.9802
+            },
+            {
+              "page": 4,
+              "recall": 0.9536,
+              "precision": 0.9575,
+              "best_ref_page": 4,
+              "order_score": 0.9968
+            },
+            {
+              "page": 5,
+              "recall": 0.9705,
+              "precision": 0.9968,
+              "best_ref_page": 5,
+              "order_score": 0.9327
+            },
+            {
+              "page": 6,
+              "recall": 0.96,
+              "precision": 0.9878,
+              "best_ref_page": 6,
+              "order_score": 0.9645
+            },
+            {
+              "page": 7,
+              "recall": 0.9598,
+              "precision": 0.9732,
+              "best_ref_page": 7,
+              "order_score": 0.7982
+            },
+            {
+              "page": 8,
+              "recall": 0.9583,
+              "precision": 0.9715,
+              "best_ref_page": 8,
+              "order_score": 0.2734
+            },
+            {
+              "page": 9,
+              "recall": 0.9545,
+              "precision": 0.9776,
+              "best_ref_page": 9,
+              "order_score": 0.9665
+            },
+            {
+              "page": 10,
+              "recall": 0.9744,
+              "precision": 0.9917,
+              "best_ref_page": 10,
+              "order_score": 1.0
+            },
+            {
+              "page": 11,
+              "recall": 0.9759,
+              "precision": 0.9939,
+              "best_ref_page": 11,
+              "order_score": 1.0
+            },
+            {
+              "page": 12,
+              "recall": 0.9672,
+              "precision": 0.9849,
+              "best_ref_page": 12,
+              "order_score": 1.0
+            }
+          ]
+        },
+        {
+          "case": "P5_pccp_flory_huggins",
+          "doc": "d4cp03690e1_suppl",
+          "role": "si",
+          "scanned": false,
+          "pdf_pages": 6,
+          "parsed_pages": 6,
+          "page_count_match": true,
+          "empty_pages": 0,
+          "ref_tokens": 392,
+          "parsed_tokens": 233,
+          "token_recall": 0.5944,
+          "token_precision": 1.0,
+          "page_mapping_accuracy": 1.0,
+          "order_score": 1.0,
+          "headings": 8,
+          "tables": 0,
+          "table_cells": 0,
+          "equations_display": 0,
+          "equations_inline": 0,
+          "image_refs": 7,
+          "image_files": 7,
+          "broken_image_refs": 0,
+          "symbol_retention": null,
+          "symbols_ref": {
+            "Đ (dispersity)": 0,
+            "Mn": 0,
+            "Mw": 0,
+            "Tg": 0,
+            "Tm": 0,
+            "°C": 0,
+            "g/mol": 0,
+            "mol%": 0,
+            "-co-": 0,
+            "-b-": 0,
+            "×10": 0,
+            "±": 0,
+            "Sn(Oct)2": 0,
+            "α": 0,
+            "β": 0,
+            "δ": 0,
+            "ε": 0,
+            "χ": 0,
+            "μ": 0,
+            "λ": 0,
+            "θ": 0,
+            "η": 0,
+            "σ": 0,
+            "Δ": 0
+          },
+          "symbols_parsed": {
+            "Đ (dispersity)": 0,
+            "Mn": 0,
+            "Mw": 0,
+            "Tg": 0,
+            "Tm": 0,
+            "°C": 0,
+            "g/mol": 0,
+            "mol%": 0,
+            "-co-": 0,
+            "-b-": 0,
+            "×10": 0,
+            "±": 0,
+            "Sn(Oct)2": 0,
+            "α": 0,
+            "β": 0,
+            "δ": 0,
+            "ε": 0,
+            "χ": 0,
+            "μ": 0,
+            "λ": 0,
+            "θ": 0,
+            "η": 0,
+            "σ": 0,
+            "Δ": 0
+          },
+          "per_page": [
+            {
+              "page": 1,
+              "recall": 0.8636,
+              "precision": 1.0,
+              "best_ref_page": 1,
+              "order_score": 1.0
+            },
+            {
+              "page": 2,
+              "recall": 1.0,
+              "precision": 1.0,
+              "best_ref_page": null,
+              "order_score": 1.0
+            },
+            {
+              "page": 3,
+              "recall": 0.2931,
+              "precision": 1.0,
+              "best_ref_page": null,
+              "order_score": null
+            },
+            {
+              "page": 4,
+              "recall": 0.5876,
+              "precision": 1.0,
+              "best_ref_page": 4,
+              "order_score": 1.0
+            },
+            {
+              "page": 5,
+              "recall": 0.2125,
+              "precision": 1.0,
+              "best_ref_page": null,
+              "order_score": null
+            },
+            {
+              "page": 6,
+              "recall": 1.0,
+              "precision": 1.0,
+              "best_ref_page": null,
+              "order_score": 1.0
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

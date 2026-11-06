@@ -1,0 +1,317 @@
+{
+  "documents": {
+    "main": "polymers-15-00720.pdf"
+  },
+  "source": "Manual transcription: Table 1 (p.3; Mn x 1e-4 g/mol converted; SEC and NMR values both accepted), Table 2 (p.4). Tg ≈ −15 °C (p.7) is stated for 'the tested PTMC (5×10³ g/mol)' and accepted, not required, for S3.",
+  "has_synthesized_polymers": true,
+  "samples": [
+    {
+      "id": "S1",
+      "aliases": [
+        "Sample S1",
+        "Table 1 S1",
+        "PTMC-S1",
+        "PTMC S1",
+        "PTMC_S1"
+      ],
+      "polymer": "PTMC",
+      "pages": [
+        3
+      ],
+      "doc": "main",
+      "mn": [
+        1300,
+        1000
+      ],
+      "pdi": 1.07
+    },
+    {
+      "id": "S2",
+      "aliases": [
+        "Sample S2",
+        "Table 1 S2",
+        "PTMC-S2",
+        "PTMC S2",
+        "PTMC_S2"
+      ],
+      "polymer": "PTMC",
+      "pages": [
+        3
+      ],
+      "doc": "main",
+      "mn": [
+        2900,
+        3000
+      ],
+      "pdi": 1.07
+    },
+    {
+      "id": "S3",
+      "aliases": [
+        "Sample S3",
+        "Table 1 S3",
+        "PTMC-S3",
+        "PTMC S3",
+        "PTMC_S3"
+      ],
+      "polymer": "PTMC",
+      "pages": [
+        3
+      ],
+      "doc": "main",
+      "mn": [
+        5500,
+        4800
+      ],
+      "pdi": 1.18,
+      "optional_fields": {
+        "tg": -15
+      }
+    },
+    {
+      "id": "S4",
+      "aliases": [
+        "Sample S4",
+        "Table 1 S4",
+        "PTMC-S4",
+        "PTMC S4",
+        "PTMC_S4"
+      ],
+      "polymer": "PTMC",
+      "pages": [
+        3
+      ],
+      "doc": "main",
+      "mn": [
+        12200,
+        11000
+      ],
+      "pdi": 1.19
+    },
+    {
+      "id": "S5",
+      "aliases": [
+        "Sample S5",
+        "Table 1 S5",
+        "PTMC-S5",
+        "PTMC S5",
+        "PTMC_S5"
+      ],
+      "polymer": "PTMC",
+      "pages": [
+        3
+      ],
+      "doc": "main",
+      "mn": [
+        21600,
+        19000
+      ],
+      "pdi": 1.26
+    },
+    {
+      "id": "S6",
+      "aliases": [
+        "Sample S6",
+        "Table 1 S6",
+        "PTMC-S6",
+        "PTMC S6",
+        "PTMC_S6"
+      ],
+      "polymer": "PTMC",
+      "pages": [
+        3
+      ],
+      "doc": "main",
+      "mn": [
+        43200,
+        35200
+      ],
+      "pdi": 1.3
+    },
+    {
+      "id": "S7",
+      "aliases": [
+        "Sample S7",
+        "Table 1 S7",
+        "PVL-S7",
+        "PVL S7",
+        "PVL_S7"
+      ],
+      "polymer": "PVL",
+      "pages": [
+        3
+      ],
+      "doc": "main",
+      "mn": [
+        4100,
+        3000
+      ],
+      "pdi": 1.18
+    },
+    {
+      "id": "S8",
+      "aliases": [
+        "Sample S8",
+        "Table 1 S8",
+        "PVL-S8",
+        "PVL S8",
+        "PVL_S8"
+      ],
+      "polymer": "PVL",
+      "pages": [
+        3
+      ],
+      "doc": "main",
+      "mn": [
+        5200,
+        4200
+      ],
+      "pdi": 1.2
+    },
+    {
+      "id": "S9",
+      "aliases": [
+        "Sample S9",
+        "Table 1 S9",
+        "PCL-S9",
+        "PCL S9",
+        "PCL_S9"
+      ],
+      "polymer": "PCL",
+      "pages": [
+        3
+      ],
+      "doc": "main",
+      "mn": [
+        9800,
+        9400
+      ],
+      "pdi": 1.25
+    },
+    {
+      "id": "S10",
+      "aliases": [
+        "Sample S10",
+        "Table 1 S10",
+        "PCL-S10",
+        "PCL S10",
+        "PCL_S10"
+      ],
+      "polymer": "PCL",
+      "pages": [
+        3
+      ],
+      "doc": "main",
+      "mn": [
+        5200,
+        4500
+      ],
+      "pdi": 1.55
+    },
+    {
+      "id": "Run 1",
+      "aliases": [
+        "N3-PTMC",
+        "Table 2 Run 1",
+        "run1",
+        "Table 2, run 1",
+        "AHA-PTMC",
+        "PTMC-N3",
+        "N3-PTMC (run 1)"
+      ],
+      "polymer": "N3-PTMC",
+      "pages": [
+        4
+      ],
+      "doc": "main",
+      "mn": [
+        2500,
+        1960
+      ],
+      "pdi": 1.07
+    },
+    {
+      "id": "Run 2",
+      "aliases": [
+        "mPEG-b-PTMC",
+        "Table 2 Run 2",
+        "run2",
+        "Table 2, run 2",
+        "PEG-b-PTMC",
+        "mPEG-PTMC"
+      ],
+      "polymer": "mPEG-b-PTMC",
+      "pages": [
+        4
+      ],
+      "doc": "main",
+      "mn": [
+        6900,
+        5960
+      ],
+      "pdi": 1.17
+    },
+    {
+      "id": "Run 3",
+      "aliases": [
+        "PTMC-b-PVL",
+        "Table 2 Run 3",
+        "run3",
+        "Table 2, run 3",
+        "PTMC-PVL"
+      ],
+      "polymer": "PTMC-b-PVL",
+      "pages": [
+        4
+      ],
+      "doc": "main",
+      "mn": [
+        7500
+      ],
+      "pdi": 1.24
+    },
+    {
+      "id": "Run 4",
+      "aliases": [
+        "PTMC-b-PCL",
+        "Table 2 Run 4",
+        "run4",
+        "Table 2, run 4",
+        "PTMC-PCL"
+      ],
+      "polymer": "PTMC-b-PCL",
+      "pages": [
+        4
+      ],
+      "doc": "main",
+      "mn": [
+        8000
+      ],
+      "pdi": 1.32
+    },
+    {
+      "id": "PTMC macroinitiator",
+      "aliases": [
+        "PTMC-OH",
+        "PTMC macro-initiator"
+      ],
+      "polymer": "PTMC",
+      "pages": [
+        6
+      ],
+      "doc": "main",
+      "mn": [
+        2600,
+        2500
+      ],
+      "pdi": 1.13,
+      "optional": true
+    }
+  ],
+  "case": "P3_polym_tmc_rop",
+  "optional_patterns": [
+    "ptmc[-_ ]?macro.*",
+    ".*macroinitiator.*",
+    "ptmc[-_ ]?mi\\b.*"
+  ]
+}
